@@ -295,3 +295,54 @@ describe("Note item component", () => {
     expect(shallowWrapper.exists("[data-test-submit]")).toEqual(true);
   });
 });
+
+report
+
+import React from "react";
+import { shallow, mount, configure } from "enzyme";
+import Adapter from "enzyme-adapter-react-16";
+import Report from "./Report";
+import TestRenderer from "react-test-renderer";
+
+configure({ adapter: new Adapter() });
+
+function setup() {
+  const props = {
+    "busData":[
+      {
+        "busId":"94811",
+        "routeVariant":"664 2 1",
+        "deviationFromTimetable":164
+      }
+    ]
+  };
+
+  const mountWrapper = mount(<Report {...props} data-test="test" />);
+  const shallowWrapper = shallow(<Report {...props} data-test="test" />);
+
+  return {
+    props,
+    mountWrapper,
+    shallowWrapper
+  };
+}
+
+describe("Report item component", () => {
+  const { shallowWrapper, mountWrapper } = setup();
+
+  it("should render", () => {
+    expect(mountWrapper.exists("[data-test]")).toEqual(true);
+  });
+
+  it("should render correct ", () => {
+    expect(mountWrapper.text().includes("94811")).toBe(true);
+    expect(mountWrapper.text().includes("664 2 1")).toBe(true);
+  });
+
+
+  // it("renders component snapshot", () => {
+  //   const tree = TestRenderer.create(<Report />).toJSON();
+  //   expect(tree).toMatchSnapshot();
+  // });
+});
+
