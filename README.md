@@ -1,6 +1,8 @@
 https://medium.com/@rossbulat/test-driven-development-in-react-with-jest-and-enzyme-2a6cf2cc3071
 
 
+https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga
+
 text include
 
     expect(shallowWrapper.text().includes("42612")).toBe(true);
