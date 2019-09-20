@@ -49,4 +49,44 @@ Let – It is a signal that the variable may be reassigned, such as a counter in
 ## What is an event bubbling in JavaScript?
 Event bubbling is a way of event propagation in the HTML DOM API, when an event occurs in an element inside another element, and both elements have registered a handle for that event. With bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements. The execution starts from that event and goes to its parent element. Then the execution passes to its parent element and so on till the body element.
 
+## We use promises for handling asynchronous interactions in a sequential manner. They are especially useful when we need to do an async operation and THEN do another async operation based on the results of the first one. For example, if you want to request the list of all flights and then for each flight you want to request some details about it. The promise represents the future value. It has an internal state (pending, fulfilled and rejected) and works like a state machine.
+
+A promise object has then method, where you can specify what to do when the promise is fulfilled or rejected.
+
+You can chain then() blocks, thus avoiding the callback hell. You can handle errors in the catch() block. After a promise is set to fulfilled or rejected state, it becomes immutable.
+
+Also mention that you know about more sophisticated concepts:
+
+async/await which makes the code appear even more linear
+RxJS observables can be viewed as the recyclable promises
+Be sure that you can implement the promise, read one of the articles on a topic, and learn the source code of the simplest promise implementation.
+
+```var Promise = function(wrappedFn, wrappedThis) {
+  this.then = function(wrappedFn, wrappedThis) {
+    this.next = new Promise(wrappedFn, wrappedThis);
+    return this.next;
+  };
+    
+  this.run = function() {
+    wrappedFn.promise = this;
+    wrappedFn.apply(wrappedThis);
+  };
+    
+  this.complete = function() {
+    if (this.next) {
+      this.next.run();
+    }
+  };
+};
+
+Promise.create = function(func) { 
+  if (func.hasOwnProperty('promise')) { 
+    return func.promise;
+  } else { 
+    return new Promise();
+  } 
+};```
+
+
+
 
