@@ -109,4 +109,27 @@ getData('GET', 'http://jsonplaceholder.typicode.com/todos').then(function(data){
 });
 
 
+protype vs inheratie
+let PersonC = class {
+  constructor(nm, id){
+    this.nm = nm;
+    this.id = id;
+  }
+  getDetaisl(){
+    return this.nm
+  }
+}
 
+let bob = PersonC("bob", 123)
+
+let PersonE = class extends PersonC {
+  constructor(nm, id, salary){
+    super(nm, id)
+    this.salary=salary
+  }
+  employeeInfo(){
+    return this.salary
+  }
+}
+
+let bobbob = PersonE("bob", 123, 123)
