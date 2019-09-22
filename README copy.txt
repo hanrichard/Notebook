@@ -1,9 +1,7 @@
 https://medium.com/@rossbulat/test-driven-development-in-react-with-jest-and-enzyme-2a6cf2cc3071
-123
+
 
 https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga
-
-
 
 Cookie, localStorage, and sessionStorage are all the simple data storage ways for client-side storage. Cookie is more like an old school way to handle the simple data stored on the client-side. In HTML5, web storage, such as localStorage or sessionStorage is introduced and it’s also easier to use.
 
@@ -104,17 +102,8 @@ function getData(method, url){
 
 getData('GET', 'http://jsonplaceholder.typicode.com/todos').then(function(data){
   let todos = JSON.parse(data);
-  let output = '';
-  for(let todo of todos){
-    output += `
-      <li>
-        <h3>${todo.title}</h3>
-        <p>Completed: ${todo.completed}</p>
-      </li>
-    `;
-  }
-
-  document.getElementById('template').innerHTML = output;
+  console.log(data);
+  
 }).catch(function(err){
   console.log(err);
 });
