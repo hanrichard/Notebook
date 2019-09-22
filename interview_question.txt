@@ -133,3 +133,8 @@ let PersonE = class extends PersonC {
 }
 
 let bobbob = PersonE("bob", 123, 123)
+
+
+## What is 'this' keyword in JavaScript?
+
+'This' keyword refers to the object from where it was called.
