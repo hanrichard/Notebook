@@ -3,6 +3,8 @@ https://medium.com/@rossbulat/test-driven-development-in-react-with-jest-and-enz
 
 https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga
 
+https://www.edureka.co/blog/interview-questions/javascript-interview-questions/
+
 Cookie, localStorage, and sessionStorage are all the simple data storage ways for client-side storage. Cookie is more like an old school way to handle the simple data stored on the client-side. In HTML5, web storage, such as localStorage or sessionStorage is introduced and it’s also easier to use.
 
 
@@ -138,3 +140,13 @@ let bobbob = PersonE("bob", 123, 123)
 ## What is 'this' keyword in JavaScript?
 
 'This' keyword refers to the object from where it was called.
+
+ ## Define event bubbling?
+
+JavaScript allows DOM elements to be nested inside each other. In such a case, if the handler of the child is clicked, the handler of parent will also work as if it were clicked too.
+
+
+##. What are different types of Scope Chain available in JavaScript?
+If we check in the program, every local scope has a connection with one or more scope in their back which forms a chain. This chain goes on until it met with the global scope which is the root of this hierarchy. As global scope doesn't have a parent, so it is on the top of the chain. This is known as scope chain.
+
+The scope chain in JavaScript is basically used to resolve the values of the variable. Without this, it is difficult for a JavaScript to choose a certain value for a variable if there are many variables defined at different scopes.
