@@ -23,12 +23,10 @@ Domain: data only stays in the same domain, which means if data is stored on web
 ## sessionStorage
 sessionStorage is similar to localStorage. The only difference will be the persistence of the data. For sessionStorage, once user leaves the domain, such as closing the tabs or windows, the sessionStorage is emptied.
 
-
 ## What are the scopes of a variable in JavaScript?
 The scope of a variable is the region of your program in which it is defined. JavaScript variable will have only two scopes.
 • Global Variables − A global variable has global scope which means it is visible everywhere in your JavaScript code.
 • Local Variables − A local variable will be visible only within a function where it is defined. Function parameters are always local to that function.
-
 
 ## What is the purpose of ‘This’ operator in JavaScript?
 The JavaScript this keyword refers to the object it belongs to. This has different values depending on where it is used. In a method, this refers to the owner object and in a function, this refers to the global object.
@@ -39,9 +37,7 @@ A callback is a plain JavaScript function passed to some method as an argument o
 ## What is Closure? Give an example.
 Closures are created whenever a variable that is defined outside the current scope is accessed from within some inner scope. It gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created. To use a closure, simply define a function inside another function and expose it.
 
-
 ## What are the ways to define a variable in JavaScript?
-
 Var – The JavaScript variables statement is used to declare a variable and, optionally, we can initialize the value of that variable. Example: var a =10; Variable declarations are processed before the execution of the code.
 Const – The idea of const functions is not allow them to modify the object on which they are called. When a function is declared as const, it can be called on any type of object.
 Let – It is a signal that the variable may be reassigned, such as a counter in a loop, or a value swap in an algorithm. It also signals that the variable will be used only in the block it’s defined in.
@@ -49,7 +45,8 @@ Let – It is a signal that the variable may be reassigned, such as a counter in
 ## What is an event bubbling in JavaScript?
 Event bubbling is a way of event propagation in the HTML DOM API, when an event occurs in an element inside another element, and both elements have registered a handle for that event. With bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements. The execution starts from that event and goes to its parent element. Then the execution passes to its parent element and so on till the body element.
 
-## We use promises for handling asynchronous interactions in a sequential manner. They are especially useful when we need to do an async operation and THEN do another async operation based on the results of the first one. For example, if you want to request the list of all flights and then for each flight you want to request some details about it. The promise represents the future value. It has an internal state (pending, fulfilled and rejected) and works like a state machine.
+## We use promises for handling asynchronous interactions in a sequential manner. 
+They are especially useful when we need to do an async operation and THEN do another async operation based on the results of the first one. For example, if you want to request the list of all flights and then for each flight you want to request some details about it. The promise represents the future value. It has an internal state (pending, fulfilled and rejected) and works like a state machine.
 
 A promise object has then method, where you can specify what to do when the promise is fulfilled or rejected.
 
@@ -141,15 +138,13 @@ let bobbob = PersonE("bob", 123, 123)
 
 'This' keyword refers to the object from where it was called.
 
- ## Define event bubbling?
-
+## Define event bubbling?
 JavaScript allows DOM elements to be nested inside each other. In such a case, if the handler of the child is clicked, the handler of parent will also work as if it were clicked too.
 
-
-##. What are different types of Scope Chain available in JavaScript?
+## What are different types of Scope Chain available in JavaScript?
 If we check in the program, every local scope has a connection with one or more scope in their back which forms a chain. This chain goes on until it met with the global scope which is the root of this hierarchy. As global scope doesn't have a parent, so it is on the top of the chain. This is known as scope chain.
 
 The scope chain in JavaScript is basically used to resolve the values of the variable. Without this, it is difficult for a JavaScript to choose a certain value for a variable if there are many variables defined at different scopes.
 
-
-## The Key Contrast Between Lexical and Dynamic Scoping: Lexical scope is write-time, whereas dynamic scope is run-time. Lexical scope care where a function was declared, but dynamic scope cares where a function was called from.
+## The Key Contrast Between Lexical and Dynamic Scoping: 
+Lexical scope is write-time, whereas dynamic scope is run-time. Lexical scope care where a function was declared, but dynamic scope cares where a function was called from.
