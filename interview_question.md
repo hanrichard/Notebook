@@ -170,3 +170,8 @@ a.isGreatThen(3)
 ## this
 in the object, when the method of object will point to object, however, in the function, it points windows again
 in the function, will point to the window
+
+
+
+console.log(JSON.stringify({ x: 5, y: 6 }));
+console.log(JSON.parse('{"balla": "blabla"}'))
