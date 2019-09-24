@@ -150,3 +150,18 @@ The scope chain in JavaScript is basically used to resolve the values of the var
 
 ## The Key Contrast Between Lexical and Dynamic Scoping: 
 Lexical scope is write-time, whereas dynamic scope is run-time. Lexical scope care where a function was declared, but dynamic scope cares where a function was called from.
+
+
+
+
+
+## trickies
+var a = new Number(3)
+var a = new String("123")
+
+those are objects
+String.prototype.isGreatThen = function(limit) {
+  return String.length > limit
+}
+
+a.isGreatThen(3)
