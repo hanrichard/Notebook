@@ -165,3 +165,8 @@ String.prototype.isGreatThen = function(limit) {
 }
 
 a.isGreatThen(3)
+
+
+## this
+in the object will point to object
+in the function, will point to the window
