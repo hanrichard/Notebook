@@ -168,5 +168,5 @@ a.isGreatThen(3)
 
 
 ## this
-in the object will point to object
+in the object, when the method of object will point to object, however, in the function, it points windows again
 in the function, will point to the window
