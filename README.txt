@@ -121,3 +121,50 @@ getData('GET', 'http://jsonplaceholder.typicode.com/todos').then(function(data){
 
 
 
+
+var homes = [
+    {"id": 111, "city":"Dallas", "state":"aTX","zip":"75201","price":11162500},
+    {"id": 4,"city":"Bevery Hills", "state":"bCA", "zip":"90210", "price":319250},
+    {"id": 6, "city":"Dallas", "state":"zTX", "zip":"75000", "price":556699},
+    {"id": 6, "city":"New York", "state":"yNY", "zip":"00010", "price":962500},
+    {"id": 7, "city":"New York", "state":"dYY", "zip":"00011", "price":962500}
+    ];
+
+let test = homes.sort(fieldSorter(['+id', '-price']));
+
+
+function fieldSorter(fields) {
+    return function (a, b) {
+        return fields
+            .map(function (o) {
+                var dir = 1;
+          
+                if (o[0] === '-') {
+                   dir = -1;
+                   o=o.substring(1);
+                }
+
+                if (o[0] === '=') {
+                   dir = 0;
+                   o=o.substring(1);
+                }
+          
+                if (o[0] === '+') {
+                   dir = 1;
+                   o=o.substring(1);
+                }
+          
+          
+                if (a[o] > b[o]) return dir;
+                if (a[o] < b[o]) return -(dir);
+                if (a[o] = b[o]) return 0;
+            })
+            .reduce( (p,n) => {
+                console.log("p n:", p + " - "+ n)
+                return p ? p : n;
+            }, 0);
+    };
+}
+
+console.log(test)
+
