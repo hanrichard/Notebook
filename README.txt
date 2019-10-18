@@ -120,7 +120,21 @@ getData('GET', 'http://jsonplaceholder.typicode.com/todos').then(function(data){
 });
 
 
+const makeServerRequest = new Promise((resolve, reject) => {
+  // responseFromServer is set to true to represent a successful response from a server
+  let responseFromServer = true;
+    
+  if(responseFromServer) {
+    resolve("We got the data");
+  } else {  
+    reject("Data not received");
+  }
+});
 
+makeServerRequest.then(result => {
+  console.log(result)
+  // do something with the result.
+});
 
 var homes = [
     {"id": 111, "city":"Dallas", "state":"aTX","zip":"75201","price":11162500},
