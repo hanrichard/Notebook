@@ -210,6 +210,14 @@ https://medium.com/better-programming/how-to-use-async-await-with-axios-in-react
 https://scotch.io/tutorials/asynchronous-javascript-using-async-await
 
 ```
+getUsers = async () => {
+    let res = await axios.get("https://reqres.in/api/users?page=1");
+    let { data } = res.data;
+    this.setState({ users: data });
+};
+```
+
+```
 async function logFetch(url) {
   try {
     const response = await fetch(url);
