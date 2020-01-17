@@ -228,3 +228,38 @@ async function logFetch(url) {
   }
 }
 ```
+
+##promise vs async
+```
+function doIt(isGood) {
+  return new Promise((resolve, reject) => {
+    if (isGood) {
+      setTimeout(() => {
+        resolve('🇨🇳');
+      }, 500);
+    }
+
+ 
+
+    setTimeout(() => {
+      reject('🇯🇵');
+    }, 2000);
+  });
+}
+
+ 
+
+// doIt(false)
+//   .then(res => console.log(res))
+//   .catch(err => console.log(err));
+
+ 
+
+(async function() {
+  try {
+    const r = await doIt(false);
+  } catch (err) {
+    console.log(err);
+  }
+})();
+```
