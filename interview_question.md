@@ -9,19 +9,19 @@ Cookie, localStorage, and sessionStorage are all the simple data storage ways fo
 
 
 ## Cookies
-Persistence: user can set expiration time for each cookies.
-Storage: there’s only about 4KB space for entire cookie data.
-Traffic: data needs to be sent back to the server for all the HTTP requests, which increases the traffic between client and server.
-Works for old browsers.
+Stores data that has to be sent back to the server with subsequent requests. Its expiration varies based on the type and the expiration duration can be set from either server-side or client-side (normally from server-side).
+Cookies are primarily for server-side reading (can also be read on client-side), localStorage and sessionStorage can only be read on client-side.
+Size must be less than 4KB.
+Cookies can be made secure by setting the httpOnly flag as true for that cookie. This prevents client-side access to that cookie
 
 ## localStorage
-Persistence: data exist until it’s deleted
-Storage: available space increase to around 5 MB
-Traffic: less traffic because not all of the HTTP requests need to send data back to the server
-Domain: data only stays in the same domain, which means if data is stored on website A, next time it can only be accessed on website A. To be clear of the domain used here, it means the same website field. For example, whichever different posts or different personal pages in Facebook that you are browsing are all under facebook.com. As a result, those pages are all under the same domain.
+Stores data with no expiration date, and gets cleared only through JavaScript, or clearing the Browser cache / Locally Stored Data
+Storage limit is the maximum amongst the three
 
 ## sessionStorage
-sessionStorage is similar to localStorage. The only difference will be the persistence of the data. For sessionStorage, once user leaves the domain, such as closing the tabs or windows, the sessionStorage is emptied.
+The sessionStorage object stores data only for a session, meaning that the data is stored until the browser (or tab) is closed.
+Data is never transferred to the server.
+Storage limit is larger than a cookie (at least 5MB).
 
 ## What are the scopes of a variable in JavaScript?
 The scope of a variable is the region of your program in which it is defined. JavaScript variable will have only two scopes.
