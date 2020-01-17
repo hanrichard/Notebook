@@ -175,3 +175,25 @@ in the function, will point to the window
 
 console.log(JSON.stringify({ x: 5, y: 6 }));
 console.log(JSON.parse('{"balla": "blabla"}'))
+
+
+
+##
+```
+const promise = new Promise(function(resolve, reject) {
+  // do a thing, possibly async, then…
+
+  if (false) {
+    resolve("Stuff worked!");
+  }
+  else {
+    reject("It brok 123e");
+  }
+});
+
+promise.then(function(result) {
+  console.log(result); // "Stuff worked!"
+}, function(err) {
+  console.log(err); // Error: "It broke"
+});
+```
