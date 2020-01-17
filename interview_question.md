@@ -180,9 +180,9 @@ console.log(JSON.parse('{"balla": "blabla"}'))
 
 ##
 ```
-const promise = new Promise(function(resolve, reject) {
-  // do a thing, possibly async, then…
 
+const promise = new Promise((resolve, reject) =>{
+  // do a thing, possibly async, then…
   if (false) {
     resolve("Stuff worked!");
   }
@@ -191,9 +191,8 @@ const promise = new Promise(function(resolve, reject) {
   }
 });
 
-promise.then(function(result) {
-  console.log(result); // "Stuff worked!"
-}, function(err) {
-  console.log(err); // Error: "It broke"
-});
+promise.then(
+  (result)=> { console.log(result) }, 
+  (err) =>{ console.log(err) }
+);
 ```
