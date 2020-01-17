@@ -205,6 +205,10 @@ promise.then((response) => {
 ```
 
 ### asyc
+
+https://medium.com/better-programming/how-to-use-async-await-with-axios-in-react-e07daac2905f
+https://scotch.io/tutorials/asynchronous-javascript-using-async-await
+
 ```
 async function logFetch(url) {
   try {
