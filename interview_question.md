@@ -178,7 +178,7 @@ console.log(JSON.parse('{"balla": "blabla"}'))
 
 
 
-##
+## promise
 ```
 
 const promise = new Promise((resolve, reject) =>{
@@ -187,12 +187,19 @@ const promise = new Promise((resolve, reject) =>{
     resolve("Stuff worked!");
   }
   else {
-    reject("It brok 123e");
+    reject("this is error It brok 123e");
   }
 });
 
 promise.then(
-  (result)=> { console.log(result) }, 
+(result)=> { console.log(result) }, 
   (err) =>{ console.log(err) }
 );
+
+
+promise.then((response) => {
+  console.log("Success!", response);
+}).catch((error) => {
+  console.log("Failed!", error);
+})
 ```
