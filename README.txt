@@ -34,7 +34,7 @@ sessionStorage is similar to localStorage. The only difference will be the persi
 ## What are the scopes of a variable in JavaScript?
 The scope of a variable is the region of your program in which it is defined. JavaScript variable will have only two scopes.
 • Global Variables − A global variable has global scope which means it is visible everywhere in your JavaScript code.
-• Local Variables − A local variable will be visible only within a function where it is defined. Function parameters are always local to that function.
+• Local Variables − A local variable will be visible only within a function where it is defined. Function parameters are always local to that function. - use fat arrow => to pass this 
 
 
 ## What is the purpose of ‘This’ operator in JavaScript?
