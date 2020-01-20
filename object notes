@@ -8,3 +8,10 @@ console.log(Object.keys(anObj)); // console: ['2', '7', '100']
 // array like object with random key ordering
 ```const anObj = { 100: 'a', 2: 'b', 7: 'c' };
 console.log(Object.entries(anObj)); // [ ['2', 'b'], ['7', 'c'], ['100', 'a'] ]```
+
+
+### values
+// Array-like object with random key ordering
+// When using numeric keys, the values are returned in the keys' numerical order
+const arrayLikeObj2 = { 100: 'a', 2: 'b', 7: 'c' };
+console.log(Object.values(arrayLikeObj2 )); // ['b', 'c', 'a']
