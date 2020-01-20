@@ -10,6 +10,8 @@ https://www.edureka.co/blog/interview-questions/javascript-interview-questions/
 ## hoist
 Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution. Remember that JavaScript only hoists declarations, not initialisation. Let's take a simple example of variable hoisting,
 
+const and let are not hoisting
+
 Cookie, localStorage, and sessionStorage are all the simple data storage ways for client-side storage. Cookie is more like an old school way to handle the simple data stored on the client-side. In HTML5, web storage, such as localStorage or sessionStorage is introduced and it’s also easier to use.
 
 
