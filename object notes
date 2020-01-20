@@ -15,3 +15,8 @@ console.log(Object.entries(anObj)); // [ ['2', 'b'], ['7', 'c'], ['100', 'a'] ]`
 // When using numeric keys, the values are returned in the keys' numerical order
 const arrayLikeObj2 = { 100: 'a', 2: 'b', 7: 'c' };
 console.log(Object.values(arrayLikeObj2 )); // ['b', 'c', 'a']
+
+### fromEntries
+const map = new Map([ ['foo', 'bar'], ['baz', 42] ]);
+const obj = Object.fromEntries(map);
+console.log(obj); // { foo: "bar", baz: 42 }
