@@ -71,7 +71,7 @@ Also mention that you know about more sophisticated concepts:
 async/await which makes the code appear even more linear
 RxJS observables can be viewed as the recyclable promises
 Be sure that you can implement the promise, read one of the articles on a topic, and learn the source code of the simplest promise implementation.
-
+```
 "use strict"
 
 // Immediatley Resolved
@@ -121,6 +121,7 @@ getData('GET', 'http://jsonplaceholder.typicode.com/todos').then(function(data){
   console.log(err);
 });
 
+```
 
 ## protype vs inheratie
 If an object is created with an object literal var newObj = {}, it inherits properties from Object.prototype and we say its prototype object (or prototype attribute) is Object.prototype. If an object is created from a constructor function such as new Object (), new Fruit () or new Array () or new Anything (), it inherits from that constructor Object (), Fruit (), Array (), or Anything (). For example, with a function such as Fruit (), each time we create a new instance of Fruit var aFruit = new Fruit (), the new instance’s prototype is set to the prototype from the Fruit constructor, which is Fruit.prototype.
@@ -170,6 +171,7 @@ Lexical scope is write-time, whereas dynamic scope is run-time. Lexical scope ca
 
 
 ## trickies
+```
 var a = new Number(3)
 var a = new String("123")
 
@@ -179,18 +181,18 @@ String.prototype.isGreatThen = function(limit) {
 }
 
 a.isGreatThen(3)
-
+```
 
 ## this
 in the object, when the method of object will point to object, however, in the function, it points windows again
 in the function, will point to the window
 
 
-
+```
 console.log(JSON.stringify({ x: 5, y: 6 }));
 console.log(JSON.parse('{"balla": "blabla"}'))
 
-
+```
 
 ## promise
 ```
