@@ -14,11 +14,13 @@ const and let are not hoisting
 
 Cookie, localStorage, and sessionStorage are all the simple data storage ways for client-side storage. Cookie is more like an old school way to handle the simple data stored on the client-side. In HTML5, web storage, such as localStorage or sessionStorage is introduced and it’s also easier to use.
 
-## undecleared - you forget something
-## undefined - you declear it, but no value / do not assigned value
-## null - not a value, nothing value
+## undecleared, undefined and null
+undeclear- you forget something
+undefined - you declear it, but no value / do not assigned value
+null - not a value, nothing value
 
 ## event delegation
+
 ## event bublling
 ## target vs currentTarget
 
