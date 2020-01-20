@@ -124,7 +124,7 @@ getData('GET', 'http://jsonplaceholder.typicode.com/todos').then(function(data){
 
 ## protype vs inheratie
 If an object is created with an object literal var newObj = {}, it inherits properties from Object.prototype and we say its prototype object (or prototype attribute) is Object.prototype. If an object is created from a constructor function such as new Object (), new Fruit () or new Array () or new Anything (), it inherits from that constructor Object (), Fruit (), Array (), or Anything (). For example, with a function such as Fruit (), each time we create a new instance of Fruit var aFruit = new Fruit (), the new instance’s prototype is set to the prototype from the Fruit constructor, which is Fruit.prototype.
-
+```
 let PersonC = class {
   constructor(nm, id){
     this.nm = nm;
@@ -148,7 +148,7 @@ let PersonE = class extends PersonC {
 }
 
 let bobbob = PersonE("bob", 123, 123)
-
+```
 
 ## What is 'this' keyword in JavaScript?
 
