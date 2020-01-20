@@ -20,3 +20,9 @@ console.log(Object.values(arrayLikeObj2 )); // ['b', 'c', 'a']
 const map = new Map([ ['foo', 'bar'], ['baz', 42] ]);
 const obj = Object.fromEntries(map);
 console.log(obj); // { foo: "bar", baz: 42 }
+
+### hasOwnProperty
+o = new Object();
+o.hasOwnProperty('prop');   // returns false
+o.prop = 'exists';  
+o.hasOwnProperty('prop');   // returns true
