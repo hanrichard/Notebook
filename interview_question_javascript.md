@@ -12,7 +12,6 @@ Hoisting is a JavaScript mechanism where variables and function declarations are
 
 const and let are not hoisting
 
-Cookie, localStorage, and sessionStorage are all the simple data storage ways for client-side storage. Cookie is more like an old school way to handle the simple data stored on the client-side. In HTML5, web storage, such as localStorage or sessionStorage is introduced and it’s also easier to use.
 
 ## undecleared, undefined and null
 undeclear- you forget something
@@ -44,6 +43,9 @@ Storage limit is the maximum amongst the three
 The sessionStorage object stores data only for a session, meaning that the data is stored until the browser (or tab) is closed.
 Data is never transferred to the server.
 Storage limit is larger than a cookie (at least 5MB).
+
+## Cookie, localStorage, and sessionStorage 
+are all the simple data storage ways for client-side storage. Cookie is more like an old school way to handle the simple data stored on the client-side. In HTML5, web storage, such as localStorage or sessionStorage is introduced and it’s also easier to use.
 
 ## What are the scopes of a variable in JavaScript?
 The scope of a variable is the region of your program in which it is defined. JavaScript variable will have only two scopes.
