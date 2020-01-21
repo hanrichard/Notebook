@@ -20,7 +20,9 @@ undefined - you declear it, but no value / do not assigned value
 null - not a value, nothing value
 
 ## event delegation
-
+It allows us to add an event listener to one parent, and avoid to add many event listeners to specific nodes. 
+ 
+ 
 ## event bublling
 ## target vs currentTarget
 
