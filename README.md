@@ -23,6 +23,14 @@ Object.entries(object1).forEach(([key, value]) => {
 });
 ```
 
+## iteration array
+```
+const arr = [1, 2, 3, 5]
+arr.forEach(item=> {
+  console.log(item)
+})
+```
+
 
 ## styled-components
 Automatic critical CSS
