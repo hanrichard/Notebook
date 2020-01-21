@@ -25,6 +25,7 @@ It allows us to add an event listener to one parent, and avoid to add many event
  
 ## event bublling
 ## target vs currentTarget
+The currentTarget refers to the element that the event listener directly attached to while the target still refers to the specific <a> we clicked.
 
 ## Cookies - 4kb
 Stores data that has to be sent back to the server with subsequent requests. Its expiration varies based on the type and the expiration duration can be set from either server-side or client-side (normally from server-side).
