@@ -1,4 +1,5 @@
 ## interation object
+```
 for (let key in yourobject) {
   console.log(key, yourobject[key]);
 }
@@ -6,7 +7,8 @@ for (let key in yourobject) {
 for (let [key, value] of Object.entries(yourobject)) {
     console.log(key, value);
 }
-
+```
+```
 const object1 = {
   a: 'somestring',
   b: 42
@@ -19,7 +21,7 @@ for(let [key, value] of Object.entries(object1)){
 Object.entries(object1).forEach(([key, value]) => {
   console.log(`${key} ${value}`); // "a 5", "b 7", "c 9"
 });
-
+```
 
 
 ## styled-components
