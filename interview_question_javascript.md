@@ -44,7 +44,8 @@ Storage limit is larger than a cookie (at least 5MB).
 
 ## What are the scopes of a variable in JavaScript?
 The scope of a variable is the region of your program in which it is defined. JavaScript variable will have only two scopes.
-• Global Variables − A global variable has global scope which means it is visible everywhere in your JavaScript code.
+
+• Global Variables − A global variable has global scope which means it is visible everywhere in your JavaScript code. A variable is said to be globally scoped if it is visible from all other scopes.
 • Local Variables − A local variable will be visible only within a function where it is defined. Function parameters are always local to that function.
 
 ## What is the purpose of ‘This’ operator in JavaScript?
