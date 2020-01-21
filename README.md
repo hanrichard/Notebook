@@ -1,4 +1,9 @@
-react profermance:
+## styled-components
+Automatic critical CSS
+No class name bugs - styled-components generates unique class names for your styles
+Automatic vendor prefixing
+
+## react profermance:
 userhoooks
 profiler - react memo
 
