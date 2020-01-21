@@ -24,6 +24,9 @@ It allows us to add an event listener to one parent, and avoid to add many event
  
  
 ## event bublling
+When inner elements' X event fired then its listener listens and executes its handler method, then event bubbled up and its outer/parent element’s X event fired then listener listen and execute its handlers.
+event.stopPropagation().
+
 ## target vs currentTarget
 The currentTarget refers to the element that the event listener directly attached to while the target still refers to the specific <a> we clicked.
 
