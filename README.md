@@ -1,3 +1,13 @@
+## interation object
+for (let key in yourobject) {
+  console.log(key, yourobject[key]);
+}
+
+for (let [key, value] of Object.entries(yourobject)) {
+    console.log(key, value);
+}
+
+
 ## styled-components
 Automatic critical CSS
 No class name bugs - styled-components generates unique class names for your styles
