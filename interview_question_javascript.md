@@ -182,9 +182,9 @@ If we check in the program, every local scope has a connection with one or more 
 The scope chain in JavaScript is basically used to resolve the values of the variable. Without this, it is difficult for a JavaScript to choose a certain value for a variable if there are many variables defined at different scopes.
 
 ## The Key Contrast Between Lexical and Dynamic Scoping: 
-Lexical scope is write-time, whereas dynamic scope is run-time. Lexical scope care where a function was declared, but dynamic scope cares where a function was called from.
+Lexical scope is write-time (compile), whereas dynamic scope is run-time. Lexical scope care where a function was declared, but dynamic scope cares where a function was called from.
 
-
+Lexical scoping: Variables declared outside of a function are global variables and are visible everywhere in a JavaScript program. Variables declared inside a function have function scope and are visible only to code that appears inside that function.
 
 
 
