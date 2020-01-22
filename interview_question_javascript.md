@@ -82,6 +82,13 @@ Also mention that you know about more sophisticated concepts:
 async/await which makes the code appear even more linear
 RxJS observables can be viewed as the recyclable promises
 Be sure that you can implement the promise, read one of the articles on a topic, and learn the source code of the simplest promise implementation.
+
+### Strict mode
+Strict mode makes it easier to write "secure" JavaScript.
+
+Strict mode changes previously accepted "bad syntax" into real errors.
+
+
 ```
 "use strict"
 
