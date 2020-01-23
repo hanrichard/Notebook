@@ -297,3 +297,13 @@ function doIt(isGood) {
   }
 })();
 ```
+
+## currying javascript
+function multiply(a) {
+    return (b) => {
+        return (c) => {
+            return a * b * c
+        }
+    }
+}
+log(multiply(1)(2)(3)) // 6
