@@ -22,6 +22,6 @@
 
 ### Code review
 - run it on local
-- test functions - performance, improvement, like, use short syntax, how to define variables, naming convenstions
+- test functions - performance, improvement, like, use short syntax, how to define variables, naming convenstions, code simplify
 - test unit test - coverage
 - css/html
