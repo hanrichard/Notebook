@@ -6,11 +6,15 @@
 
 ### Projects
 #### build a form - page component library, set logic, by using react and redux, 
+
+
 #### build a platform: allow client
 - to check account balance
 - to buy, sell, and amend shares
 - to check the statement
 ##### react, redux, APIs, aws lamda, style-componenent
+##### 3 front-dev, 2 back-dev, 1 BA
+
 
 
 ### Code review
