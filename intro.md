@@ -4,10 +4,17 @@
 
 ##### and also, as a consumer, we are using components in the page component library to build pages (react, redux, etc), ideally drag and drop, and set up logical
 
-### project
+### Projects
 #### build a form - page component library, set logic, by using react and redux, 
 #### build a platform: allow client
 - to check account balance
 - to buy, sell, and amend shares
 - to check the statement
 ##### react, redux, APIs, aws lamda, style-componenent
+
+
+### Code review
+- run it on local
+- test functions - performance, improvement, like, use short syntax, how to define variables, naming convenstions
+- test unit test - coverage
+- css/html
