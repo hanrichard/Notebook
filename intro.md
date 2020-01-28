@@ -5,10 +5,9 @@
 ##### and also, as a consumer, we are using components in the page component library to build pages (react, redux, etc), ideally drag and drop, and set up logical
 
 ### project
-1, build a form - page component library, set logic, by using react and redux, 
-2, build a platform: allow client
+#### build a form - page component library, set logic, by using react and redux, 
+#### build a platform: allow client
 - to check account balance
 - to buy, sell, and amend shares
 - to check the statement
-
-react, redux, APIs, aws lamda, style-componenent
+##### react, redux, APIs, aws lamda, style-componenent
