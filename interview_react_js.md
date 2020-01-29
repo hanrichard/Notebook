@@ -7,3 +7,10 @@ Elements are the fundamental building blocks of React, and describe what you wan
 
 ### test renderer
 Essentially, this package makes it easy to grab a snapshot of the platform view hierarchy (similar to a DOM tree) rendered by a React DOM or React Native component without using a browser
+
+#### pros
+- Jest Snapshot tests check if your component behaves correctly
+- Jest snapshot allows conditional rendering tests
+
+#### cons
+- There are some problems with larger snapshots
