@@ -113,3 +113,10 @@ Whereas error boundaries wrap declarative code as below,
 </ErrorBoundary>
 ```
 So if an error occurs in a componentDidUpdate method caused by a setState somewhere deep in the tree, it will still correctly propagate to the closest error boundary.
+
+### What are the limitations with HOCs?
+- Don’t Use HOCs Inside the render Method: It is not recommended to apply a HOC to a component within the render method of a component.
+
+- Static Methods Must Be Copied Over: When you apply a HOC to a component the new component does not have any of the static methods of the original component
+
+- Refs Aren’t Passed Through: For HOCs you need to pass through all props to the wrapped component but this does not work for refs. This is because ref is not really a prop similar to key. In this case you need to use the React.forwardRef API
