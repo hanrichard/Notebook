@@ -133,3 +133,6 @@ Below are some of the benefits of using typescript with Reactjs,
 - Use of interfaces for complex type definitions
 - IDEs such as VS Code was made for TypeScript
 - Avoid bugs with the ease of readability and Validation
+
+### What is the render method for?
+To determine what should be rendered for a particular component. 
