@@ -74,3 +74,6 @@ There is a learning curve for beginners who are new to web development.
 Integrating React into a traditional MVC framework requires some additional configuration.
 The code complexity increases with inline templating and JSX.
 Too many smaller components leading to over engineering or boilerplate.
+
+### What are error boundaries in React v16?
+Error boundaries are components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed.
