@@ -126,3 +126,10 @@ If you use an event handler such as onClick or onScroll and want to prevent the 
 - Throttling: Changes based on a time based frequency. For example, it can be used using _.throttle lodash function
 - Debouncing: Publish changes after a period of inactivity. For example, it can be used using _.debounce lodash function
 - RequestAnimationFrame throttling: Changes based on requestAnimationFrame. For example, it can be used using raf-schd lodash function
+
+### What are the benefits of using typescript with reactjs?
+Below are some of the benefits of using typescript with Reactjs,
+- It is possible to use latest JavaScript features
+- Use of interfaces for complex type definitions
+- IDEs such as VS Code was made for TypeScript
+- Avoid bugs with the ease of readability and Validation
