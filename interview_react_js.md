@@ -120,3 +120,9 @@ So if an error occurs in a componentDidUpdate method caused by a setState somewh
 - Static Methods Must Be Copied Over: When you apply a HOC to a component the new component does not have any of the static methods of the original component
 
 - Refs Aren’t Passed Through: For HOCs you need to pass through all props to the wrapped component but this does not work for refs. This is because ref is not really a prop similar to key. In this case you need to use the React.forwardRef API
+
+### How to prevent a function from being called multiple times?
+If you use an event handler such as onClick or onScroll and want to prevent the callback from being fired too quickly, then you can limit the rate at which callback is executed. This can be achieved in the below possible ways,
+- Throttling: Changes based on a time based frequency. For example, it can be used using _.throttle lodash function
+- Debouncing: Publish changes after a period of inactivity. For example, it can be used using _.debounce lodash function
+- RequestAnimationFrame throttling: Changes based on requestAnimationFrame. For example, it can be used using raf-schd lodash function
