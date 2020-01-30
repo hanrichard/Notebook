@@ -77,3 +77,9 @@ Too many smaller components leading to over engineering or boilerplate.
 
 ### What are error boundaries in React v16?
 Error boundaries are components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed.
+
+### How to listen to state changes?
+The following lifecycle methods will be called when state changes. You can compare provided state and props values with current state and props to determine if something meaningful changed.
+
+componentWillUpdate(object nextProps, object nextState)
+componentDidUpdate(object prevProps, object prevState)
