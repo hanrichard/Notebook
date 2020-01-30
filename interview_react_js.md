@@ -141,3 +141,6 @@ To determine what should be rendered for a particular component. '
 
 ### What's the difference between a controlled component and an uncontrolled one in React?
 A controlled component has its state completely driven by React, whereas uncontrolled components can maintain their own internal state. E.g., a textarea's value.
+
+### What is the point of shouldComponentUpdate() method?
+It's used for performance reasons, for example if the implementor of a component knows for sure that a particular property change does not necessitate a re-render, they could return false from this method and skip the re-render.
