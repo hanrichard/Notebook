@@ -67,3 +67,10 @@ The main reason of passing props parameter to super() call is to access this.pro
 
 ### What is reconciliation?
 When a component's props or state change, React decides whether an actual DOM update is necessary by comparing the newly returned element with the previously rendered one. When they are not equal, React will update the DOM. This process is called reconciliation.
+
+### What are the limitations of React?
+React is just a view library, not a full framework.
+There is a learning curve for beginners who are new to web development.
+Integrating React into a traditional MVC framework requires some additional configuration.
+The code complexity increases with inline templating and JSX.
+Too many smaller components leading to over engineering or boilerplate.
