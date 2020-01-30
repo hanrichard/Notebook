@@ -63,3 +63,7 @@ SyntheticEvent is a cross-browser wrapper around the browser's native event. It'
 
 ### What is the purpose of using super constructor with props argument?
 The main reason of passing props parameter to super() call is to access this.props in your child constructors.
+
+
+### What is reconciliation?
+When a component's props or state change, React decides whether an actual DOM update is necessary by comparing the newly returned element with the previously rendered one. When they are not equal, React will update the DOM. This process is called reconciliation.
