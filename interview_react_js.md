@@ -96,4 +96,20 @@ Class components can be restricted from rendering when their input props are the
 ```
 const MyComponent = React.memo(function MyComponent(props) {
  /* only rerenders if props change */
-});```
+});
+```
+
+
+### What is the difference between try catch block and error boundaries?
+Try catch block works with imperative code whereas error boundaries are meant for declarative code to render on the screen. For example, the try catch block used for below imperative code
+```try {
+  showButton();
+} catch (error) {
+  // ...
+}```
+Whereas error boundaries wrap declarative code as below,
+```<ErrorBoundary>
+  <MyComponent />
+</ErrorBoundary>
+```
+So if an error occurs in a componentDidUpdate method caused by a setState somewhere deep in the tree, it will still correctly propagate to the closest error boundary.
