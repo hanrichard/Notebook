@@ -90,3 +90,10 @@ This package provides a renderer that can be used to render components to pure J
 
 ### What is the difference between React context and React Redux?
 You can use Context in your application directly and is going to be great for passing down data to deeply nested components which what it was designed for. Whereas Redux is much more powerful and provides a large number of features that the Context API doesn't provide. Also, React Redux uses context internally but it doesn't expose this fact in the public API.
+
+### What is React memo function?
+Class components can be restricted from rendering when their input props are the same using PureComponent or shouldComponentUpdate. Now you can do the same with function components by wrapping them in React.memo.
+```
+const MyComponent = React.memo(function MyComponent(props) {
+ /* only rerenders if props change */
+});```
