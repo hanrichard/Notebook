@@ -80,6 +80,7 @@ Error boundaries are components that catch JavaScript errors anywhere in their c
 
 ### How to listen to state changes?
 The following lifecycle methods will be called when state changes. You can compare provided state and props values with current state and props to determine if something meaningful changed.
-
+```
 componentWillUpdate(object nextProps, object nextState)
 componentDidUpdate(object prevProps, object prevState)
+```
