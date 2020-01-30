@@ -60,3 +60,6 @@ Whereas in React it follows camelCase convention:
 
 ### What are synthetic events in React?
 SyntheticEvent is a cross-browser wrapper around the browser's native event. It's API is same as the browser's native event, including stopPropagation() and preventDefault(), except the events work identically across all browsers.
+
+### What is the purpose of using super constructor with props argument?
+The main reason of passing props parameter to super() call is to access this.props in your child constructors.
