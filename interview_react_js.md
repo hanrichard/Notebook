@@ -135,4 +135,7 @@ Below are some of the benefits of using typescript with Reactjs,
 - Avoid bugs with the ease of readability and Validation
 
 ### What is the render method for?
-To determine what should be rendered for a particular component. 
+To determine what should be rendered for a particular component. '
+
+### What's the difference between a controlled component and an uncontrolled one in React?
+A controlled component has its state completely driven by React, whereas uncontrolled components can maintain their own internal state. E.g., a textarea's value.
