@@ -148,13 +148,33 @@ It's used for performance reasons, for example if the implementor of a component
 
 ### Creating Refs
 ```
-class MyComponent extends React.Component {
+class CustomTextInput extends React.Component {
   constructor(props) {
     super(props);
-    this.myRef = React.createRef();
+    this.textInput = React.createRef();
+    this.focusTextInput = this.focusTextInput.bind(this);
   }
+
+  focusTextInput() {
+    this.textInput.current.focus();
+  }
+
   render() {
-    return <div ref={this.myRef} />;
+    // tell React that we want to associate the <input> ref
+    // with the `textInput` that we created in the constructor
+    return (
+      <div>
+        <input
+          type="text"
+          ref={this.textInput} />
+
+        <input
+          type="button"
+          value="Focus the text input"
+          onClick={this.focusTextInput}
+        />
+      </div>
+    );
   }
 }
 ```
