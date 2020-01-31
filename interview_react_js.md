@@ -144,3 +144,17 @@ A controlled component has its state completely driven by React, whereas uncontr
 
 ### What is the point of shouldComponentUpdate() method?
 It's used for performance reasons, for example if the implementor of a component knows for sure that a particular property change does not necessitate a re-render, they could return false from this method and skip the re-render.
+
+
+### Creating Refs
+```
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.myRef = React.createRef();
+  }
+  render() {
+    return <div ref={this.myRef} />;
+  }
+}
+```
