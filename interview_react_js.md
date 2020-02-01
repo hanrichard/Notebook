@@ -165,3 +165,5 @@ lass AutoFocusTextInput extends React.Component {
   }
 }
 ```
+### getDerivedStateFromProps
+getDerivedStateFromProps is invoked right before calling the render method, both on the initial mount and on subsequent updates. It should return an object to update the state, or null to update nothing.
