@@ -167,3 +167,6 @@ lass AutoFocusTextInput extends React.Component {
 ```
 ### getDerivedStateFromProps
 getDerivedStateFromProps is invoked right before calling the render method, both on the initial mount and on subsequent updates. It should return an object to update the state, or null to update nothing.
+
+### contextType
+The contextType property on a class can be assigned a Context object created by React.createContext(). This lets you consume the nearest current value of that Context type using this.context. You can reference this in any of the lifecycle methods including the render function.
