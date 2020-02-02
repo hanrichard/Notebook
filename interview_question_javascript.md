@@ -320,3 +320,12 @@ let curriedSum = curry(sum);
 
 alert( curriedSum(1)(2) ); // 3
 ```
+
+```
+console.log(multiply(10)(2))
+
+function multiply(x) {
+  return (y) => {
+    return x*y
+  }
+}```
