@@ -32,6 +32,10 @@ event.stopPropagation().
 ## target vs currentTarget
 The currentTarget refers to the element that the event listener directly attached to while the target still refers to the specific <a> we clicked.
 
+## What is scope in javascript?
+Scope is the accessibility of variables, functions, and objects in some particular part of your code during runtime. In other words, scope determines the visibility of variables and other resources in areas of your code.
+
+
 ## Cookies - 4kb
 Stores data that has to be sent back to the server with subsequent requests. Its expiration varies based on the type and the expiration duration can be set from either server-side or client-side (normally from server-side).
 Cookies are primarily for server-side reading (can also be read on client-side), localStorage and sessionStorage can only be read on client-side.
