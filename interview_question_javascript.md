@@ -77,6 +77,14 @@ Let – It is a signal that the variable may be reassigned, such as a counter in
 ## What is an event bubbling in JavaScript?
 Event bubbling is a way of event propagation in the HTML DOM API, when an event occurs in an element inside another element, and both elements have registered a handle for that event. With bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements. The execution starts from that event and goes to its parent element. Then the execution passes to its parent element and so on till the body element.
 
+## promise
+A promise is an object that may produce a single value some time in the future with either a resolved value or a reason that it’s not resolved(for example, network error). It will be in one of the 3 possible states: fulfilled, rejected, or pending. The syntax of promise would be as below
+```
+const promise = new Promise(function(resolve, reject) {
+  // promise description
+})
+```
+
 ## We use promises for handling asynchronous interactions in a sequential manner. 
 They are especially useful when we need to do an async operation and THEN do another async operation based on the results of the first one. For example, if you want to request the list of all flights and then for each flight you want to request some details about it. The promise represents the future value. It has an internal state (pending, fulfilled and rejected) and works like a state machine.
 
