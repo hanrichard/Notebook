@@ -372,3 +372,21 @@ inviteEmployee1('Hello', 'How are you?'); // Hello John Rodson, How are you?
 inviteEmployee2('Hello', 'How are you?'); // Hello Jimmy Baily, How are you?
 ```
 Call and apply are pretty interchangeable. Both execute the current function immediately. You need to decide whether it’s easier to send in an array or a comma separated list of arguments. You can remember by treating Call is for comma (separated list) and Apply is for Array. Whereas Bind creates a new function that will have this set to the first parameter passed to bind().
+
+### let vs var
+```
+function userDetails(username) {
+   if(username) {
+     console.log(salary); // undefined(due to hoisting)
+     console.log(age); // error: age is not defined
+     let age = 30;
+     var salary = 10000;
+   }
+   console.log(salary); //10000 (accessible to due function scope)
+   console.log(age); //error: age is not defined(due to block scope)
+}
+```
+
+It is been available from the beginning of JavaScript	VS Introduced as part of ES6
+It has function scope	VS It has block scope
+Variables will be hoisted	VS Hoisted but not initialized
