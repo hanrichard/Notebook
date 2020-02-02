@@ -12,6 +12,9 @@ Hoisting is a JavaScript mechanism where variables and function declarations are
 
 const and let are not hoisting
 
+### Prototype chaining 
+it is used to build new types of objects based on existing ones. It is similar to inheritance in a class based language. The prototype on object instance is available through Object.getPrototypeOf(object) or proto property whereas prototype on constructors function is available through object.prototype.
+
 
 ## undecleared, undefined and null
 undeclear- you forget something
