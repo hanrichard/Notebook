@@ -332,7 +332,8 @@ function multiply(x) {
 ```
 
 ### What is the difference between Call, Apply and Bind?
-The difference between Call, Apply and Bind can be explained with below examples, Call: The call() method invokes a function with a given this value and arguments provided one by one
+The difference between Call, Apply and Bind can be explained with below examples, 
+Call: The call() method invokes a function with a given this value and arguments provided one by one
 ```
 var employee1 = {firstName: 'John', lastName: 'Rodson'};
 var employee2 = {firstName: 'Jimmy', lastName: 'Baily'};
