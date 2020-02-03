@@ -436,3 +436,19 @@ var myFunction = function namedFunction(){
     statements
 })();
 ```
+
+## Function Declaration vs Function Expression
+Function Declaration
+```
+foo(); // 'FOOOOO'
+function foo() {
+  console.log("FOOOOO");
+}
+```
+Function Expression
+```
+foo(); // Uncaught TypeError: foo is not a function
+var foo = function() {
+  console.log("FOOOOO");
+};
+```
