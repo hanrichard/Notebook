@@ -17,9 +17,9 @@ it is used to build new types of objects based on existing ones. It is similar t
 
 
 ## undecleared, undefined and null
-undeclear- you forget something
-undefined - you declear it, but no value / do not assigned value
-null - not a value, nothing value
+- undeclear- you forget something
+- undefined - you declear it, but no value / do not assigned value
+- null - not a value, nothing value
 
 ## event delegation
 It allows us to add an event listener to one parent, and avoid to add many event listeners to specific nodes. 
