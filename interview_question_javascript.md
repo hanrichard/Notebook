@@ -417,3 +417,17 @@ function userDetails(username) {
 It is been available from the beginning of JavaScript	VS Introduced as part of ES6
 It has function scope	VS It has block scope
 Variables will be hoisted	VS Hoisted but not initialized
+
+## anonymous function expression (the name is not used):
+```
+var myFunction = function() {
+    statements
+}
+```
+
+```
+var myFunction = function namedFunction(){
+    statements
+}
+
+```
