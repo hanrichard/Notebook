@@ -29,6 +29,9 @@ It allows us to add an event listener to one parent, and avoid to add many event
 When inner elements' X event fired then its listener listens and executes its handler method, then event bubbled up and its outer/parent element’s X event fired then listener listen and execute its handlers.
 event.stopPropagation().
 
+## What is event capturing
+Event bubbling is a type of event propagation where the event is first captured by the outermost element and , and then successively triggers on the descendants (children) of the target element in the same nesting hierarchy till it reaches the inner DOM element.
+
 ## target vs currentTarget
 The currentTarget refers to the element that the event listener directly attached to while the target still refers to the specific <a> we clicked.
 
