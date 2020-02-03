@@ -431,3 +431,8 @@ var myFunction = function namedFunction(){
 }
 
 ```
+```
+(function() {
+    statements
+})();
+```
