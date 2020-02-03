@@ -358,6 +358,11 @@ function multiply(x) {
 }
 ```
 
+```
+const curryUnaryFunction = a => b => c => a + b + c;
+curryUnaryFunction (1) (2) (3); // returns the number 6
+```
+
 ### What is the difference between Call, Apply and Bind?
 The difference between Call, Apply and Bind can be explained with below examples, 
 Call: The call() method invokes a function with a given this value and arguments provided one by one
@@ -454,3 +459,5 @@ var foo = function() {
   console.log("FOOOOO");
 };
 ```
+
+
