@@ -1,3 +1,16 @@
+### What are the advantages of React?
+-Increases the application's performance with Virtual DOM.
+-JSX makes code easy to read and write.
+-It renders both on client and server side (SSR).
+-Easy to integrate with frameworks (Angular, Backbone) since it is only a view library.
+-Easy to write unit and integration tests with tools such as Jest.
+
+### What are the limitations of React?
+-React is just a view library, not a full framework.
+-There is a learning curve for beginners who are new to web development.
+-Integrating React into a traditional MVC framework requires some additional configuration.
+-The code complexity increases with inline templating and JSX.
+-Too many smaller components leading to over engineering or boilerplate.
 
 ### Styled-components 
 is a JavaScript library for styling React applications. It removes the mapping between styles and components, and lets you write actual CSS augmented with JavaScript.
