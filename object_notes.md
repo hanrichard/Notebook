@@ -33,3 +33,11 @@ o.hasOwnProperty('prop');   // returns false
 o.prop = 'exists';  
 o.hasOwnProperty('prop');   // returns true
 ```
+### How do you check if a key exists in an object
+```
+obj.hasOwnProperty("key") // true
+```
+
+```
+"key" in obj
+```
