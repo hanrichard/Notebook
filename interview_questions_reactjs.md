@@ -39,7 +39,8 @@ const element = React.createElement(
   'div',
   {id: 'login-btn'},
   'Login'
-)```
+)
+```
 The above React.createElement() function returns an object:
 ```
 {
@@ -48,7 +49,8 @@ The above React.createElement() function returns an object:
     children: 'Login',
     id: 'login-btn'
   }
-}```
+}
+```
 And finally it renders to the DOM using ReactDOM.render():
 ```
 <div id='login-btn'>Login</div>```
