@@ -197,7 +197,7 @@ getDerivedStateFromProps is invoked right before calling the render method, both
 The contextType property on a class can be assigned a Context object created by React.createContext(). This lets you consume the nearest current value of that Context type using this.context. You can reference this in any of the lifecycle methods including the render function.
 
 ### HOC can be used for many use cases:
--Code reuse, logic and bootstrap abstraction.
--Render hijacking.
--State abstraction and manipulation.
--Props manipulation.
+- Code reuse, logic and bootstrap abstraction.
+- Render hijacking.
+- State abstraction and manipulation.
+- Props manipulation.
