@@ -42,6 +42,7 @@ const element = React.createElement(
 )
 ```
 The above React.createElement() function returns an object:
+
 ```
 {
   type: 'div',
@@ -53,11 +54,14 @@ The above React.createElement() function returns an object:
 ```
 And finally it renders to the DOM using ReactDOM.render():
 ```
-<div id='login-btn'>Login</div>```
+<div id='login-btn'>Login</div>
+```
 Whereas a component can be declared in several different ways. It can be a class with a render() method. Alternatively, in simple cases, it can be defined as a function. In either case, it takes props as an input, and returns a JSX tree as the output:
+
 ```
 const Button = ({ onLogin }) =>
-  <div id={'login-btn'} onClick={onLogin}>Login</div>```
+  <div id={'login-btn'} onClick={onLogin}>Login</div>
+```
 Then JSX gets transpiled to a React.createElement() function tree:
 ```
 const Button = ({ onLogin }) => React.createElement(
