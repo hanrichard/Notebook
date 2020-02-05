@@ -16,24 +16,6 @@ const and let are not hoisting
 it is used to build new types of objects based on existing ones. It is similar to inheritance in a class based language. The prototype on object instance is available through Object.getPrototypeOf(object) or proto property whereas prototype on constructors function is available through object.prototype.
 
 
-### undecleared, undefined and null
-- undeclear- you forget something
-- undefined - you declear it, but no value / do not assigned value
-- null - not a value, nothing value
-
-### event delegation
-It allows us to add an event listener to one parent, and avoid to add many event listeners to specific nodes. 
- 
- 
-### event bublling
-When inner elements' X event fired then its listener listens and executes its handler method, then event bubbled up and its outer/parent element’s X event fired then listener listen and execute its handlers.
-event.stopPropagation().
-
-### What is event capturing
-Event bubbling is a type of event propagation where the event is first captured by the outermost element and , and then successively triggers on the descendants (children) of the target element in the same nesting hierarchy till it reaches the inner DOM element.
-
-### target vs currentTarget
-The currentTarget refers to the element that the event listener directly attached to while the target still refers to the specific <a> we clicked.
 
 ### What is scope in javascript?
 Scope is the accessibility of variables, functions, and objects in some particular part of your code during runtime. In other words, scope determines the visibility of variables and other resources in areas of your code.
@@ -94,6 +76,27 @@ Let – It is a signal that the variable may be reassigned, such as a counter in
 
 ### What is an event bubbling in JavaScript?
 Event bubbling is a way of event propagation in the HTML DOM API, when an event occurs in an element inside another element, and both elements have registered a handle for that event. With bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements. The execution starts from that event and goes to its parent element. Then the execution passes to its parent element and so on till the body element.
+
+
+### undecleared, undefined and null
+- undeclear- you forget something
+- undefined - you declear it, but no value / do not assigned value
+- null - not a value, nothing value
+
+### event delegation
+It allows us to add an event listener to one parent, and avoid to add many event listeners to specific nodes. 
+ 
+ 
+### event bublling
+When inner elements' X event fired then its listener listens and executes its handler method, then event 
+led up and its outer/parent element’s X event fired then listener listen and execute its handlers.
+event.stopPropagation().
+
+### What is event capturing
+Event bubbling is a type of event propagation where the event is first captured by the outermost element and , and then successively triggers on the descendants (children) of the target element in the same nesting hierarchy till it reaches the inner DOM element.
+
+### target vs currentTarget
+The currentTarget refers to the element that the event listener directly attached to while the target still refers to the specific <a> we clicked.
 
 ### promise
 A promise is an object that may produce a single value some time in the future with either a resolved value or a reason that it’s not resolved(for example, network error). It will be in one of the 3 possible states: fulfilled, rejected, or pending. The syntax of promise would be as below
