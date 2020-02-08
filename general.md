@@ -118,6 +118,7 @@ export const setAlert = (msg, action)=>(dispatch)=> {
     type: action,
     payload: msg
   })
+  setTimeout(()=> dispatch({type: REMOVE, payload: id}), 2000)
 }
 
 ```
