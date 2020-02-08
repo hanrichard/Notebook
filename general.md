@@ -105,3 +105,8 @@ console.log(test)
 ```
 const onchange = e => setFormdata({...formdata, [e.target.name]: e.target.value});
 ```
+```
+const onsubmit = async e => {
+  blabla
+}
+```
