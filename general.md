@@ -110,3 +110,9 @@ const onsubmit = async e => {
   blabla
 }
 ```
+
+### redux action
+```
+export const setAlert = (msg, action)=>(dispatch)=> {
+
+```
