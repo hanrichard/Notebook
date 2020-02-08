@@ -114,5 +114,10 @@ const onsubmit = async e => {
 ### redux action
 ```
 export const setAlert = (msg, action)=>(dispatch)=> {
+  dispatch({
+    type: action,
+    payload: msg
+  })
+}
 
 ```
