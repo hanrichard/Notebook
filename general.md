@@ -100,3 +100,8 @@ function fieldSorter(fields) {
 
 console.log(test)
 ```
+
+### react hook
+```
+const onchange = e => setFormdata(...formdata, [e.target.name]: e.target.value();
+```
