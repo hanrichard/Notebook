@@ -122,3 +122,9 @@ export const setAlert = (msg, action)=>(dispatch)=> {
 }
 
 ```
+
+```
+const handleChange = input => e => {
+  this.setState({ [input]: e.target.value})
+}
+```
