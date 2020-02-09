@@ -128,3 +128,8 @@ const handleChange = input => e => {
   this.setState({ [input]: e.target.value})
 }
 ```
+
+
+```
+const dashboard = ({auth, profile: {loading}}) => {}
+```
