@@ -133,5 +133,5 @@ const handleChange = input => e => {
 ```
 const dashboard = ({auth, profile: {loading}}) => {}
 ```
-
+### routing 
 withRouter with redirecting
