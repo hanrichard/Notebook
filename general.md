@@ -141,7 +141,8 @@ withRouter with redirecting
 const config = {
   header: {"Content-type": "application/json"}
 }
-
+try {
 await axios.post('/post/', data, config)
-
+} catch(err) {
+}
 ```
