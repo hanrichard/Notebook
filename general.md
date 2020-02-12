@@ -135,3 +135,13 @@ const dashboard = ({auth, profile: {loading}}) => {}
 ```
 ### routing 
 withRouter with redirecting
+
+### send data
+```
+const config = {
+  header: {"Content-type": "application/json"}
+}
+
+await axios.post('/post/', data, config)
+
+```
