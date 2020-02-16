@@ -146,3 +146,9 @@ await axios.post('/post/', data, config)
 } catch(err) {
 }
 ```
+### localstorage
+```
+localStorage.setItem("test", JSON.stringfy({test:"name"}))
+JSON.parse(localStorage.getItem("test"))
+
+```
