@@ -151,4 +151,8 @@ await axios.post('/post/', data, config)
 localStorage.setItem("test", JSON.stringfy({test:"name"}))
 JSON.parse(localStorage.getItem("test"))
 
+const [books, dispatch] = useReducer(bookReducer, [], ()=>{
+  return localdata ? JSON.parse(localStorage.getItem("test")) : []
+})
+
 ```
