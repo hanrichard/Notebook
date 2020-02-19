@@ -59,3 +59,13 @@ const productNameSort = (a: Investment, b: Investment) =>
 		a.productName.toLowerCase() > b.productName.toLowerCase() ? 1 : -1;
 		
 ```
+```
+const mapReduxStateToComponentProps = ({
+	accountsState,
+}: AppState): ReduxStateProps => {
+	return {
+		accounts: accountsState.accounts,
+		loading: accountsState.isLoading,
+	};
+};
+```
