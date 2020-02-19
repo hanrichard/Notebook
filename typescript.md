@@ -35,3 +35,28 @@ return ()}
 
 export default Accordion;
 ```
+
+```
+interface Props {
+	sharesTitle: string;
+	accountNumber: number;
+	investments: Investment[];
+	accountUuid?: string;
+}
+
+const ShareCard: React.FunctionComponent<Props> = (props: Props) => {
+	React.useEffect(() => {
+		setCurrentSortFunction(() => productNameSort);
+		setIsSortAsc(true);
+	}, []);
+	
+	
+	```
+
+```
+const sellShareUrl = (productCode: string) => /share-trading/sell?asxCode=${productCode}&accountUuid=${props.accountUuid};
+
+const productNameSort = (a: Investment, b: Investment) =>
+		a.productName.toLowerCase() > b.productName.toLowerCase() ? 1 : -1;
+		
+		```
