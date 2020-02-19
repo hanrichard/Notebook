@@ -51,12 +51,11 @@ const ShareCard: React.FunctionComponent<Props> = (props: Props) => {
 	}, []);
 	
 	
-	```
 
-```
+
 const sellShareUrl = (productCode: string) => /share-trading/sell?asxCode=${productCode}&accountUuid=${props.accountUuid};
 
 const productNameSort = (a: Investment, b: Investment) =>
 		a.productName.toLowerCase() > b.productName.toLowerCase() ? 1 : -1;
 		
-		```
+```
