@@ -69,3 +69,11 @@ const mapReduxStateToComponentProps = ({
 	};
 };
 ```
+```
+interface Props {
+	order: ShareOrderDetails;
+	brokOrderId: string;
+	cancelOrder: (orderPartId: string) => void;
+	downloadContract: (contractId: string) => void;
+}
+```
