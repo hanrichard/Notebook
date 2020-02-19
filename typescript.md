@@ -1,6 +1,4 @@
-
 ```
-
 export type IconProps = {
 	content: string;
 	id?: string;
