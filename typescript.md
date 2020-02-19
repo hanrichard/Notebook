@@ -77,3 +77,8 @@ interface Props {
 	downloadContract: (contractId: string) => void;
 }
 ```
+```
+function getApraUrl(badgeTheme: string) {
+		return `/${badgeTheme}/public/apra`;
+	}
+```	
