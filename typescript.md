@@ -79,6 +79,6 @@ interface Props {
 ```
 ```
 function getApraUrl(badgeTheme: string) {
-		return `/${badgeTheme}/public/apra`;
-	}
+	return `/${badgeTheme}/public/apra`;
+}
 ```	
