@@ -1,6 +1,6 @@
 ### reference
 - https://github.com/typescript-cheatsheets/react-typescript-cheatsheet
-~ https://fettblog.eu/typescript-react/components/
+- https://fettblog.eu/typescript-react/components/
 
 
 ### codes
