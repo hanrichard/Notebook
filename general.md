@@ -136,6 +136,13 @@ const dashboard = ({auth, profile: {loading}}) => {}
 ### routing 
 withRouter with redirecting
 
+```
+const history = createHashHistory({
+  hashType: 'slash',
+  getUserConfirmation: UserConfirmation(ref),
+});
+```
+
 ### send data
 ```
 const config = {
