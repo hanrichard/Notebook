@@ -24,6 +24,6 @@ const [state, dispatch] = useReducer(reducer, initState)
 import context from ....
 const {dispatch} = userContext(context)
 
-dispatch({type: "LOGIN_USER", data})
+dispatch({type: "LOGIN_USER", payload: date})
 ```
 
