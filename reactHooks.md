@@ -12,3 +12,18 @@
 https://reactjs.org/docs/hooks-reference.html#usereducer
 
 
+
+### useContext
+```
+const initState = useContext(context)
+const [state, dispatch] = useReducer(reducer, initState)
+```
+
+
+```
+import context from ....
+const {dispatch} = userContext(context)
+
+dispatch({type: "LOGIN_USER", data})
+```
+
