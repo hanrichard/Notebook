@@ -13,7 +13,7 @@ https://reactjs.org/docs/hooks-reference.html#usereducer
 
 
 
-### useContext
+### useContext and useReducer
 
 ```
 import {createContext} from react
