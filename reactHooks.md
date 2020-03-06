@@ -14,9 +14,19 @@ https://reactjs.org/docs/hooks-reference.html#usereducer
 
 
 ### useContext
+
+```
+import {createContext} from react
+const context = createContext({
+  current: null
+})
+```
+
 ```
 const initState = useContext(context)
 const [state, dispatch] = useReducer(reducer, initState)
+
+<Context.provider value=({state, dispatch})>
 ```
 
 
