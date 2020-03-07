@@ -137,6 +137,12 @@ const dashboard = ({auth, profile: {loading}}) => {}
 withRouter with redirecting
 
 ```
+{Redirect} from "react-router-dom"
+
+state.isAuth ? <Redirect to="/"/>:<Login />
+```
+
+```
 const history = createHashHistory({
   hashType: 'slash',
   getUserConfirmation: UserConfirmation(ref),
