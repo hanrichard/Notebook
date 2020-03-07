@@ -143,6 +143,22 @@ state.isAuth ? <Redirect to="/"/>:<Login />
 ```
 
 ```
+const ProtectRouter = ({component: Component, ...rest}) => {
+  const { state } = useContext(context)
+  return (
+    <Router render = {
+      props => {
+        !state.isAuth ? <Redirect to ="/" /> : <Component {...props} />
+      }
+    }
+  )
+}
+
+
+```
+
+
+```
 const history = createHashHistory({
   hashType: 'slash',
   getUserConfirmation: UserConfirmation(ref),
