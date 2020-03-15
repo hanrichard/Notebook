@@ -18,7 +18,7 @@ const historty = createHistory()
 
 ### private route
 ```
-const PrivateRoute = () => {
+const PrivateRoute = ({component:Component, auth}) => {
   <Route render=(props => auth.isAuthicated === true ?
     <Component auth={auth} {...props} />:
     <Redirect to="/"/>
