@@ -10,3 +10,7 @@ const historty = createHistory()
   </Switch>
 </Router>
 ```
+
+```
+ <Route = "/test" render=((props)=> {handleSomething(props); return <Callback />})>
+```
