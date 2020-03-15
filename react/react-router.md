@@ -1,12 +1,11 @@
 ### router
 ```
-
 const historty = createHistory()
 
 
 <Router histroy={history}>
   <Switch>
-    <Route = "/" component={bla}>
+    <Route = "/" exact component={bla}>
   </Switch>
 </Router>
 ```
