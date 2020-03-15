@@ -2,7 +2,11 @@
 ```
 
 const historty = createHistory()
+
+
 <Router histroy={history}>
-  <Route = "/" component={bla}>
+  <Switch>
+    <Route = "/" component={bla}>
+  </Switch>
 </Router>
 ```
