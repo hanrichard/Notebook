@@ -14,3 +14,15 @@ const historty = createHistory()
 ```
  <Route = "/test" render=((props)=> {handleSomething(props); return <Callback />})>
 ```
+
+
+### private route
+```
+const PrivateRoute = () => {
+  <Route render=(props => auth.isAuthicated === true ?
+    <Component auth={auth} {...props} />:
+    <Redirect to="/"/>
+  )
+}
+
+```
