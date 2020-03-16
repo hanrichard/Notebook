@@ -2,7 +2,6 @@
 ```
 const historty = createHistory()
 
-
 <Router histroy={history}>
   <Switch>
     <Route = "/" exact component={bla}>
@@ -26,7 +25,6 @@ const PrivateRoute = ({component:Component, auth}) => {
 }
 
 ```
-
 
 ### routing 
 withRouter with redirecting
