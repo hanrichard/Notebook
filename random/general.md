@@ -133,29 +133,7 @@ const handleChange = input => e => {
 ```
 const dashboard = ({auth, profile: {loading}}) => {}
 ```
-### routing 
-withRouter with redirecting
 
-```
-{Redirect} from "react-router-dom"
-
-state.isAuth ? <Redirect to="/"/>:<Login />
-```
-
-```
-const ProtectRouter = ({component: Component, ...rest}) => {
-  const { state } = useContext(context)
-  return (
-    <Router render = {
-      props => {
-        !state.isAuth ? <Redirect to ="/" /> : <Component {...props} />
-      }
-    }
-  )
-}
-
-
-```
 
 
 ```
