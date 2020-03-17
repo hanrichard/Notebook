@@ -9,6 +9,13 @@ const historty = createHistory()
     <Route = "/test" render=((props)=> <Component {...props} />)>
   </Switch>
 </Router>
+
+<Prompt 
+  when={!this.state.loggedin}
+  message={(location) => {
+    return location.pathname.startWith("/user")? "message 123" : "message 456"
+  }
+>
 ```
 
 ```
