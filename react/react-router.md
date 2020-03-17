@@ -1,5 +1,6 @@
 ### router
 ```
+import {BrowserRouter as Router} from "react-router-dom"
 const historty = createHistory()
 
 <Router histroy={history}>
