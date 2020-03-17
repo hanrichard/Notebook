@@ -13,7 +13,7 @@ const historty = createHistory()
 <Prompt 
   when={!this.state.loggedin}
   message={(location) => {
-    return location.pathname.startWith("/user")? "message 123" : "message 456"
+    return location.pathname.startWith("/user")? "message 123" : true //true means do not prompt message
   }
 >
 ```
