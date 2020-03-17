@@ -57,3 +57,13 @@ const ProtectRouter = ({component: Component, ...rest}) => {
 
 
 ```
+
+### router search query param
+```
+import queryString from "query-string"
+
+const values = queryString(this.props.location.search)
+console.log(values.sort) //?sort=123
+```
+
+
