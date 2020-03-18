@@ -8,3 +8,8 @@ cp  ./src/blablabla ./build/blabla
 ```
 mv ./build/blablabla ./build/BLABLA
 ```
+
+### remove/delete
+```
+rm ./build/blabla
+```
