@@ -8,7 +8,7 @@ put:  dispatch
 export function* createLession(action) {
   try {
     const response = yield call(axios.get,  "link")
-    yield put({"CREATE_SUCCESS", repsonse: response}) //dispatch sucessful
+    yield put({"CREATE_SUCCESS", repsonse: response.data}) //dispatch sucessful
   }
   catch(e) {
     yield put({"CREATE_unSUCCESS", resposne: e}) //dispatch sucessful
