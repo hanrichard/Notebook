@@ -64,6 +64,14 @@ import queryString from "query-string"
 
 const values = queryString(this.props.location.search)
 console.log(values.sort) //?sort=123
+
+
+import { compose } from "redux";
+import { withRouter } from "react-router";
+
+const Banner = ({ location }) => {
+export default compose(withRouter)(Banner);
 ```
+
 
 
