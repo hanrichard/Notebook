@@ -24,3 +24,30 @@ export default function* saga(){
 }
 
 ```
+
+```
+/**
+ *  content request/response handler
+ */
+export function* getPromoCodeData(action) {
+  const endpoint = yield select(getEndpoints);
+  const requestURL = `${endpoint.mulesoft}/campaigns/${action.value.promodeCode}`;
+  const options = {
+    method: "GET",
+    headers: getMuleSoftHeader()
+  };
+
+  try {
+    // Call our request helper (see 'utils/request')
+    if (action.value.promodeCode === mockResponse.campaignCode) {
+      // const promoCodeResponse = yield call(request, requestURL, options);
+      const promoCodeResponse = mockResponse;
+      // const status = ErrorConstants(address, 200);
+      yield put(codeLoaded(promoCodeResponse));
+    }
+  } catch (err) {
+    const errorStatus = ErrorConstants([], err.code, err.errorMsg);
+  }
+}
+```
+
