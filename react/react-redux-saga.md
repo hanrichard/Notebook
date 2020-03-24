@@ -1,6 +1,6 @@
 https://redux-saga.js.org/docs/introduction/BeginnerTutorial.html
 
-### simiple template
+### simple template
 
 put:  dispatch
 
@@ -49,5 +49,14 @@ export function* getPromoCodeData(action) {
     const errorStatus = ErrorConstants([], err.code, err.errorMsg);
   }
 }
+```
+
+```
+  const quoteDateQuery = action.value.quoteDate === undefined ? "" : `&?quoteDate=${action.value.quoteDate}`
+  const quoteTypeQuery = action.value.quoteType === undefined ? "" : `&?coverageType=${action.value.quoteType}`
+  const quoteStateQuery = action.value.quoteState === undefined ? "" : `&?state=${action.value.quoteState}`
+
+  const requestURL = `${endpoint.mulesoft}/campaigns/${action.value.promodeCode}${quoteDateQuery}&productCode=QBEMotorVehicle${quoteTypeQuery}&channelType=online&producerCode=QBEDirect${quoteStateQuery}`;
+
 ```
 
