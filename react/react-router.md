@@ -73,5 +73,24 @@ const Banner = ({ location }) => {
 export default compose(withRouter)(Banner);
 ```
 
+### compose
+```
+
+const mapStateToProps = createStructuredSelector({
+  steps: state => state.data.data.questions.spa.steps,
+  formValues: state => state.formEvents.formValue,
+  router: state => state.router,
+  campaignCodeData: state => state.quote.campaignCodeData
+});
+
+const mapDispatchToProps = dispatch => ({
+  getCampaignCodeData: value => dispatch(getCampaignCode(value))
+});
+
+export default compose(
+  withRouter,
+  connect(mapStateToProps, mapDispatchToProps)
+)(CampaignBanner);
+```
 
 
