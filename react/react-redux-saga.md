@@ -60,3 +60,27 @@ export function* getPromoCodeData(action) {
 
 ```
 
+```
+//actions
+export const getCampaignCode = value => ({ type: LOAD_CAMPAIGNCODE, value });
+
+//reduxstore
+import { LOAD_CAMPAIGNCODE,
+} from './modules/app/actions';
+
+takeLatest(LOAD_CAMPAIGNCODE, getCampaignCodeData),
+
+//customSaga
+export function* getCampaignCodeData(action) {}
+
+//file.js
+const mapDispatchToProps = dispatch => ({
+  getCampaignCodeData: value => dispatch(getCampaignCode(value))
+});
+
+export default compose(
+  withRouter,
+  connect(mapStateToProps, mapDispatchToProps)
+)(CampaignBanner);
+
+```
