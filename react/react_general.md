@@ -2,7 +2,7 @@
 shouldComponentUpdate
 return false
 ```
-will not update, if props udpates
+will not update, if props updates
 
 ```
 componentWillReceiveProps(nextProps)
