@@ -19,3 +19,8 @@ useEffect(() => myInput.current && myInput.current.focus());
 // Parse our ref to our textField
 <Textfield inputRef={myInput} />
 ```
+
+### connect withrouter withstyle
+```
+export default connect(mapStateToProps)(withStyles(ThemeStyles)(FormComponent))
+```
