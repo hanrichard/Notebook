@@ -84,3 +84,11 @@ export default compose(
 )(CampaignBanner);
 
 ```
+```
+export const isRequestInProgress = (state) => {
+  const inProgressCount = get(state, 'apiProgress.counter.count', null);
+  const allValues = Object.values(get(state, 'status.loading', {}));
+  const isLoading = Array.isArray(allValues) && allValues.some(e => e === true);
+  return isLoading || (inProgressCount && inProgressCount > 0);
+};
+```
