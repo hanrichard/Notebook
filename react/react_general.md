@@ -1,8 +1,8 @@
+### component will not re-render
 ```
 shouldComponentUpdate
 return false
 ```
-will not update, if props updates
 
 ```
 componentWillReceiveProps(nextProps)
