@@ -80,7 +80,7 @@ const mapDispatchToProps = dispatch => ({
 ```
 
 
-# connect mulit 
+### connect mulit 
 ```
 export default compose(
   withRouter,
