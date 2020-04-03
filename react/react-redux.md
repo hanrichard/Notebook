@@ -77,7 +77,11 @@ export function* getCampaignCodeData(action) {}
 const mapDispatchToProps = dispatch => ({
   getCampaignCodeData: value => dispatch(getCampaignCode(value))
 });
+```
 
+
+# connect mulit 
+```
 export default compose(
   withRouter,
   connect(mapStateToProps, mapDispatchToProps)
