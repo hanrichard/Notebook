@@ -83,6 +83,9 @@ export default compose(
   connect(mapStateToProps, mapDispatchToProps)
 )(CampaignBanner);
 
+connect(mapStateToProps, mapDispatchToProps)
+)(CampaignBanner);
+
 ```
 ```
 export const isRequestInProgress = (state) => {
