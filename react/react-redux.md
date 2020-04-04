@@ -1,5 +1,3 @@
-https://redux-saga.js.org/docs/introduction/BeginnerTutorial.html
-
 ### simple template
 
 put:  dispatch
