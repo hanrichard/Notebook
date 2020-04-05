@@ -14,6 +14,7 @@ sessionstorageSet("abc", "blac")
 sessionstorageGet("abc")
 sessionstorageRemove("abc")
 
+stringify from object to sring
 ```
 
 ### ref
