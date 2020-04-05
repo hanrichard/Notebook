@@ -8,6 +8,14 @@ return false
 componentWillReceiveProps(nextProps)
   this.setState({bla:nextProps})
 ```
+### sessionStorage
+```
+sessionstorageSet("abc", "blac")
+sessionstorageGet("abc")
+sessionstorageRemove("abc")
+
+```
+
 ### ref
 ```
 // Import our hooks
