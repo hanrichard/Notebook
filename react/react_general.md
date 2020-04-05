@@ -34,3 +34,8 @@ useEffect(() => myInput.current && myInput.current.focus());
 ```
 export default connect(mapStateToProps)(withStyles(ThemeStyles)(FormComponent))
 ```
+
+### analyze 
+```
+source file explore "build/static/js/*.js"
+```
