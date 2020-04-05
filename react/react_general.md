@@ -15,6 +15,7 @@ sessionstorage.Getitem("abc")
 sessionstorage.Removeitem("abc")
 
 stringify from object to sring
+JSON.parse()
 ```
 
 ### ref
