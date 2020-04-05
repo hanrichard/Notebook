@@ -10,9 +10,9 @@ componentWillReceiveProps(nextProps)
 ```
 ### sessionStorage
 ```
-sessionstorageSet("abc", "blac")
-sessionstorageGet("abc")
-sessionstorageRemove("abc")
+sessionstorage.Setitem("abc", "blac")
+sessionstorage.Getitem("abc")
+sessionstorage.Removeitem("abc")
 
 stringify from object to sring
 ```
