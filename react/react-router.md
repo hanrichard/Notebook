@@ -7,6 +7,7 @@ const historty = createHistory()
   <Switch>
     <Route = "/" activeStyle={{color: red}} exact component={bla}>
     <Route = "/test" render=((props)=> <Component {...props} />)>
+    <Route component={Notfound} /> //not found
   </Switch>
 </Router>
 
