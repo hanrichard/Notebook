@@ -37,5 +37,14 @@ export default connect(mapStateToProps)(withStyles(ThemeStyles)(FormComponent))
 
 ### analyze 
 ```
-source file explore "build/static/js/*.js"
+source map exploer file explore "build/static/js/*.js"
 ```
+
+### react optimise
+- Use React.Fragments to Avoid Additional HTML Element Wrappers
+- Spreading props on DOM elements
+- Use Reselect in Redux to Avoid Frequent Re-render
+- Memoize React Components
+- Function/Stateless Components and React.PureComponent
+
+Reference: https://www.codementor.io/blog/react-optimization-5wiwjnf9hj
