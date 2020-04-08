@@ -35,10 +35,6 @@ useEffect(() => myInput.current && myInput.current.focus());
 export default connect(mapStateToProps)(withStyles(ThemeStyles)(FormComponent))
 ```
 
-### analyze 
-```
-source map exploer file explore "build/static/js/*.js"
-```
 
 ### react optimise
 - Use React.Fragments to Avoid Additional HTML Element Wrappers
@@ -51,7 +47,10 @@ Reference: https://www.codementor.io/blog/react-optimization-5wiwjnf9hj
 
 
 ### good react lib
-date-fns
-react-device-detect
-
+- date-fns
+- react-device-detect
+- source-map-explorer
+```
+source map exploer file explore "build/static/js/*.js"
+```
 
