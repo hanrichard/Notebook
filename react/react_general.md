@@ -50,4 +50,8 @@ source map exploer file explore "build/static/js/*.js"
 Reference: https://www.codementor.io/blog/react-optimization-5wiwjnf9hj
 
 
-### date-fns
+### good react lib
+date-fns
+react-device-detect
+
+
