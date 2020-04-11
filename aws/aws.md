@@ -1,4 +1,4 @@
-###AWS Lambda: Useful Resources & Links
+### AWS Lambda: Useful Resources & Links
 The following links should be helpful:
 
 - AWS Lambda Overview: https://aws.amazon.com/lambda/
