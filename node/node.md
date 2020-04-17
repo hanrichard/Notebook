@@ -24,3 +24,11 @@ http.createServer(function (req, res) {
   res.end();
 }).listen(8080);
 ```
+
+```
+var fs = require('fs');
+var rs = fs.createReadStream('./demofile.txt');
+rs.on('open', function () {
+  console.log('The file is open');
+});
+```
