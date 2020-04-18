@@ -1,6 +1,12 @@
 https://expressjs.com/
 
-
+```
+if(process.env.NODE_ENV === "production"){
+  module.exports = require("./prod") 
+} else {
+  module.exports = require("./dev") 
+}
+```
 ```
 res.statusCode = 200
 res.setHeader()
