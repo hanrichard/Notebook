@@ -36,5 +36,5 @@ router.get('/', async (req, res) => {
 ### body parser
 ```
 const bodypaser = require('body-parser')
-app.use(bodypaser.urlencoded)
+app.use(bodypaser.urlencoded({extended:false}))
 ```
