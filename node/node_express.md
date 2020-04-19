@@ -51,5 +51,5 @@ res.statusCode(200).sendFile(path.join(__dirname, "view", "index.html"))
 
 ### static serve
 ```
-app.use(express.static(path.join(__dirname, "public", "css","main.css"))
+app.use(express.static(path.join(__dirname, "public"))
 ```
