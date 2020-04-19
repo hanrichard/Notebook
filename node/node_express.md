@@ -38,3 +38,8 @@ router.get('/', async (req, res) => {
 const bodypaser = require('body-parser')
 app.use(bodypaser.urlencoded({extended:false}))
 ```
+
+### common path
+```
+app.use("admin", adminRoutes)
+```
