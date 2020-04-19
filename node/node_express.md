@@ -41,5 +41,5 @@ app.use(bodypaser.urlencoded({extended:false}))
 
 ### common path
 ```
-app.use("admin", adminRoutes)
+app.use("/admin", adminRoutes)
 ```
