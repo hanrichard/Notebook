@@ -46,5 +46,5 @@ app.use("/admin", adminRoutes)
 
 ### sendfile
 ```
-res.sendFile(path.join(__dirname, "view", "index.html"))
+res.statusCode(200).sendFile(path.join(__dirname, "view", "index.html"))
 ```
