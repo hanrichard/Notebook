@@ -43,3 +43,8 @@ app.use(bodypaser.urlencoded({extended:false}))
 ```
 app.use("/admin", adminRoutes)
 ```
+
+### sendfile
+```
+res.sendFile(path.join(__dirname, "view", "index.html"))
+```
