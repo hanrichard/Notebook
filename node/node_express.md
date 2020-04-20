@@ -8,6 +8,16 @@ x-auth-token
 Content-Type
 ```
 
+cors header
+```
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', '*')
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE')
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type') 
+})
+
+```
+
 
 ```
 router.get('/me', auth, async (req, res) => {
