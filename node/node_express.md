@@ -62,3 +62,25 @@ res.statusCode(200).sendFile(path.join(__dirname, "view", "index.html"))
 ```
 app.use(express.static(path.join(__dirname, "public"))
 ```
+
+This route path will match acd and abcd.
+```
+app.get('/ab?cd', function (req, res) {
+  res.send('ab?cd')
+})
+This route path will match abcd, abbcd, abbbcd, and so on.
+
+app.get('/ab+cd', function (req, res) {
+  res.send('ab+cd')
+})
+This route path will match abcd, abxcd, abRANDOMcd, ab123cd, and so on.
+
+app.get('/ab*cd', function (req, res) {
+  res.send('ab*cd')
+})
+This route path will match /abe and /abcde.
+
+app.get('/ab(cd)?e', function (req, res) {
+  res.send('ab(cd)?e')
+})
+```
