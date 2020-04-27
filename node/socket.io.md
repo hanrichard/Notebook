@@ -2,7 +2,6 @@
 io.on('connect', onConnect);
 
 function onConnect(socket){
-
   // sending to the client
   socket.emit('hello', 'can you hear me?', 1, 2, 'abc');
 
@@ -47,6 +46,5 @@ function onConnect(socket){
 
   // sending to all connected clients
   io.emit('an event sent to all connected clients');
-
 };
 ```
