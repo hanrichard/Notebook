@@ -89,6 +89,8 @@ app.get('/ab(cd)?e', function (req, res) {
 const router = express.Router();
 const { getblalb } = require('../blblbl')
 
-router.route('/').get(getblablaba)
+router.route('/').get(getblablaba).post(addblblbl)
+
+router.route('/:id').delete(deleteblablaba)
 ```
 
