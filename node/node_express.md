@@ -84,3 +84,11 @@ app.get('/ab(cd)?e', function (req, res) {
   res.send('ab(cd)?e')
 })
 ```
+
+```
+const router = express.Router();
+const { getblalb } = require('../blblbl')
+
+router.route('/').get(getblablaba)
+```
+
