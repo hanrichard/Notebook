@@ -15,3 +15,9 @@ const object = array.reduce((result, item) => {
 
 document.write("<pre>"+JSON.stringify(object,null,4)+"</pre>")
 ```
+
+# remove key
+```
+    delete insureListValue[SITE_CORE_IDS.INSURED_PERSON_FIRST_NAME];
+
+```
