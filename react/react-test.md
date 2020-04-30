@@ -139,3 +139,50 @@ As suggested by `react-testing-library`, we should use `data-testid` attr to fac
 const sel = id => `[data-testid="${id}"]`
 const emailField = rootNode.querySelector(sel('email'))
 ```
+
+
+### mockup
+```
+/**
+ * Test gtmDataLayer
+ */
+import { gtmDataLayer } from '../gtmDataLayer';
+
+window.dataLayer = window.dataLayer || [];
+global.window = Object.create(window);
+
+const url = "http://www.test.com/#/motor-insurance/payment/now";
+Object.defineProperty(window, 'location', {
+  value: {
+    href: url
+  }
+});
+
+var mock = (function() {
+    var store = {};
+    return {
+      getItem: function(key) {
+        return store[key];
+      },
+      setItem: function(key, value) {
+        store[key] = value.toString();
+      },
+      clear: function() {
+        store = {};
+      }
+    };
+})();
+  
+Object.defineProperty(window, 'sessionStorage', { 
+    value: mock,
+});
+
+sessionStorage.setItem('productCode', '123');
+
+describe('gtmDataLayer', () => {
+    it('should do thing 1', () => {
+        gtmDataLayer('text');
+        expect(window.dataLayer).toEqual( [{"eventAction": "payment/now", "eventCategory": '123', "eventLabel": "text"}]); 
+    });
+});
+```
