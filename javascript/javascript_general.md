@@ -78,5 +78,9 @@ document.getElementsByTagName('FOOTER');
 ```
 
 
-
+### windows
+```
+window.location.href
+window.location.hash
+```
 
