@@ -5,6 +5,10 @@
 - Complex components become hard to understand
 - Classes confuse both people and machines
 
+### advantages
+- Improving Readability of Component Tree
+- Encapsulating Side effects
+- Composable, Reusable Logic
 
 ### Rules of Hooks
 - Only Call Hooks at the Top Level
