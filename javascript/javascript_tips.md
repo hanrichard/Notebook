@@ -39,3 +39,9 @@ export const getLastThreeYearItems = () => {
 };
 
 ```
+
+### work with date
+```
+
+  const startDate = polEffDt ? new Date(polEffDt.replace(/(\d{2})\/(\d{2})\/(\d{4})/, '$3-$2-$1T00:00:00')) : new Date(new Date().setHours(0, 0, 0, 0));
+```
