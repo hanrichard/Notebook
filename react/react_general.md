@@ -54,3 +54,30 @@ Reference: https://www.codementor.io/blog/react-optimization-5wiwjnf9hj
 source map exploer file explore "build/static/js/*.js"
 ```
 
+
+
+### replace parent class
+```
+const EL = cardVariant === 'pill' ? PillField : TileField
+
+  const Element = ({option}) => {
+    return <EL name={option.name}
+    group={uniqueGroup}
+    value={option.name}
+    title={option.title}
+    iconName={option.icon}
+    helperText={option.description}
+    onChange={handleChange}
+    selected={value === option.name}
+    type={"radio"}/>
+  }
+  
+  return (
+    <TileContainer>
+      {options.map((option, index) => {
+        const key = index;
+        return <Element option={option} />
+      })}
+    </TileContainer>
+  );
+  ```
