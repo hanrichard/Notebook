@@ -45,3 +45,24 @@ export const getLastThreeYearItems = () => {
 
   const startDate = polEffDt ? new Date(polEffDt.replace(/(\d{2})\/(\d{2})\/(\d{4})/, '$3-$2-$1T00:00:00')) : new Date(new Date().setHours(0, 0, 0, 0));
 ```
+
+
+### add/remove class
+```
+    window.addEventListener('resize', this.onEachResize);
+
+
+handleMobileFooter = () => {
+    const footer = document.getElementsByTagName('FOOTER');
+    
+
+    if (footer.length > 0 && isMobileOnly) {
+      const footerClassList = footer[0].classList;
+      if (document.activeElement.tagName === 'INPUT') {
+        footerClassList.add('footer--hide');
+      } else {
+        footerClassList.remove('footer--hide');
+      }
+    }
+  }
+  ```
