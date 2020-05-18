@@ -16,6 +16,8 @@ Around the same time, Amazon found that its developers enjoyed using SimpleDB, i
 
 DynamoDB, which was launched as a database service on AWS in 2012, was built to address the limitations of both SimpleDB and Dynamo.
 
+ssd, fast, flexible, high availabity bult-in
+
 ### What is MongoDB?
 MongoDB is an open, non-tabular database built by MongoDB, Inc. The company was established in 2007 by former executives and engineers from DoubleClick, which Google acquired and now uses as the backbone of its advertising products. The founders originally focused on building a platform as a service using entirely open source components, but when they struggled to find an existing database that could meet their requirements for building a service in the cloud, they began work on their own database system. After realizing the potential of the database software on its own, the team shifted their focus to what is now MongoDB. The company released MongoDB in 2009.
 
