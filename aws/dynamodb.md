@@ -35,11 +35,10 @@ In summer of 2016, MongoDB Atlas, the MongoDB fully managed cloud database servi
 
 
 ### scan vs query
-```
 
 When creating a Dynamodb table select Primary Keys and Local Secondary Indexes (LSIs) so that a Query operation returns the items you want.
 
 Query operations only support an equal operator evaluation of the Primary Key, but conditional (=, <, <=, >, >=, Between, Begin) on the Sort Key.
 
 Scan operations are generally slower and more expensive as the operation has to iterate through each item in your table to get the items you are requesting.
-```
+
