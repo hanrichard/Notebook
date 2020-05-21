@@ -32,3 +32,14 @@ A unified experience that gives them the freedom to run anywhere – allowing th
 MongoDB stores data in flexible, JSON-like records called documents, meaning fields can vary from document to document and data structure can be changed over time. This model maps to objects in application code, making data easy to work with for developers. Related information is typically stored together for fast query access through the MongoDB query language. MongoDB uses dynamic schemas, allowing users to create records without first defining the structure, such as the fields or the types of their values. Users can change the structure of documents simply by adding new fields or deleting existing ones. This flexible data model makes it easy for developers to represent hierarchical relationships and other more complex structures. Documents in a collection need not have an identical set of fields and denormalization of data is common.
 
 In summer of 2016, MongoDB Atlas, the MongoDB fully managed cloud database service, was announced. Atlas offers genuine MongoDB under the hood, allowing users to offload operational tasks and featuring built-in best practices for running the database with all the power and freedom developers are used to with MongoDB.
+
+
+### scan vs query
+```
+
+When creating a Dynamodb table select Primary Keys and Local Secondary Indexes (LSIs) so that a Query operation returns the items you want.
+
+Query operations only support an equal operator evaluation of the Primary Key, but conditional (=, <, <=, >, >=, Between, Begin) on the Sort Key.
+
+Scan operations are generally slower and more expensive as the operation has to iterate through each item in your table to get the items you are requesting.
+```
