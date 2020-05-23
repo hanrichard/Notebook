@@ -1,5 +1,7 @@
+### url 
+```
 const URLParameterList = URLParameter.substr(1).split('&')
-
+```
 
 ### array to object
 ```
