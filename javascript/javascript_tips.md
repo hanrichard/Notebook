@@ -2,6 +2,14 @@
 ```
 const URLParameterList = URLParameter.substr(1).split('&')
 ```
+### url deocde encode
+```
+  var uri = "https://w3schools.com/my test.asp?name=ståle&car=saab";
+  var uri_enc = encodeURIComponent(uri);
+  var uri_dec = decodeURIComponent(uri_enc);
+ ```
+  
+
 
 ### array to object
 ```
