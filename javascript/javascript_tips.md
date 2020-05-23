@@ -66,3 +66,7 @@ handleMobileFooter = () => {
     }
   }
   ```
+### underscore
+```
+!_.isEmpty(data.Items) {}
+```
