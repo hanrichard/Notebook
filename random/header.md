@@ -4,6 +4,18 @@
 - Client errors (400–499),
 - and Server errors (500–599).
 
+### often used
+- 200 OK
+- 304 Not Modified
+- 400 Bad Request
+- 401 Unauthorized
+- 403 Forbidden
+- 404 Not Found
+- 409 Conflict
+- 500 internal Server Error 
+
+
+
 ### Status-Code   
 - |  "100"  ; Section 10.1.1: Continue
 - | "101"  ; Section 10.1.2: Switching Protocols
