@@ -1,5 +1,6 @@
 ### lambda event
 event: input data or input parameters
+based on event source
 
 ### lambda common pattern
 
