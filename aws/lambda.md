@@ -9,6 +9,7 @@ based on event source
 it's method and property
 - context.functionVersion
 - context.functionArn
+- context.identity
 ```
 
 ### lambda common pattern
