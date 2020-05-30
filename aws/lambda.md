@@ -1,3 +1,6 @@
+### lambda event
+event: input data or input parameters
+
 ### lambda common pattern
 
 ```
