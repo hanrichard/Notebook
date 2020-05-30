@@ -4,9 +4,11 @@ event: input data or input parameters
 based on event source
 ```
 
-### lambda conetent
+### lambda context
 ```
 it's method and property
+- context.functionVersion
+- context.functionArn
 ```
 
 ### lambda common pattern
