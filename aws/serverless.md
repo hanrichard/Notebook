@@ -1,7 +1,7 @@
 ### serverless
 The Serverless Framework gives you everything you need to develop, deploy, monitor and secure serverless applications on any cloud.
 
-```
+
 -- config or -c Name of your configuration file, if other than serverless.yml|.yaml|.js|.json.
 -- stage or -s The stage in your service that you want to deploy to.
 -- region or -r The region in that stage that you want to deploy to.
@@ -14,4 +14,3 @@ The Serverless Framework gives you everything you need to develop, deploy, monit
 -- no-aws-s3-accelerate Explicitly disables S3 Transfer Acceleration. It also requires additional s3:PutAccelerateConfiguration permissions.
 
 
-```
