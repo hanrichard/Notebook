@@ -45,3 +45,13 @@ let data = await dynamodb.delete({
 }).promose()
 
 ```
+
+### JSON
+```
+let {a, b} = JSON.parse(event.body)
+
+JSON.stringify({
+  a: a,
+  b: b
+})
+```
