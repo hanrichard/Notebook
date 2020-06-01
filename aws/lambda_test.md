@@ -1,3 +1,4 @@
+### get id
 ```
 'use strict'
 const AWS = require('aws-sdk');
@@ -24,6 +25,7 @@ exports.handler = async (event, context) => {
 }
 ```
 
+### put id
 
 ```
 'use strict'
@@ -52,6 +54,8 @@ exports.handler = async (event, context) => {
   }
 }
 ```
+
+### get items
 ```
 'use strict';
 const AWS = require('aws-sdk');
