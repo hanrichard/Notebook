@@ -14,3 +14,6 @@ The Serverless Framework gives you everything you need to develop, deploy, monit
 - no-aws-s3-accelerate Explicitly disables S3 Transfer Acceleration. It also requires additional s3:PutAccelerateConfiguration permissions.
 
 
+### sam vs serverless
+- SAM is the Serverless Application Model. It’s an AWS abstraction over AWS CloudFormation that makes common serverless architectures easier to define.
+- The Serverless Framework is an open-source project maintained by Serverless that not only makes it easier to define but also deploy serverless.
