@@ -17,3 +17,9 @@ The Serverless Framework gives you everything you need to develop, deploy, monit
 ### sam vs serverless
 - SAM is the Serverless Application Model. It’s an AWS abstraction over AWS CloudFormation that makes common serverless architectures easier to define.
 - The Serverless Framework is an open-source project maintained by Serverless that not only makes it easier to define but also deploy serverless.
+
+### commands
+```
+http://localhost:3000/dev/users/create
+sls offline
+```
