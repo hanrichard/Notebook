@@ -17,7 +17,7 @@ exports.handler = async (event, context) => {
   }
 
   try {
-    const data = await documentClient.get(params);
+    const data = await documentClient.get(params).promise();
     console.log("xx", data);
   } catch (err) {
     console.log(err);
