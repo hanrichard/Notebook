@@ -22,4 +22,5 @@ The Serverless Framework gives you everything you need to develop, deploy, monit
 ```
 http://localhost:3000/dev/users/create
 sls offline
+sls deploy
 ```
