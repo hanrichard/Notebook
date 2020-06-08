@@ -3,7 +3,7 @@
 - cluster
 - ssm - system manager
 - ttl - time to live
-
+- oia - origin identity access
 ### s3 
 - glacier
 
