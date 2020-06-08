@@ -33,3 +33,7 @@
 - alb: application
 - nlb: network
 - clb: class
+
+### efc: file
+
+### ebs: block store
