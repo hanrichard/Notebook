@@ -8,3 +8,5 @@
 
 ### vpc
 - bastion
+- nat
+- nacl
