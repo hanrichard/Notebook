@@ -23,3 +23,6 @@
 - soa: start of authority
 - A record: ip
 - Cname: domain names
+
+### ec2: elastic compute cloud
+- ami - awazon machine image
