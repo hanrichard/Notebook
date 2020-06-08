@@ -14,3 +14,6 @@
 ### coginto
 - uidc
 - saml
+
+### cli
+- aws s3 li --profile blbl
