@@ -1,7 +1,7 @@
 ### aws
 - resilient
 - cluster
-
+- ssm - system manager
 
 ### s3 
 - glacier
