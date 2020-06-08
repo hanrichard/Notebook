@@ -17,3 +17,6 @@
 
 ### cli
 - aws s3 li --profile blbl
+
+### DNS
+- domain name system
