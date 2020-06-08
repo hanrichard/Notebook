@@ -20,3 +20,4 @@
 
 ### DNS
 - domain name system
+- soa: start of authority
