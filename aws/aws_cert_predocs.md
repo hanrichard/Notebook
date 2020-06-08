@@ -21,5 +21,5 @@
 ### DNS
 - domain name system
 - soa: start of authority
-- A name
-- Cname
+- A record: ip
+- Cname: domain names
