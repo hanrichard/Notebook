@@ -26,3 +26,4 @@
 
 ### ec2: elastic compute cloud
 ### ami - awazon machine image
+### asg - auto scale group
