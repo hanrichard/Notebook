@@ -25,4 +25,4 @@
 - Cname: domain names
 
 ### ec2: elastic compute cloud
-- ami - awazon machine image
+### ami - awazon machine image
