@@ -38,3 +38,6 @@
 ### efc: file
 
 ### ebs: block store
+
+### aurora
+- acu: aurora capicability unit 
