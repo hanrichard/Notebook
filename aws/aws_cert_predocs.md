@@ -45,3 +45,5 @@
 ### redshift
 - oltp: online transaction processing
 - olap: online analtyical processing
+- kms: key management service
+- hsm: hardware securit management
