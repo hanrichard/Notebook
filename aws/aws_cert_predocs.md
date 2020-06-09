@@ -47,3 +47,6 @@
 - olap: online analtyical processing
 - kms: key management service
 - hsm: hardware securit management
+
+### cloudformation
+- iac: infrastrucutre as code
