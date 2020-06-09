@@ -41,3 +41,7 @@
 
 ### aurora
 - acu: aurora capicability unit 
+
+### redshift
+- oltp: online transaction processing
+- olap: online analtyical processing
