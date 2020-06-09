@@ -55,3 +55,5 @@
 
 ### sqs
 - fifo: first in first out
+
+### ha: high availibity
