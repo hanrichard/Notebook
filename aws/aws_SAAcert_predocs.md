@@ -53,4 +53,5 @@
 ### cloudformation
 - iac: infrastrucutre as code
 
-
+### sqs
+- fifo: first in first out
