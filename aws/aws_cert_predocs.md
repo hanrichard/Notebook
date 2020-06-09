@@ -1,9 +1,11 @@
 ### aws
 - resilient
 - cluster
-- ssm - system manager
-- ttl - time to live
-- oia - origin identity access
+- ssm: system manager
+- ttl: time to live
+- oia: origin identity access
+- sse: server side encryption
+
 ### s3 
 - glacier
 
@@ -50,3 +52,5 @@
 
 ### cloudformation
 - iac: infrastrucutre as code
+
+
