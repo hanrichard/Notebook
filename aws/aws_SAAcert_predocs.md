@@ -9,6 +9,7 @@
 - smb: Server Message Block
 - iscsi: internet small computer system interface
 - vtl: virtual tape library
+- arn: Amazon Resource Name
 
 ### s3 
 - glacier
