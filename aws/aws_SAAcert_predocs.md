@@ -6,6 +6,7 @@
 - oia: origin identity access
 - sse: server side encryption
 - emr: elastic map reduce
+- smb: Server Message Block
 
 ### s3 
 - glacier
