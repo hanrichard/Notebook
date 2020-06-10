@@ -42,7 +42,7 @@
 - nlb: network
 - clb: class
 
-### efc: file
+### efc: file system
 
 ### ebs: block store
 
