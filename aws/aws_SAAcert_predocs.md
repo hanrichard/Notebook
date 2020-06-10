@@ -5,6 +5,7 @@
 - ttl: time to live
 - oia: origin identity access
 - sse: server side encryption
+- emr: elastic map reduce
 
 ### s3 
 - glacier
