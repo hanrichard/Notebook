@@ -8,6 +8,7 @@
 - emr: elastic map reduce
 - smb: Server Message Block
 - iscsi: internet small computer system interface
+- vtl: virtual tape library
 
 ### s3 
 - glacier
