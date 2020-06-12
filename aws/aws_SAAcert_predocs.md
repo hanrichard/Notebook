@@ -10,6 +10,7 @@
 - iscsi: internet small computer system interface
 - vtl: virtual tape library
 - arn: Amazon Resource Name
+- ssl: Secure Sockets Layer
 
 ### s3 
 - glacier
