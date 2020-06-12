@@ -1,5 +1,5 @@
 ### aws
-- resilient
+- resilient: 有弹力的
 - cluster
 - ssm: system manager
 - ttl: time to live
