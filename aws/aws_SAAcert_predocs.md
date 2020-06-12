@@ -11,6 +11,9 @@
 - vtl: virtual tape library
 - arn: Amazon Resource Name
 - ssl: Secure Sockets Layer
+- ENI: elastic network interface
+- ena: Elastic Network Adapter
+- efa: Elastic Fabric Adapter
 
 ### s3 
 - glacier
