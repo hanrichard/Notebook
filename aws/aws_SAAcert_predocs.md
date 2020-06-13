@@ -1,6 +1,6 @@
 ### aws
 - resilient: 有弹力的
-- cluster
+- cluster: An Amazon ECS cluster is a logical grouping of tasks or services
 - ssm: system manager
 - ttl: time to live
 - oia: origin identity access
