@@ -45,3 +45,4 @@ edge location: read and write
 ### snowball
 - 50tb
 - 100tb, computing, lambda
+- import and export s3
