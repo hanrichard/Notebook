@@ -21,3 +21,10 @@ bucket: acl ( access control lists )/ bucket policy
 encryption: 
 ssl: Secure Sockets Layer 
 tls: Transport Layer Security
+
+sse-s3: s3 manages keys
+sse-kms: s3 + customer
+sse-c: customer
+client side
+
+life cycle: transition -> expire
