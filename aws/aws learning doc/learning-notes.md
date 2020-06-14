@@ -27,4 +27,4 @@ sse-kms: s3 + customer
 sse-c: customer
 client side
 
-life cycle: transition -> expire
+life cycle: transition -> expire (current and previous version)
