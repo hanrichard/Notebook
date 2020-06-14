@@ -48,8 +48,8 @@ edge location: read and write
 - import and export s3
 
 ### gateway ???
-- file gateway: nfs & smb
+- file gateway: nfs & smb - flat files
 - volumn gateway: isci
-  - stored volumns
-  - cached volumns
+  - stored volumns: entire dataset and asyc back on s3
+  - cached volumns: entire dataset and frequent accessed data cache on site
 - tape gateway
