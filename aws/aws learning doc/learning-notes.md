@@ -39,3 +39,5 @@ bucket share:
 ### replication
 - versioning enable
 - delete/ delete marker not replicated 
+
+edge location: read and write
