@@ -46,3 +46,10 @@ edge location: read and write
 - 50tb
 - 100tb, computing, lambda
 - import and export s3
+
+### gateway
+- file gateway: nfs & smb
+- volumn gateway: isci
+  - stored volumns
+  - cached volumns
+- tape gateway
