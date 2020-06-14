@@ -50,8 +50,8 @@ edge location: read and write
 ### gateway ???
 - file gateway: nfs & smb - flat files
 - volumn gateway: isci
-  - stored volumns: entire dataset and asyc back on s3
-  - cached volumns: entire dataset and frequent accessed data cache on site
+  - stored volumns: entire dataset and asyc back on S3
+  - cached volumns: entire dataset on S3 and frequent accessed data cache on site
 - tape gateway
 
 ### athene
