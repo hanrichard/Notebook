@@ -30,3 +30,12 @@ client side
 life cycle: transition -> expire (current and previous version)
 
 scp: service control policies
+
+bucket share:
+- use bucket policy and IAM
+- bucket ACL and IAM
+- cross-account IAM
+
+### replication
+- versioning enable
+- delete/ delete marker not replicated 
