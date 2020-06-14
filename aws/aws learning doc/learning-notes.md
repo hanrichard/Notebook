@@ -41,3 +41,7 @@ bucket share:
 - delete/ delete marker not replicated 
 
 edge location: read and write
+
+### snowball
+- 50tb
+- 100tb, computing, lambda
