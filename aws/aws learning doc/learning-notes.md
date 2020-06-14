@@ -2,7 +2,7 @@
 one service can use other service, ec2 can use s3
 
 ### s3
-read after write consistency
+read after write consistency for new object
 eventual consistency put and delete files
 11 9s
 
