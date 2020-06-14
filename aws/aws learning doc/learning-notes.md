@@ -2,6 +2,8 @@
 one service can use other service, ec2 can use s3
 
 ### s3
+For objects larger than 100 megabytes use the Multipart Upload capability.
+
 read after write consistency for new object
 eventual consistency OVERWRITE put and delete files
 11 9s
