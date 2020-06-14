@@ -1,6 +1,6 @@
 ### aws
-- resilient
-- cluster
+- resilient: 有弹力的
+- cluster: An Amazon ECS cluster is a logical grouping of tasks or services
 - ssm: system manager
 - ttl: time to live
 - oia: origin identity access
@@ -10,6 +10,10 @@
 - iscsi: internet small computer system interface
 - vtl: virtual tape library
 - arn: Amazon Resource Name
+- ssl: Secure Sockets Layer
+- ENI: elastic network interface
+- ena: Elastic Network Adapter
+- efa: Elastic Fabric Adapter
 
 ### s3 
 - glacier
