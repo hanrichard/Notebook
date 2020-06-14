@@ -11,7 +11,7 @@ s3 standard: million seconds
 s3 ia: infrequent accessed: charge to retrieve: million seconds
 s3 one zone ia: million seconds
 s3 intelligent tiering: machine learnng: million seconds
-glacier: configure retrive time minute - hours
+glacier: configure retrive time minute - hours: 1 min - 12 hours
 glacier deep: retrive 12 hours 
 
 file size: 0-5TB
