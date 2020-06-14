@@ -17,3 +17,7 @@ glacier deep: retrive 12 hours
 file size: 0-5TB
 
 bucket: acl ( access control lists )/ bucket policy
+
+encryption: 
+ssl: Secure Sockets Layer 
+tls: Transport Layer Security
