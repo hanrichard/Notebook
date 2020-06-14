@@ -28,3 +28,5 @@ sse-c: customer
 client side
 
 life cycle: transition -> expire (current and previous version)
+
+scp: service control policies
