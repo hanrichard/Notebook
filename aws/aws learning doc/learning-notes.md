@@ -53,3 +53,11 @@ edge location: read and write
   - stored volumns: entire dataset and asyc back on s3
   - cached volumns: entire dataset and frequent accessed data cache on site
 - tape gateway
+
+### athene
+sql s3 as database
+
+pii: personal identificable information
+
+### macie
+use ai to analyse pii
