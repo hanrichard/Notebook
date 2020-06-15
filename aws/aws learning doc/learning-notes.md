@@ -6,6 +6,10 @@ For objects larger than 100 megabytes use the Multipart Upload capability.
 Amazon S3 automatically scales to high request rates.
 For example, your application can achieve at least 3,500 PUT/POST/DELETE and 5,500 GET requests per second per prefix in a bucket.
 
+An S3 bucket is region specific.
+
+aCLs – define permissions to access the object.
+
 read after write consistency for new object
 eventual consistency OVERWRITE put and delete files
 11 9s
