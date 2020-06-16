@@ -74,3 +74,4 @@ use cases
 redis: mulit AZ
 can backup reids and restore of redis
 
+### iops: Input/Output Operations Per Second
