@@ -16,5 +16,7 @@ thoughtout: 思虑周到的；经过仔细考虑的
 - change security group effect immediately
 - any number of ec2 instance into security group
 - ec2 instance can have multiple scurity group
+- can NOT block ip by using securty group, but can block by "network access control list"
+- set allow rules, but no deny rules
 
 - security is stateful
