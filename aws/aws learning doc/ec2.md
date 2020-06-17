@@ -11,5 +11,6 @@ thoughtout: 思虑周到的；经过仔细考虑的
 
 
 ### security group
-- inbound traffic is block by default, you can add rules
+- all inbound traffic is block by default, you can add rules
+- all outbound traffic is allowed
 - effect immediately
