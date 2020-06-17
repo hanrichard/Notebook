@@ -8,3 +8,8 @@ thoughtout: 思虑周到的；经过仔细考虑的
 - root will be detelet if terminate
 - root can be encrypted 
 - additional volumn can be encrypted
+
+
+### security group
+- everything is block, you can add rules
+- effect immediately
