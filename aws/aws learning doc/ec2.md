@@ -40,3 +40,5 @@ types:
 - snap shot exist in s3
 - ebs = vitual hard disk
 - snapshot are incremental -> only last change will move to s3
+- good: stop instance -> take snapshot
+- volumn locates same with ec2
