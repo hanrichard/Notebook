@@ -34,4 +34,9 @@ types:
 
 
 ### ec2 mirgration
-- ec2/ebs snapshot -> create image -> create ec2 -> choose AZ -> done 
+- ec2/ebs snapshot -> create AMI image -> launch/create ec2 -> choose AZ -> done 
+- action copy and choose AZ (new region)
+
+- snap shot exist in s3
+- ebs = vitual hard disk
+- snapshot are incremental -> only last change will move to s3
