@@ -62,3 +62,7 @@ types:
 
 - use case: choose ENA over VF, virtual function
 
+### encryptions 
+- snapshot -> copy snapshot and enable encyption -> create ami from snapshot -> launch ami to lauch new cryption instances
+- share snapshots, only UNencryption, can share with AWS acconts or public
+
