@@ -31,3 +31,7 @@ types:
 - throughput optimised hhd: big data & data warehouse 500G - 16T : 500 iops
 - cold hhd: file server - 500g- 16T - 250iops
 - ebs magnetic: infrequenctly access- 1g - 1t 40-200 iops
+
+
+### ec2 mirgration
+- ec2/ebs snapshot -> create image -> create ec2 -> choose AZ -> done 
