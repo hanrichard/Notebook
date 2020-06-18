@@ -20,3 +20,7 @@ thoughtout: 思虑周到的；经过仔细考虑的
 - set allow rules, but no deny rules
 
 - security is stateful
+
+
+### ebs
+- virtual hard disk on cloud
