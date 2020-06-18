@@ -24,3 +24,10 @@ thoughtout: 思虑周到的；经过仔细考虑的
 
 ### ebs
 - virtual hard disk on cloud
+
+types:
+- general purpse ssd: most work - 1G - 16T - 16000 iops
+- provisioned iops ssd - databases - 4G - 16T - 64000 iops
+- throughput optimised hhd: big data & data warehouse 500G - 16T : 500 iops
+- cold hhd: file server - 500g- 16T - 250iops
+- ebs magnetic: infrequenctly access- 1g - 1t 40-200 iops
