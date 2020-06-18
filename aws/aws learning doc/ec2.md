@@ -34,7 +34,11 @@ types:
 
 
 ### ec2 mirgration
-- ec2/ebs snapshot -> create AMI image -> launch/create ec2 -> choose AZ -> done 
+
+- move to new AZ: ec2/ebs snapshot -> create AMI image -> launch/create ec2 -> choose AZ -> done 
+- move to new Regin: ec2/ebs snapshot -> create AMI image -> copy AMI to new region -> launch/create ec2 -> done
+
+
 - action copy and choose AZ (new region)
 
 - snap shot exist in s3
@@ -42,3 +46,10 @@ types:
 - snapshot are incremental -> only last change will move to s3
 - good: stop instance -> take snapshot
 - volumn locates same with ec2
+
+### AMI TYPES
+- ebs volumns: the root device for an instance launched from AMI is AMAZON EBS volume created from !!!AMAZON EBS snapshot!!!
+- instance store volumes: the root device for an instance launched from AMI EBS volume created from a template store in !!!AMAZON S3!!!
+
+
+
