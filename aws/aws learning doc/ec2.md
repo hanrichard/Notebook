@@ -58,7 +58,7 @@ types:
 ### ENI VS ENA VS EFA
 - elastic network interface: basic networking- virtual network card -> low budget, HA solution -> multiple ENI for each network
 - enhanced networking - high performance, lower cpu -> when you need 10gb/s to 100gb/s, reliable and high throughtput
-- elastic fabric adapter - accelerate high performance computing (HPC), marchine learning - not support winodws, linux only
+- elastic fabric adapter - accelerate high performance computing (HPC), marchine learning - not support winodws, linux only || OS by-pass
 
 - use case: choose ENA over VF, virtual function
 
