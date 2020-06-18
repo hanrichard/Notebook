@@ -51,5 +51,14 @@ types:
 - ebs volumns: the root device for an instance launched from AMI is AMAZON EBS volume created from !!!AMAZON EBS snapshot!!!
 - instance store volumes: the root device for an instance launched from AMI EBS volume created from a template store in !!!AMAZON S3!!!
 
+- instance store can NOT stop, fails = lose data
+- ebs: can stop, and reboot, not lose data
 
+
+### ENI VS ENA VS EFA
+- elastic network interface: basic networking- virtual network card -> low budget, HA solution -> multiple ENI for each network
+- enhanced networking - high performance, lower cpu -> when you need 10gb/s to 100gb/s, reliable and high throughtput
+- elastic fabric adapter - accelerate high performance computing (HPC), marchine learning - not support winodws, linux only
+
+- use case: choose ENA over VF, virtual function
 
