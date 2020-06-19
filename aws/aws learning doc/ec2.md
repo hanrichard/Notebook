@@ -79,3 +79,5 @@ types:
 ### role attached to ec2
 - safer than store access/secret key on ec2
 - easy to manage
+- roles can be assigned to ec2 by console or cammnd line
+- roles are universal- in any region
