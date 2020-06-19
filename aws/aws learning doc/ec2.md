@@ -73,3 +73,9 @@ types:
 - alarm;
 - event;
 - dashboards
+- logs
+
+
+### role attached to ec2
+- safer than store access/secret key on ec2
+- easy to manage
