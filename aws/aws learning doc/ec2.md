@@ -66,3 +66,10 @@ types:
 - snapshot -> copy snapshot and enable encyption -> create ami from snapshot -> launch ami to lauch new cryption instances
 - share snapshots, only UNencryption, can share with AWS acconts or public
 
+### cloud watch/cloud trail
+- cloud watch: monitor performance 
+- cloud trail: monitor api calls in the aws platform/auditing
+
+- alarm;
+- event;
+- dashboards
