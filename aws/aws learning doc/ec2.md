@@ -81,3 +81,8 @@ types:
 - easy to manage
 - roles can be assigned to ec2 by console or cammnd line
 - roles are universal- in any region
+
+
+### ec2 metadata
+- get information of instance
+- curl http://blllb/latest/meta-data/
