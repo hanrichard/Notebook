@@ -86,3 +86,4 @@ types:
 ### ec2 metadata
 - get information of instance
 - curl http://blllb/latest/meta-data/
+- curl http://blllb/latest/user-data/
