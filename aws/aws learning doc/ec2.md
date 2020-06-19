@@ -86,4 +86,6 @@ types:
 ### ec2 metadata
 - get information of instance
 - curl http://blllb/latest/meta-data/
-- curl http://blllb/latest/user-data/
+- curl http://blllb/latest/user-data/ - script data
+
+### efs: elastic file system
