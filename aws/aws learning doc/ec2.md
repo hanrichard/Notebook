@@ -89,3 +89,18 @@ types:
 - curl http://blllb/latest/user-data/ - script data
 
 ### efs: elastic file system
+- support network file system version 4 - protocal - NFSv4
+- only pay storage we use
+- data is store in multiple az in a region
+- read after write consistency
+
+### fsx
+- server message block: SMB - based file service
+- designed for windows/ windows application
+
+- amazon fsx for lustre: performance
+
+### ec2 placement group
+- cluster placement group - low network legency/high throughput - in same AZ and in same region
+- spread placement group - individual critical ec2 instances
+- partition placement group - multiple ec2 instances - HDFs, Hbase and Cassandra
