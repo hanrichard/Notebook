@@ -102,5 +102,11 @@ types:
 
 ### ec2 placement group
 - cluster placement group - low network legency/high throughput - in same AZ and in same region
-- spread placement group - individual critical ec2 instances
-- partition placement group - multiple ec2 instances - HDFs, Hbase and Cassandra
+- spread placement group - individual critical ec2 instances - same region
+- partition placement group - multiple ec2 instances - HDFs, Hbase and Cassandra - same region
+
+- same type within group/ can not merge
+
+
+### waf: web application firewall
+- block : waf/Network ACLs
