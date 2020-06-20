@@ -2,7 +2,9 @@
 
 - cname can not be http://test.com, must be A name or alias
 - EBS: never have ipv4 address, but using dns name
-- 
+
+### normally use alias record over cname
+
 - SOA
 - NS records
 - A record
