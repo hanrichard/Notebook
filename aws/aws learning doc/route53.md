@@ -12,6 +12,10 @@
 - MX records - mail
 - PTR record: opposite of A record
 
+### alias records: 
+it maps resource record sets in your hosted zone to EBS, cloudfront, s3 that are configured as website
+
+
 ### simple routing
 - one record with multiple ips, and return random order
 
