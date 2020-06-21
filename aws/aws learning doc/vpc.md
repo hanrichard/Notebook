@@ -53,3 +53,20 @@
 ### bastion:
 - to securely administer EC2 instance(using ssh/rdp)
 - not use nat gateway as bastion
+
+### direct connect:
+- connects your data center to aws
+- high throughout workloads (lots of traffic)
+- need stable and reliable secure connection
+
+
+### global accelerator
+- improve global and local performance
+- two static ip
+- control traffic dial
+
+### vpc end points
+- interface end point
+- gateway end point: s3 and dynamodb
+
+
