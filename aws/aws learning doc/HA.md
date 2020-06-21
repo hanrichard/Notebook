@@ -22,3 +22,10 @@
   
 ### auto scaling
 - scaling options: maintain current instance levels at all time, scale manually, based on a schedule, on demand, predictive scaling
+
+
+### ha
+- use multiple az's and multiple regions 
+- multi az for recover, read replicas for RDS, perfomnace
+- scale out - number
+- scale up, increase size
