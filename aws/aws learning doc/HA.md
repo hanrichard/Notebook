@@ -10,3 +10,15 @@
 - instance monitered by ELB are reported as inservice or outofservice
 - health checks check the instance health by talking to them
 - load balancer have their DNS name, no ip address
+
+### advanced
+- sticky session: if all goes to one ec2, disable sticky session
+  - sticky to same ec2 instance, can be useful if you are storing information locally to that instance
+- cross zone load balancing: evenly balance
+  - enables your load balance accross multiple AZ
+- path patterns: 
+  - www.url.com - one zone
+  - www.url.com/images - other zone
+  
+### auto scaling
+- scaling options: maintain current instance levels at all time, scale manually, based on a schedule, on demand, predictive scaling
