@@ -30,3 +30,8 @@
 
 ### nacl
 - it goes before security group
+- auto comes with default NACL, and allow all inbound/outbound traffic
+- custom NACL, but denies all inbound/outbound
+- subnet goes with default NACL if not defined
+- block ips by NACL, not security group
+- NACL can have multi sub
