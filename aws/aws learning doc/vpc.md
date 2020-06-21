@@ -26,3 +26,7 @@
 - not associate with secutiy group
 - auto get a public ip
 - update route table
+
+
+### nacl
+- it goes before security group
