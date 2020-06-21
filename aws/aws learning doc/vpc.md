@@ -12,6 +12,7 @@
 
 
 ### nat instance
+- it is a ec2 instance
 - when creating a NAT instance, disable source/destination check on the instance
 - NAT instance must be in a public subnet
 - must be a route out of the private subnet to the NAT instance -  to work
@@ -35,3 +36,20 @@
 - subnet goes with default NACL if not defined
 - block ips by NACL, not security group
 - NACL can have multi sub
+
+
+### custom vpc vs elb
+- at least TWO public subnet
+
+### vpc flow logs
+- vpc
+- subnet
+- network interface level
+
+- can not change configuration, for example, can not associate a different IAM role with flow log
+- not all IP traffic is monitored
+
+
+### bastion:
+- to securely administer EC2 instance(using ssh/rdp)
+- not use nat gateway as bastion
