@@ -1,4 +1,4 @@
-### elb
+### ELB
 - application load - load balance of http/https, operate at layer 7
 
 - network load - fix ip - tcp traffic, operate at layer 4 - extreme performance
@@ -24,7 +24,7 @@
 - scaling options: maintain current instance levels at all time, scale manually, based on a schedule, on demand, predictive scaling
 
 
-### ha
+### HA
 - use multiple az's and multiple regions 
 - multi az for recover, read replicas for RDS, perfomnace
 - scale out - number
