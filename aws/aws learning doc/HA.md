@@ -29,3 +29,10 @@
 - multi az for recover, read replicas for RDS, perfomnace
 - scale out - number
 - scale up, increase size
+
+### cloudformation
+- a way of completely scripting your cloud env
+
+### elastic beanstalk
+
+
