@@ -31,3 +31,44 @@
 
 ### sns vs sqs
 both message services in aws
+
+
+### elastic transcoder
+- media transcoder in the cloud - convet media file to different formats - pay by timne and resolution
+
+### api gateway
+- api caching - to increase performance
+- low cost, scale automatically
+- throttle api gateway to prevent attacks
+- log results to cloudwatch
+- cors enable, enforceable by browser
+
+### kinesis
+- purchas from online store
+- stock price
+- gaming data
+- social network data
+- geospatial data - uber
+- iot sensor data
+
+### types 
+- kinesis streams - consist of shads - data persist - 24 hrs - upto 7 days
+- kinesis firehose - optional lambda functon -> s3 -> redshift -- no data persist/need to something with data
+- kinesis analytics -  analytics on the fly / analysis inside kinesis -> s3 redshift
+
+### cognito
+- user pool - signup/signin/register - json web token - jwts - username password, etc
+- identity pools - provide temporary aws credentials to access aws service, s3 or dynamodb - granting aws credentials - to access resouces
+
+
+
+
+
+
+
+
+
+
+
+
+
