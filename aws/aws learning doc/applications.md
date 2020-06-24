@@ -1,4 +1,4 @@
-### sqs
+### sqs - polls 
 - !!!decouple!!! the components of an application, so they can run independantly, easing message management between components
 - 256k message
 
@@ -23,3 +23,11 @@
 - decider - decide to do what next
 
 - activity workers - carry out the activity tasks
+
+
+### sns
+- push notification, instantaneous, push based delivery (no polling)
+- across multiple AZs
+
+### sns vs sqs
+both message services in aws
