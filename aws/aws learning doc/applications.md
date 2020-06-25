@@ -1,6 +1,6 @@
 ### sqs - polls 
 - !!!decouple!!! the components of an application, so they can run independantly, easing message management between components
-- 256k message
+- 256k message, if bigger store in s3
 
 - standard queues
 - fifo queues - 300 transaction per second
