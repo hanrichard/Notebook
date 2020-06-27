@@ -6,3 +6,7 @@
 - aws x-ray = debug
 - doing things globally, backup s3 to other s3 
 - rds is not serverless, aurora is serverless
+
+
+
+### Elastic Container Service = ecs
