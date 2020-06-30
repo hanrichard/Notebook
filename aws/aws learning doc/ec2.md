@@ -135,4 +135,6 @@ types:
 - system status need aws fix
 - instance status need you fix
 
-### nat gateway
+### nat gateway than nat instance
+- nat instance by you - can use a bastion host - need to assign a secure group - no ha
+- nat gateway by aws - can not ssh - no secure group - automatic ha
