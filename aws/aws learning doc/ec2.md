@@ -136,5 +136,5 @@ types:
 - instance status need you fix
 
 ### nat gateway than nat instance
-- nat instance by you - can use a bastion host - need to assign a secure group - no ha
-- nat gateway by aws - can not ssh - no secure group - automatic ha
+- nat instance by you - can use a bastion host - need to assign a secure group - no ha - use elastic ip or public ip
+- nat gateway by aws - can not ssh - no secure group - automatic ha - choose elastic ip with when create
