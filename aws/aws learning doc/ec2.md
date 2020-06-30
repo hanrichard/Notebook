@@ -69,8 +69,8 @@ types:
 
 ### ENI VS ENA VS EFA
 - elastic network interface: basic networking- virtual network card -> low budget, HA solution -> multiple ENI for each network
-- enhanced networking - high performance, lower cpu -> when you need 10gb/s to 100gb/s, reliable and high throughtput - certain instance types
-- elastic fabric adapter - accelerate high performance computing (HPC), marchine learning - not support winodws, linux only || OS by-pass. - mpi -message passing interface,  - ml machine learning, NCCL - can scale thousands of gpu and cpu
+- enhanced networking - high performance, lower cpu -> when you need 10gb/s to 100gb/s, reliable and high throughtput - certain instance types - high bandwich - hvm limited types
+- elastic fabric adapter - accelerate high performance computing (HPC), marchine learning - not support winodws, linux only || OS by-pass. - mpi -message passing interface,  - ml machine learning, NCCL - can scale thousands of gpu and cpu - tightly coupled
 
 - use case: choose ENA over VF, virtual function
 
@@ -116,12 +116,23 @@ types:
 - amazon fsx for lustre: performance
 
 ### ec2 placement group
-- cluster placement group - low network legency/high throughput - in same AZ and in same region
-- spread placement group - individual critical ec2 instances - same region
-- partition placement group - multiple ec2 instances - HDFs, Hbase and Cassandra - same region
+- cluster placement group - low network legency/high throughput - in same AZ and in same region - single az
+- spread placement group - individual critical ec2 instances - same region - can span multi az - 7 instance max
+- partition placement group - multiple ec2 instances - HDFs, Hbase and Cassandra - same region - can span mult az - 
 
 - same type within group/ can not merge
 
 
 ### waf: web application firewall
 - block : waf/Network ACLs
+
+
+### iam 
+- more secure
+- attach/modife anytime
+- only one attach to instance
+- are unvisal and can be use in any region
+- system status need aws fix
+- instance status need you fix
+
+### nat gateway
