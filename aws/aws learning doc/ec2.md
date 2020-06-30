@@ -58,6 +58,11 @@ types:
 - ebs: can stop, and reboot, not lose data
 
 
+- template: root volumn for instance
+- launch permission that control aws account can use ami to launch
+- a block device mapping , volumn to attach instance
+
+
 ### ENI VS ENA VS EFA
 - elastic network interface: basic networking- virtual network card -> low budget, HA solution -> multiple ENI for each network
 - enhanced networking - high performance, lower cpu -> when you need 10gb/s to 100gb/s, reliable and high throughtput
