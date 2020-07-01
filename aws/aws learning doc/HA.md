@@ -3,7 +3,7 @@
 
 - network load - fix ip - tcp traffic, operate at layer 4 - extreme performance
 
-- classic load - x-forwad and sticky session - 504 timeout error - web server or database error
+- classic load - x-forwad and sticky session - 504 timeout error - web server or database error - layer 4 and 7
 
 - x-forward for  -> pass user ip address -> ec2
 
