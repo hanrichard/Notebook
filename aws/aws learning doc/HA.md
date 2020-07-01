@@ -41,7 +41,7 @@
 - !!! region services
 - !!! can span with in azs widthin same aws region
 - !!! elb must in the same region
-- !!! can change once it's defined
+- !!! can change once it's defined - clone or create a new one  - manually update
 
 
 ### HA
