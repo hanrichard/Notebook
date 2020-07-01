@@ -1,7 +1,7 @@
 ### ELB
-- application load - load balance of http/https, operate at layer 7 - request level - path base host base, query string - support lambda, container ip address as targets
+- application load - load balance of http/https, operate at layer 7 - request level - path base host base, query string - support lambda, container ip address as targets - good for application -  alb attach waf - web application firewall
 
-- network load - fix ip - TCP traffic, operate at layer 4 - extreme performance TLC - connection level - support udp static ip - offloading
+- network load - fix ip - TCP traffic, operate at layer 4 - extreme performance TLC - connection level - support udp static ip - offloading - video game
 
 - classic load - x-forwad and sticky session - 504 timeout error - web server or database error - layer 4 and 7 - old generation not recommond
 
@@ -19,8 +19,11 @@
 - cloud trail - catch api calls
 - stored in s3
 
+!!! at least in TWO As
+!!! can not go cross regions, create one per region
+
 ### advanced
-- sticky session: if all goes to one ec2, disable sticky session
+- sticky session: if all goes to one ec2, disable sticky session - attach to alb or clb
   - sticky to same ec2 instance, can be useful if you are storing information locally to that instance
 - cross zone load balancing: evenly balance
   - enables your load balance accross multiple AZ
