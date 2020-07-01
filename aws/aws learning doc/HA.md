@@ -30,6 +30,10 @@
   
 ### auto scaling
 - scaling options: maintain current instance levels at all time, scale manually, based on a schedule, on demand, predictive scaling
+- !!! region services
+- !!! can span with in azs widthin same aws region
+- !!! elb must in the same region
+- !!! can change once it's defined
 
 
 ### HA
@@ -44,3 +48,10 @@
 ### elastic beanstalk
 
 
+## note:
+- target tracking policy -  maintain 70% cpu
+- simple - erratic 
+- launch first and termate
+- ec2 status heath check
+- when launch configuration is created by console - basic mornitoring is enable by defatul
+- when launch configuration is created by cli - detail mornitoring is enable by defatul
