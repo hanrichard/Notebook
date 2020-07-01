@@ -29,7 +29,12 @@
   - www.url.com/images - other zone
   
 ### auto scaling
-- scaling options: maintain current instance levels at all time, scale manually, based on a schedule, on demand, predictive scaling
+- scaling options: 
+    - maintain current instance levels at all time, 
+    - scale manually, 
+    - based on a schedule, 
+    - on demand, 
+    - predictive scaling
 - !!! region services
 - !!! can span with in azs widthin same aws region
 - !!! elb must in the same region
