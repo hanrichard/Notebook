@@ -69,4 +69,4 @@
 
 - The simple scaling policy makes scaling adjustments when metrics are reached but it’s not used for maintaining a specific target value.
 
-- The step scaling policy makes scaling adjustments when metrics are reached but it’s not used for maintaining a specific target value.
+- The step scaling policy , new verson of simple scale and allow you to create steps
