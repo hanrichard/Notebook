@@ -55,3 +55,10 @@
 - ec2 status heath check
 - when launch configuration is created by console - basic mornitoring is enable by defatul
 - when launch configuration is created by cli - detail mornitoring is enable by defatul
+
+
+- This scaling policy adds or removes capacity as required to keep the metric at, or close to, the specified target value.
+
+- The simple scaling policy makes scaling adjustments when metrics are reached but it’s not used for maintaining a specific target value.
+
+- The step scaling policy makes scaling adjustments when metrics are reached but it’s not used for maintaining a specific target value.
