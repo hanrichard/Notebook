@@ -63,3 +63,6 @@ note:
 
 ### glocal acc
 - improve performance of tcp/udp traffic
+- two static ips in two networks zone
+- multi edge locations
+- targets can be ec2 or elb - alb or nlb
