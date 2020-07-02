@@ -59,7 +59,7 @@ note:
 - cname to another domain name - not ip address
 - cname CAN NOT do apex - awzon.com, alia CAN
 - alias record can only point to s3 bucket as a static website, cloudfront distribution in the same host zone
-
+- An A record simply points a name to an IP address.
 
 ### glocal acc
 - improve performance of tcp/udp traffic
