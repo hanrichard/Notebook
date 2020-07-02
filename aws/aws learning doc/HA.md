@@ -21,6 +21,7 @@
 
 !!! at least in TWO As
 !!! can not go cross regions, create one per region
+!!! EBS volumes are AZ specific but snapshots are region specific.
 
 ### advanced
 - sticky session: if all goes to one ec2, disable sticky session - attach to alb or clb
