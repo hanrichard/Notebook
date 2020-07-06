@@ -1,8 +1,10 @@
 ### features
+
+- auto scale: reboot required, downtime
 - multi AZs: for diaster recover
 - read replicas: for performance - 5 copies - !!! performance
 
-+ oltp: online transition processing - one row
++ oltp: online transition processing - one row - !!! transition
 + olap: online analysis processing - complex
 
 ### redshift: data warehouse - olap - analys
@@ -57,8 +59,8 @@ can async to replicate your snapshot to s3 in another region for disaster recove
 
 ### aurora
 - start 10gb, and increment 10gb, up to 64tb
-- compute can upto 32vcpus and 244 of memory
-- 2 copies in each AZ, and avaiable in 3 AZ, total 6
+- compute can upto 32vcpus and 244G of memory
+- 2 copies in each AZ, and avaiable in 3 AZ, total 6 !!!
 
 - number of copies: aurora replaca - 15 vs mysql - 5 
 - replica location: aurora in one region vs mysql cross region
@@ -75,3 +77,15 @@ redis: mulit AZ
 can backup reids and restore of redis
 
 ### iops: Input/Output Operations Per Second
+
+
+### note:
+- encryption uses AWS KMS
+- scale UP - computing and storage
+- changing instance type - cause downtime
+- rds - ebs volums for db and log storage
+- multi az: span 2 AZs in one region
+- aws recommond proiosn iops for multi az
+
+-- mulit az:  sync - DR
+-- read replic: asyc - ready only DR -  not for ms sql
