@@ -97,3 +97,4 @@ can backup reids and restore of redis
 - AURORA serviceless: mysql and postsql compatible
 - auto starts, down, up 
 
+- Amazon Aurora Multi-Master adds the ability to scale out write performance across multiple Availability Zones and provides configurable read after write consistency.
