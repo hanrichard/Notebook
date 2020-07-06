@@ -7,10 +7,10 @@
 + oltp: online transition processing - one row - !!! transition
 + olap: online analysis processing - complex
 
-### redshift: data warehouse - olap - analys
+### redshift: data warehouse - olap - analys - only ONE zone
 
 
-### elastic cache - in memory cache - speed up existing !!! performance 
+### elastic cache - in memory cache - speed up existing !!! performance  -  good for OLAP
 - memcached - simple
 - redis
 
@@ -34,8 +34,10 @@
 ### dynamdb
 - ssd
 - spread three geographic distint data center
-- evential consistency - best read performance - one second
+- evential consistency - best read performance - one second -  by defaukt
 - strong consistency
+- multi az - cross region relipca options
+- data sync in 3 az in one region
 
 ### redshift
 - single node - 160gb
@@ -62,8 +64,8 @@ can async to replicate your snapshot to s3 in another region for disaster recove
 - compute can upto 32vcpus and 244G of memory
 - 2 copies in each AZ, and avaiable in 3 AZ, total 6 !!!
 
-- number of copies: aurora replaca - 15 vs mysql - 5 
-- replica location: aurora in one region vs mysql cross region
+- number of copies: aurora read replaca - 15 vs mysql - 5 
+- replica location: aurora in ONE region vs mysql CROSS region
 
 backup:
 - snapshot, automate, shared to different aws account
@@ -89,3 +91,9 @@ can backup reids and restore of redis
 
 -- mulit az:  sync - DR
 -- read replic: asyc - ready only DR -  not for ms sql
+
+
+
+- AURORA serviceless: mysql and postsql compatible
+- auto starts, down, up 
+
