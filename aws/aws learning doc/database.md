@@ -61,8 +61,11 @@ can async to replicate your snapshot to s3 in another region for disaster recove
 
 
 ### aurora
+- can span mulit regions - aurora global database
 - start 10gb, and increment 10gb, up to 64tb
 - compute can upto 32vcpus and 244G of memory
+- 2 copies in each AZ, and avaiable in 3 AZ, total 6 !!!
+- good for infrequent database usage/new project
 - 2 copies in each AZ, and avaiable in 3 AZ, total 6 !!!
 
 - number of copies: aurora read replaca - 15 vs mysql - 5 
