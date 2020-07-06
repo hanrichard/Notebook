@@ -38,6 +38,7 @@
 - strong consistency
 - multi az - cross region relipca options
 - data sync in 3 az in one region
+-  3 copies in 3 region
 
 ### redshift
 - single node - 160gb
