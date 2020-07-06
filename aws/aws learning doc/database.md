@@ -99,3 +99,4 @@ can backup reids and restore of redis
 
 - Amazon Aurora Multi-Master adds the ability to scale out write performance across multiple Availability Zones and provides configurable read after write consistency.
 - Aurora Global Database spans multiple regions for disaster recovery.
+- Aurora Cross-Region Replicase scale read operations across regions.
