@@ -69,6 +69,10 @@
 - interface end point
 - gateway end point: s3 and dynamodb
 
-
+IGW is horizontally scaled, redundant and HA.
+IGW performs NAT between private and public IPv4 addresses.
+IGW supports IPv4 and IPv6.
+IGWs must be detached before they can be deleted.
+Can only attach 1 IGW to a VPC at a time.
 
 ### note:
