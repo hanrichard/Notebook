@@ -76,3 +76,23 @@ IGWs must be detached before they can be deleted.
 Can only attach 1 IGW to a VPC at a time.
 
 ### note:
+- vpc are region wide
+- auto assign public ipv4 address to yes
+- subnet route table has a internet gateway
+- instance has public and private ip
+- subnet to a single az
+
+
+- vpc router perfoms routing between azs within fregion
+- each subnet has a router table the router uses to forward traffic within the vpc
+- new subnets are alwasys associatd with default route table
+- securty group - only assign permit rule - stateful
+
+
+### nacl
+- subnet level - permit and deny rules - stateless
+- default allows all traffic
+- custom nacl deny all traffic
+- nacl first then security group
+- gateway endpoint: s3, and dynamodb - vpc endpoint policies
+- interface endpoint: api gateway,  cloudformation, cloudwatch - secury group - elastic network interface with a privagte ip
