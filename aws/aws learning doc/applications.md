@@ -1,4 +1,4 @@
-### sqs - polls 
+### sqs - polls - decoupled  - redshift, dynamodb, ec2, ecs, rds, s3, lambda
 - !!!decouple!!! the components of an application, so they can run independantly, easing message management between components
 - 256k message, if bigger store in s3
 
@@ -10,9 +10,9 @@
 - visiblity timeout period may deliver twice
 - visiblity timeout max is 12hrs
 - sqs guarantees will be processed at least once
-- long poll timeout
+- long poll timeout - reduce cost
 
-### swf - simple work flow service - manual 
+### swf - simple work flow service - manual - human enabled workflow, like order fulfilment 
 - combine digial and human action
 - swf vs sqs: 
   - retenion period upto 14 days - offer a message-oriented api - you need to hanle duplicated message and may need to ensure message is proceed only once - you need to implement your own appication-level tracking
@@ -28,6 +28,7 @@
 ### sns
 - push notification, instantaneous, push based delivery (no polling)
 - across multiple AZs
+- subcriber: http, https, email, email json, sqs, application, lambda
 
 ### sns vs sqs
 both message services in aws
