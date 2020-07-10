@@ -76,6 +76,7 @@ IGWs must be detached before they can be deleted.
 Can only attach 1 IGW to a VPC at a time.
 
 ### note:
+- by default new subnets are associated with the default route table. You need to assign the new route table in order for the instances to see the route to the NAT gateway.
 - An availability zone exists within a region and a VPC can span subnets attached to all AZs in the region.
 - vpc are region wide
 - auto assign public ipv4 address to yes
