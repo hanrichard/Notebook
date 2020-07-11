@@ -192,8 +192,12 @@ types:
  - used for backup
  
  
- note:
+ ### note:
  - encrypted using - ssl
  - encrypted server side with s3 managed encryption keys - sse-s3
  
-
+How can you control access to files and directories in Amazon EFS filesystems?
+- 1 is incorrect. IAM can be used to control who can administer the file system but not control the access to files and directories.
+- 2 is incorrect. EFS security groups control network traffic that is allowed to reach the filesystem.
+- 3 is incorrect. Network ACLs are not used for file and directory permissions, they restrict traffic into and out of subnets.
+- 4 is correct. You can control access to files and directories with POSIX-compliant user and group-level permissions.
