@@ -138,3 +138,62 @@ types:
 ### nat gateway than nat instance
 - nat instance by you - can use a bastion host - need to assign a secure group - no ha - use elastic ip or public ip
 - nat gateway by aws - can not ssh - no secure group - automatic ha - choose elastic ip with when create
+
+
+### ebs note
+- can not attach one ebs to many - use elastic file system
+- replicated accross multi servers in a az
+- must be in the same az as instance they are attached to
+- root ebs are deleted on termination by default
+
+
+### ebs instance - high performance - temporary storage - eg: load balanced pool
+- instance store can not be stopped
+- instance store volume root device are created from AMI templates stored on s3
+- ebs can be stpped, detached and reattached, launched from ami that bakced by ebs snapshots
+
+###  snap shots - migrate a system to a new az or region
+- convert a unencrypted volume to a encypted volume
+- stores on s3
+- can access es2 api
+- !!! ebs volumes are az specific but snapshots are region specific
+
+
+### efs
+- file storage not block storage
+- multi az metadata and datastorage
+- connect 1 to 1000 of ec2, from multi azs in one region
+- read after write consistency 
+- access control using IAM
+- access to files and dir with user and group level permissions
+- efs security groups act as a firewall, and the rules you add define the traffic flow
+- encryptions - kms
+
+### fsx
+- fsx provides you with native compatibility of 3rd partu file system with feature of workload, as window based storage, HA, machine learning, and electronic design automation - eda
+
+- types:
+ - fsx for window file server - support for smb protocal, windows ntfs, and microsoft active directory (ad) - ssd
+ - fsx for lustre for compute-intensive workload - mahine learning, high perfomace computing, video processin, financial modelling, electroic design automation
+ 
+ 
+ ### file gateway
+ - offers smb or nfs based access to data in s3 with local caching
+ - supports s3 standard, s3 standard ia, s3 one zone
+ - file block
+ 
+ ### volume gateway 
+ - block based
+ - type:
+  - cached volume mode: entire file on s3, and cached on-site
+  - stored volume mode: entire dataset is stored on-site, and async bakc to s3
+  
+ ### tape gateway
+ - used for backup
+ 
+ 
+ note:
+ - encrypted using - ssl
+ - encrypted server side with s3 managed encryption keys - sse-s3
+ 
+
