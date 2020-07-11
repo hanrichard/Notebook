@@ -145,6 +145,7 @@ types:
 - replicated accross multi servers in a az
 - must be in the same az as instance they are attached to
 - root ebs are deleted on termination by default
+- you cannot attach an EBS volume to an instance in a different AZ.
 
 
 ### ebs instance - high performance - temporary storage - eg: load balanced pool
