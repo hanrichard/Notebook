@@ -61,6 +61,10 @@ both message services in aws
 - iot sensor data
 - scale by adding shards
 
+- Each shard can support up to 1000 PUT records per second.
+- One shard provides a capacity of 1MB/sec data input and 2MB/sec data output. This is not the amount of PUT records supported.
+- Kinesis supports 1000 PUT records per second.
+
 ### types 
 - kinesis streams - consist of shads - data persist - 24 hrs - upto 7 days - stores data for later processing by application
 - kinesis firehose - optional lambda functon -> s3 -> redshift -- no data persist/need to something with data - delivers data directly to aws service - no shards
