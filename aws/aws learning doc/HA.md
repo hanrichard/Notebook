@@ -78,3 +78,4 @@
 
 ### elstic beanstalk is more on deploying applications on ec2
 - allow full control of underlying resouces - ssh
+- data stores in s3
