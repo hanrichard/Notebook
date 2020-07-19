@@ -216,3 +216,6 @@ How can you control access to files and directories in Amazon EFS filesystems?
 - lowest
 - diversifed
 - instancepoolto use count
+
+
+### efa - not support windows, only linux
