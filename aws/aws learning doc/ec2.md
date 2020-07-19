@@ -204,4 +204,4 @@ How can you control access to files and directories in Amazon EFS filesystems?
 - 4 is correct. You can control access to files and directories with POSIX-compliant user and group-level permissions.
 
 
-### ec2 hibernate - store ram into ebs - less than 60 days
+### ec2 hibernate - store ram into ebs - less than 60 days - on demand and reserved
