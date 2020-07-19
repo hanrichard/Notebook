@@ -202,3 +202,6 @@ How can you control access to files and directories in Amazon EFS filesystems?
 - 2 is incorrect. EFS security groups control network traffic that is allowed to reach the filesystem.
 - 3 is incorrect. Network ACLs are not used for file and directory permissions, they restrict traffic into and out of subnets.
 - 4 is correct. You can control access to files and directories with POSIX-compliant user and group-level permissions.
+
+
+### ec2 hibernate - store ram into ebs
