@@ -205,3 +205,7 @@ How can you control access to files and directories in Amazon EFS filesystems?
 
 
 ### ec2 hibernate - store ram into ebs - less than 60 days - on demand and reserved
+
+### spot
+- flexible application
+- spot block - 1-6 hours
