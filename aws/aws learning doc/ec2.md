@@ -117,7 +117,7 @@ types:
 - distrubted file system
 
 ### ec2 placement group
-- cluster placement group - low network legency/high throughput - in same AZ and in same region - single az
+- cluster placement group - low network legency/high throughput - in same AZ and in same region - single az - does not span multi azs
 - spread placement group - individual critical ec2 instances - same region - can span multi az - 7 instance max
 - partition placement group - multiple ec2 instances - HDFs, Hbase and Cassandra - same region - can span mult az - 
 
@@ -224,3 +224,18 @@ How can you control access to files and directories in Amazon EFS filesystems?
 ### hpc
 - aws batch
 - aws parrallcluster
+
+### secruti group
+- inbound traffic is blocked
+- outbound traffic is allowed
+
+
+### 
+- general purpose - most workloads
+- provisioned iops - database
+- throughtput optimised hdd - big data and datawarehouse
+- cold hdd - file server
+- ebs magitic - infrequent 
+
+### cloudwatch - performance
+### cloudtrail - auditing
