@@ -114,7 +114,7 @@ types:
 - designed for windows/ windows application
 
 - amazon fsx for lustre: performance
-- distrubted file system
+- distrubted file system - can store data on s3
 
 ### ec2 placement group
 - cluster placement group - low network legency/high throughput - in same AZ and in same region - single az - does not span multi azs
