@@ -114,6 +114,7 @@ types:
 - designed for windows/ windows application
 
 - amazon fsx for lustre: performance
+- distrubted file system
 
 ### ec2 placement group
 - cluster placement group - low network legency/high throughput - in same AZ and in same region - single az
@@ -219,3 +220,7 @@ How can you control access to files and directories in Amazon EFS filesystems?
 
 
 ### efa - not support windows, only linux
+
+### hpc
+- aws batch
+- aws parrallcluster
