@@ -209,3 +209,4 @@ How can you control access to files and directories in Amazon EFS filesystems?
 ### spot
 - flexible application
 - spot block - 1-6 hours
+- not good for databases
