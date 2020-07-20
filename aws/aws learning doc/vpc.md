@@ -100,3 +100,22 @@ Can only attach 1 IGW to a VPC at a time.
 - nacl first then security group
 - gateway endpoint: s3, and dynamodb - vpc endpoint policies
 - interface endpoint: api gateway,  cloudformation, cloudwatch - secury group - elastic network interface with a privagte ip
+
+
+### vpn hub
+- if you have multi site, each site has vpn connecton, you can have cloud hub to connect those site togeter
+- hub and spoke model
+- it operates over public internet
+
+### transite gateway
+- work on hub and spoke model
+- allow you transitive peering bewtween thousands of vpc and data center
+- work on regional basis and it can work cross regions
+- accross multi aws account, by RAM resouce access manager
+- direct connect and vpn connectons
+- support ip multicast
+
+### priviate link
+- a service to ten, hundred, etc vpcs
+- do not require vpn peer
+- requires a load balancer on service VPC and ENI on custom vpc
