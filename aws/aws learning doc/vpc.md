@@ -4,6 +4,7 @@
 - 1 subnet = 1 az
 - security group = stateful
 - network access conlist = stateless
+- NO transitive peering
 
 
 ### vpc gateway
