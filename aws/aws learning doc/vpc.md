@@ -5,17 +5,18 @@
 - security group = stateful
 - network access conlist = stateless
 - NO transitive peering
+- only one internet gateway per vpc
 
 
 ### vpc gateway
 - one per vpc
-- security groups can't span vpcs
+- security groups can't span vpcs !!!!
 
 
 ### nat instance
 - it is a ec2 instance
 - when creating a NAT instance, disable source/destination check on the instance
-- NAT instance must be in a public subnet
+- NAT instance must be in a public!!!! subnet
 - must be a route out of the private subnet to the NAT instance -  to work
 - increase instance size
 - behind a security group
@@ -26,14 +27,14 @@
 - starts at 5Gps and scale to 45Gps
 - no need to patch
 - not associate with secutiy group
-- auto get a public ip
+- auto assign a public ip
 - update route table
 
 
 ### nacl
 - it goes before security group
-- auto comes with default NACL, and allow all inbound/outbound traffic
-- custom NACL, but denies all inbound/outbound
+- auto comes with default NACL, and it allows all inbound/outbound traffic !!!
+- custom NACL, but denies all inbound/outbound 
 - subnet goes with default NACL if not defined
 - block ips by NACL, not security group
 - NACL can have multi sub
@@ -68,7 +69,7 @@
 
 ### vpc end points
 - interface end point
-- gateway end point: s3 and dynamodb
+- gateway end point: only support - s3 and dynamodb !!!
 
 IGW is horizontally scaled, redundant and HA.
 IGW performs NAT between private and public IPv4 addresses.
