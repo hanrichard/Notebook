@@ -6,6 +6,7 @@
 - network access conlist = stateless
 - NO transitive peering
 - only one internet gateway per vpc
+- security group can not span vpcs !!!
 
 
 ### vpc gateway
