@@ -239,3 +239,6 @@ How can you control access to files and directories in Amazon EFS filesystems?
 
 ### cloudwatch - performance
 ### cloudtrail - auditing
+
+
+### each ec2 has private and public ip
