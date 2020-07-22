@@ -8,7 +8,6 @@
 - only one internet gateway per vpc
 - security group can not span vpcs !!!
 
-
 ### vpc gateway
 - one per vpc
 - security groups can't span vpcs !!!!
