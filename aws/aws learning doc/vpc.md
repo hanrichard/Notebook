@@ -12,7 +12,6 @@
 - one per vpc
 - security groups can't span vpcs !!!!
 
-
 ### nat instance
 - it is a ec2 instance
 - when creating a NAT instance, disable source/destination check on the instance
