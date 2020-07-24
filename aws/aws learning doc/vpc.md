@@ -85,7 +85,6 @@ Can only attach 1 IGW to a VPC at a time.
 - instance has public and private ip
 - subnet to a single az
 
-
 - vpc router perfoms routing between azs within fregion
 - each subnet has a router table the router uses to forward traffic within the vpc
 - new subnets are alwasys associatd with default route table
