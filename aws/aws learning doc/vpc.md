@@ -27,7 +27,7 @@
 - no need to patch
 - not associate with secutiy group
 - auto assign a public ip - elastic ip 
-- update route table
+- update route table !!!!
 
 
 ### nacl
