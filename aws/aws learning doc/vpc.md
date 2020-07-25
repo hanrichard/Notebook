@@ -26,7 +26,7 @@
 - starts at 5Gps and scale to 45Gps
 - no need to patch
 - not associate with secutiy group
-- auto assign a public ip
+- auto assign a public ip - elastic ip 
 - update route table
 
 
