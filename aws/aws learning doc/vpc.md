@@ -118,4 +118,7 @@ Can only attach 1 IGW to a VPC at a time.
 - do not require vpn peer
 - requires a load balancer on service VPC and ENI on custom vpc
 
-In a custom VPC with new subnets in each AZ, there is a route that supports communication across all subnets/AZs. Plus a default SG with an allow rule 'All traffic, all protocols, all ports, from anything using this default SG'.
+- In a custom VPC with new subnets in each AZ, there is a route that supports communication across all subnets/AZs. Plus a default SG with an allow rule 'All traffic, all protocols, all ports, from anything using this default SG'.
+
+- When I create a new security group, all outbound traffic is allowed by default.
+
