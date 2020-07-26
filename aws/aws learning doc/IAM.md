@@ -29,7 +29,7 @@ one service can use other service, ec2 can use s3
 ### ad compatible
 - managed microsoft ad - directory service for microsoft active directory
 - ad connector
-- simple ad
+- simple ad - does not support trust - uses ad connecter
 
 ### not ad compatible
 - cloud directory
@@ -37,9 +37,13 @@ one service can use other service, ec2 can use s3
 
 ### policy
 - identity policy - permission
-- resouce policy - attach s3, sqs
+- resouce policy - attach s3, sqs - api call
 
 
 ### ram
 
 ### saml - sso
+- using existing identities
+- account-level permission
+- saml
+- gsuit office 365
