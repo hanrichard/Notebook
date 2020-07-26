@@ -26,3 +26,24 @@ Amazon API Gatewa: source mapping specified for integrating Amazon API Gateway w
 - compliance requirements 
 - require broder customzation
 - require gpus
+
+
+### fargate:
+- ecs and eks
+- serverless container engine
+- isolation and security
+- each workload runs in its own kernel
+
+### ecr
+- managed docker container registry
+- store, manage and deploy images
+- integrated with ecs and eks
+- works with on-premisese deployments
+- ha
+- integrated with iam
+
+### eks
+- open source software let you deploy and manage containerized applicaton at scale
+- same toolset on premises and in cloud
+- containers are grouped in pods
+- support both ec2 and fargate
