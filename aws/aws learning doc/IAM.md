@@ -34,3 +34,12 @@ one service can use other service, ec2 can use s3
 ### not ad compatible
 - cloud directory
 - cognito user pool
+
+### policy
+- identity policy - permission
+- resouce policy - attach s3, sqs
+
+
+### ram
+
+### saml - sso
