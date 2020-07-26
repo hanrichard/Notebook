@@ -25,3 +25,12 @@ one service can use other service, ec2 can use s3
 - ad connector - allow on premises users to log into aws service with their existing ad credentials - single sign on for on premisises employees and for adding ec2 instance to the domain
 
 - simple ad - low scale, low cost, ad implememntion based on samba - simple user directory
+
+### ad compatible
+- managed microsoft ad - directory service for microsoft active directory
+- ad connector
+- simple ad
+
+### not ad compatible
+- cloud directory
+- cognito user pool
