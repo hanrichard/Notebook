@@ -28,7 +28,8 @@ Amazon API Gatewa: source mapping specified for integrating Amazon API Gateway w
 - require gpus
 
 
-### fargate:
+### fargate instance
+- remove need to provision and manage servers
 - ecs and eks
 - serverless container engine
 - isolation and security
@@ -47,3 +48,6 @@ Amazon API Gatewa: source mapping specified for integrating Amazon API Gateway w
 - same toolset on premises and in cloud
 - containers are grouped in pods
 - support both ec2 and fargate
+- use eks?
+ - already using k8s
+ - want to mirgrate to aws
