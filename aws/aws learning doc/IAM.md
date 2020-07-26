@@ -5,7 +5,7 @@ one service can use other service, ec2 can use s3
 - resouseces-based policy- grant permission to the principal (account, user, role)
 
 ### cognito
-- user pools - user directories that provide signup and signin options for you app users
+- user pools - user directories that provide signup and signin options for you app users - sign and sign up services
 
 - identity pools - grant your users access to other aws services
 
