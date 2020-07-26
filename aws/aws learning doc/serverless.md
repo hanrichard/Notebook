@@ -22,3 +22,7 @@ api gateway
 
 Amazon API Gatewa: source mapping specified for integrating Amazon API Gateway with Lambda?
 
+### choose ec2
+- compliance requirements 
+- require broder customzation
+- require gpus
