@@ -31,7 +31,6 @@
  - aws services intergrated with kms do not support asymmetric cmks
  
  
-
 ### cloudHSM
 - dedicated hardware security module
 - fips 140-2 level3
