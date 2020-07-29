@@ -105,3 +105,32 @@ can backup reids and restore of redis
 - Aurora Global Database spans multiple regions for disaster recovery.
 - Aurora Cross-Region Replicase scale read operations across regions.
 - RDS Multi-AZ does provide automatic failover to a secondary database.
+
+
+### dax
+- fully managed, high a, in memeory cache
+- on demand
+- pronvision capacity
+
+### pitr - point in time recovery 
+- incremental backup
+- not enable by default
+- last restore - 5 mins
+
+### stream - shard - 24 hrs
+
+### global tables - multi region replication
+- globally distributed applicaiton
+- based on dydb stream
+- multi-region redundancy - dr and ha
+- no write
+
+
+### dms
+
+### security
+- encryption at rest using kms
+- site to site vpn
+- direct connect dx
+- iam policy and roles
+- vpc endpoints
