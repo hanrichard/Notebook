@@ -126,11 +126,22 @@ can backup reids and restore of redis
 - no write
 
 
-### dms
-
 ### security
 - encryption at rest using kms
 - site to site vpn
 - direct connect dx
 - iam policy and roles
 - vpc endpoints
+
+### dms
+- pre-create the target tables mannually
+- aws schema convension tool -sct - do not need if same 
+
+### caching capability
+- cloudfront
+- api gateway
+- elastiche - memcached and redis
+- dynamodb 
+
+### emr - big data - achieve data to s3 every 5 min - first setup cluster
+- data stores in maste node
