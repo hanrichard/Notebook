@@ -11,7 +11,7 @@
 
 
 ### elastic cache - in memory cache - speed up existing !!! performance  -  good for OLAP
-- memcached - simple
+- memcached - simple - scale horizontally
 - redis
 
 - rds runs on virtual machine, you can not log into, amzon will patch
@@ -97,6 +97,10 @@ can backup reids and restore of redis
 -- read replic: asyc - ready only DR -  not for ms sql
 
 
+### redshilf - 3 copy - orignal, node, s3 
+- retention 1 day upto 35 days
+
+
 
 - AURORA serviceless: mysql and postsql compatible
 - auto starts, down, up 
@@ -106,6 +110,7 @@ can backup reids and restore of redis
 - Aurora Cross-Region Replicase scale read operations across regions.
 - RDS Multi-AZ does provide automatic failover to a secondary database.
 
+- serverless - used for simple, cost effective option for infrequenet, unpredictable workloads
 
 ### dax
 - fully managed, high a, in memeory cache
