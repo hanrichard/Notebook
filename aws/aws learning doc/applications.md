@@ -86,7 +86,8 @@ both message services in aws
 
 
 
-
+### amazon mq:
+- it is a managed implementation of apache activeMQ
 
 
 
