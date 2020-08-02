@@ -150,3 +150,19 @@ can backup reids and restore of redis
 
 ### emr - big data - achieve data to s3 every 5 min - first setup cluster
 - data stores in maste node
+
+### database mirgation
+- homogeneous - oracle to oracle
+- heterogeneous - oracle to aurora
+- schema coversion tool 
+- coninueuously replicated
+
+### server migration services - sms
+- agentless service
+- aws server migration service connector installed on the source platform
+- saved as ami and launched as ec2 instance
+
+### data sync
+- software agent connects to on-premises nas storage systems
+- the nas uses nfs or smb protocal
+- destination - s3, efs, fsx for windows file server
