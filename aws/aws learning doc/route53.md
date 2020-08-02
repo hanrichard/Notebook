@@ -17,7 +17,7 @@ it maps resource record sets in your hosted zone to EBS, cloudfront, s3 that are
 
 
 ### simple routing
-- one record with multiple ips, and return random order -  no health check
+- one record with multiple ips, and return random order -  no health check !!!
 
 
 ### weightened
