@@ -89,7 +89,6 @@
 - two host in two seperate az, using nbl with static ip and health check - failover to other host - on layer 4
 - one host in one az behind an auto scaling group with health checks and a fixed eip. if fails -> provision a new ec2 in a seperate az, use user data script to provision the same eip to new host - cheapest but downtime
 
-
 ### on premises services with aws
 - database migration services - dms
 - server migration service - sms
