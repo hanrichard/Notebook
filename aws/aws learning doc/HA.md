@@ -77,7 +77,6 @@
 
 - The step scaling policy , new verson of simple scale and allow you to create steps
 
-
 ### cloudformation:
 - infrastuctre
 
