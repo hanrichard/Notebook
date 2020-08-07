@@ -244,3 +244,4 @@ How can you control access to files and directories in Amazon EFS filesystems?
 ### each ec2 has private and public ip
 
 ### LINUX - NFS VS WINDOWS - SMB
+### VOLUM GATEWAY - iscsi
