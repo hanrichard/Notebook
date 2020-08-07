@@ -1,7 +1,7 @@
 ### ELB
 - application load - load balance of http/https, operate at layer 7 - request level - path base host base, query string - support lambda, container ip address as targets - good for application -  alb attach waf - web application firewall
 
-- network load - fix ip - TCP traffic, operate at layer 4 - extreme performance TLC - connection level - support udp static ip - offloading - video game - handling millions of requests - ultra low latency
+- network load - fix ip - TCP traffic, operate at layer 4 - !!! extreme performance TLC - connection level - support udp static ip - offloading - video game - handling millions of requests - ultra low latency 
 
 - classic load - x-forwad and sticky session - 504 timeout error - web server or database error - layer 4 and 7 - old generation not recommond
 
