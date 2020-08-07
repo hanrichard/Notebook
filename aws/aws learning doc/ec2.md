@@ -181,7 +181,7 @@ types:
  
  ### file gateway
  - offers smb or nfs based access to data in s3 with local caching
- - supports s3 standard, s3 standard ia, s3 one zone
+ - supports s3 standard, s3 standard ia, s3 one zone IA !!!
  - file block
  
  ### volume gateway 
