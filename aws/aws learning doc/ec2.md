@@ -110,7 +110,7 @@ types:
 - read after write consistency
 
 ### fsx
-- server message block: SMB - based file service !!!! - windows vs efs - linux unix
+- server message block: SMB - based file service !!!! - windows - smb vs efs - linux unix - s3
 - designed for windows/ windows application
 
 - amazon fsx for lustre: performance
