@@ -166,3 +166,7 @@ can backup reids and restore of redis
 - software agent connects to on-premises nas storage systems
 - the nas uses nfs or smb protocal
 - destination - s3, efs, fsx for windows file server
+
+
+### summary
+- RedShift nodes run on EC2 instances, so for infrequent queries this will not minimize infrastructure costs.
