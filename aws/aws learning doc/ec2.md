@@ -251,3 +251,7 @@ How can you control access to files and directories in Amazon EFS filesystems?
 ### ebs
 - ebs backed - root volume is ebs volume
 - instance backed - root volume is instance store
+
+
+### note
+- AWS Batch eliminates the need to operate third-party commercial or open source batch processing solutions. There is no batch software or servers to install or manage. AWS Batch manages all the infrastructure for you, avoiding the complexities of provisioning, managing, monitoring, and scaling your batch computing jobs.
