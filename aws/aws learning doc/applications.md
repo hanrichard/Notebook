@@ -104,4 +104,8 @@ both message services in aws
 
 
 
+- Kinesis Data Firehose is the easiest way to load streaming data into data stores and analytics tools. Firehose Destinations include: Amazon S3, Amazon Redshift, Amazon Elasticsearch Service, and Splunk.
 
+- Amazon Redshift is a fast, fully managed data warehouse that makes it simple and cost-effective to analyze all your data using standard SQL and existing Business Intelligence (BI) tools.
+
+- RDS is a transactional database and is not a supported Kinesis Firehose destination.
