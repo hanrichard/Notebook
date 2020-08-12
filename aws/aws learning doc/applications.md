@@ -92,7 +92,8 @@ both message services in aws
 
 
 
-
+### test 
+- You can use a Lambda function to process Amazon Simple Notification Service notifications. Amazon SNS supports Lambda functions as a target for messages sent to a topic. This solution decouples the Amazon EC2 application from Lambda and ensures the Lambda function is invoked.
 
 
 
