@@ -1,4 +1,4 @@
-### sqs - polls - decoupled  - redshift, dynamodb, ec2, ecs, rds, s3, lambda
+### sqs - polls - decoupled  - redshift, dynamodb, ec2, ecs, rds, s3, lambda 
 - !!!decouple!!! the components of an application, so they can run independantly, easing message management between components
 - 256k message, if bigger store in s3
 - standard queues -  delivery at least once - massive scalable, using HA - receive exact order but not guaranteed to sent
@@ -83,13 +83,8 @@ both message services in aws
 - user pool - signup/signin/register - json web token - jwts - username password, etc
 - identity pools - provide temporary aws credentials to access aws service, s3 or dynamodb - granting aws credentials - to access resouces
 
-
-
 ### amazon mq:
 - it is a managed implementation of apache activeMQ
-
-
-
 
 ### test note:
 - You can use a Lambda function to process Amazon Simple Notification Service notifications. Amazon SNS supports Lambda functions as a target for messages sent to a topic. This solution decouples the Amazon EC2 application from Lambda and ensures the Lambda function is invoked.
