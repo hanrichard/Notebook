@@ -1,5 +1,5 @@
 ### sqs - polls - decoupled  - redshift, dynamodb, ec2, ecs, rds, s3, lambda 
-- !!!decouple!!! the components of an application, so they can run independantly, easing message management between components
+- !!!decouple!!!!! the components of an application, so they can run independantly, easing message management between components
 - 256k message, if bigger store in s3
 - standard queues -  delivery at least once - massive scalable, using HA - receive exact order but not guaranteed to sent
 - fifo queues - 300 transaction per second
