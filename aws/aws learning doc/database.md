@@ -170,3 +170,7 @@ can backup reids and restore of redis
 
 ### summary
 - RedShift nodes run on EC2 instances, so for infrequent queries this will not minimize infrastructure costs.
+
+
+### test:
+- Amazon DynamoDB Accelerator (DAX) is a fully managed, highly available, in-memory cache for DynamoDB that delivers up to a 10x performance, improvement from milliseconds to microseconds – even at millions of requests per second. You can enable DAX for a DynamoDB database with a few clicks.
