@@ -179,4 +179,4 @@ can backup reids and restore of redis
 
 - INCORRECT: “Vertical scaling for read and write by using Transfer Acceleration” is incorrect. Transfer Acceleration is a feature of S3 for fast uploads of objects.
 
-
+- You can create a read replica as a Multi-AZ DB instance. Amazon RDS creates a standby of your replica in another Availability Zone for failover support for the replica. Creating your read replica as a Multi-AZ DB instance is independent of whether the source database is a Multi-AZ DB instance.
