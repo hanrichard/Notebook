@@ -174,3 +174,9 @@ can backup reids and restore of redis
 
 ### test:
 - Amazon DynamoDB Accelerator (DAX) is a fully managed, highly available, in-memory cache for DynamoDB that delivers up to a 10x performance, improvement from milliseconds to microseconds – even at millions of requests per second. You can enable DAX for a DynamoDB database with a few clicks.
+
+- A Read Replica of an Amazon RDS encrypted instance is also encrypted using the same key as the master instance when both are in the same Region. When in different Regions, a different key can be used.
+
+- INCORRECT: “Vertical scaling for read and write by using Transfer Acceleration” is incorrect. Transfer Acceleration is a feature of S3 for fast uploads of objects.
+
+
