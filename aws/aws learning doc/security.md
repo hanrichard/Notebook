@@ -48,5 +48,23 @@
   - track version
   - set ttl to expire values - password
 
+###
+- AWS recommend that you use the AWS SDKs to make programmatic API calls to IAM. However, you can also use the IAM Query API to make direct calls to the IAM web service. An access key ID and secret access key must be used for authentication when using the Query API.
+
+- The aim of this solution is to create a single sign-on solution that enables users signed in to the organization’s Active Directory service to be able to connect to AWS resources. When developing a custom identity broker you use the AWS STS service.
+
+- The AWS Security Token Service (STS) is a web service that enables you to request temporary, limited-privilege credentials for IAM users or for users that you authenticate (federated users). The steps performed by the custom identity broker to sign users into the AWS management console are:
+
+ - Verify that the user is authenticated by your local identity system
+ - Call the AWS Security Token Service (AWS STS) AssumeRole or GetFederationToken API operations to obtain temporary security credentials for the user
+ - Call the AWS federation endpoint and supply the temporary security credentials to request a sign-in token
+ - Construct a URL for the console that includes the token
+ - Give the URL to the user or invoke the URL on the user’s behalf
+
+- Federation (typically Active Directory) uses SAML 2.0 for authentication and grants temporary access based on the users AD credentials. The user does not need to be a user in IAM.
+
+- AWS customers are welcome to carry out security assessments or penetration tests against their AWS infrastructure without prior approval for 8 services. Please check the AWS link below for the latest information.
+
+- With an identity pool, users can obtain temporary AWS credentials to access AWS services, such as Amazon S3 and DynamoDB.
 
 
