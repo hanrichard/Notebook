@@ -122,3 +122,10 @@ Can only attach 1 IGW to a VPC at a time.
 
 - When I create a new security group, all outbound traffic is allowed by default.
 
+### 
+• Attach an Internet Gateway to your VPC.
+• Ensure that your subnet’s route table points to the Internet Gateway (see below).
+• Ensure that instances in your subnet have a globally unique IP address (public IPv4 address, Elastic IP address, or IPv6 address).
+• Ensure that your network access control and security group rules allow the relevant traffic to flow to and from your instance.
+
+
