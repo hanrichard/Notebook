@@ -18,8 +18,7 @@
   - never leaves aws
   - generate data keys, data key pairs, and random byte sring
   - import your own key marterial
-  
-  
+ 
 
 
 - asymmetric 
