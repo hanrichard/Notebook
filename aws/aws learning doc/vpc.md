@@ -20,7 +20,6 @@
 - increase instance size
 - behind a security group
 
-
 ### nat gateway
 - redundant inside the AZ, one in one AZ
 - starts at 5Gps and scale to 45Gps
