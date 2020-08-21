@@ -127,4 +127,5 @@ Can only attach 1 IGW to a VPC at a time.
 • Ensure that instances in your subnet have a globally unique IP address (public IPv4 address, Elastic IP address, or IPv6 address).
 • Ensure that your network access control and security group rules allow the relevant traffic to flow to and from your instance.
 
-
+### test note
+- An Alias record can be used for resolving apex or naked domain names (e.g. example.com). You can create an A record that is an Alias that uses the customer’s website zone apex domain name and map it to the ELB DNS name.
