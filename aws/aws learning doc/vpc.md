@@ -144,3 +144,5 @@ Can only attach 1 IGW to a VPC at a time.
 - CloudTrail captures API activity and would not include the requested information.
 
 - Using IP addresses as targets allows load balancing any application hosted in AWS or on-premises using IP addresses of the application back-ends as targets.
+
+- “Deletion Protection” is incorrect. Deletion protection is used to protect the ELB from deletion.
