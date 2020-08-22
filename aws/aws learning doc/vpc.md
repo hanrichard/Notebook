@@ -131,3 +131,13 @@ Can only attach 1 IGW to a VPC at a time.
 - An Alias record can be used for resolving apex or naked domain names (e.g. example.com). You can create an A record that is an Alias that uses the customer’s website zone apex domain name and map it to the ELB DNS name.
 - API Gateway fails the limit-exceeding requests and returns “429 Too Many Requests” error responses to the client
 
+- Connection draining is enabled by default and provides a period of time for existing connections to close cleanly. When connection draining is in action an CLB will be in the status “InService: Instance deregistration currently in progress”.
+
+- INCORRECT: “Sticky Sessions” is incorrect. Session stickiness uses cookies and ensures a client is bound to an individual back-end instance for the duration of the cookie lifetime.
+
+- INCORRECT: “Proxy Protocol” is incorrect. The Proxy Protocol header helps you identify the IP address of a client when you have a load balancer that uses TCP for back-end connections.
+
+- INCORRECT: “Deletion Protection” is incorrect. Deletion protection is used to protect the ELB from deletion.
+
+- Amazon EMR is a web service that enables businesses, researchers, data analysts, and developers to easily and cost-effectively process vast amounts of data. EMR utilizes a hosted Hadoop framework running on Amazon EC2 and Amazon S3.
+
