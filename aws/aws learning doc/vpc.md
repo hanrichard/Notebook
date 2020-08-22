@@ -142,3 +142,5 @@ Can only attach 1 IGW to a VPC at a time.
 - Amazon EMR is a web service that enables businesses, researchers, data analysts, and developers to easily and cost-effectively process vast amounts of data. EMR utilizes a hosted Hadoop framework running on Amazon EC2 and Amazon S3.
 
 - CloudTrail captures API activity and would not include the requested information.
+
+- Using IP addresses as targets allows load balancing any application hosted in AWS or on-premises using IP addresses of the application back-ends as targets.
