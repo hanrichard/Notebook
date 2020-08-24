@@ -147,3 +147,12 @@ Can only attach 1 IGW to a VPC at a time.
 
 - “Deletion Protection” is incorrect. Deletion protection is used to protect the ELB from deletion.
 
+- Alias records are used to map resource record sets in your hosted zone to Amazon Elastic Load Balancing load balancers, API Gateway custom regional APIs and edge-optimized APIs, CloudFront Distributions, AWS Elastic Beanstalk environments, Amazon S3 buckets that are configured as website endpoints, Amazon VPC interface endpoints, and to other records in the same Hosted Zone.
+
+- There is a default inbound rule denying all traffic
+- There is a default outbound rule denying all traffic
+
+- AWS Transit Gateway connects VPCs and on-premises networks through a central hub which is not a requirement of this solution.
+-  “Create a hub-and-spoke topology with AWS App Mesh and use AWS Resource Access Manager to share route tables” is incorrect. AWS App Mesh is used for application-level networking for microservices applications.
+
+28 37 52 53 54 73
