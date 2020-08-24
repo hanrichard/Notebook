@@ -129,7 +129,7 @@ Can only attach 1 IGW to a VPC at a time.
 
 ### test note
 - An Alias record can be used for resolving apex or naked domain names (e.g. example.com). You can create an A record that is an Alias that uses the customer’s website zone apex domain name and map it to the ELB DNS name.
-- API Gateway fails the limit-exceeding requests and returns “429 Too Many Requests” error responses to the client
+- API Gateway fails the limit-exceeding requests and returns “429 !!! Too Many Requests” error responses to the client
 
 - Connection draining is enabled by default and provides a period of time for existing connections to close cleanly. When connection draining is in action an CLB will be in the status “InService: Instance deregistration currently in progress”.
 
