@@ -70,6 +70,7 @@ can async to replicate your snapshot to s3 in another region for disaster recove
 
 - number of copies: aurora read replaca - 15 vs mysql - 5 
 - replica location: aurora in ONE region vs mysql CROSS region
+- aurora global database - can span regions
 
 backup:
 - snapshot, automate, shared to different aws account
