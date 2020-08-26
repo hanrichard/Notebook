@@ -176,6 +176,7 @@ can backup reids and restore of redis
 - Amazon DynamoDB is integrated with AWS Lambda so that you can create triggers—pieces of code that automatically respond to events in DynamoDB Streams.
 - If you enable DynamoDB Streams on a table, you can associate the stream ARN with a Lambda function that you write.
 - For items larger than 4KB, DynamoDB consumes additional read capacity units.
+- When a request is throttled it fails with an HTTP 400 code (Bad Request) and a ProvisionedThroughputExceeded exception.
 
 ### test:
 - Amazon DynamoDB Accelerator (DAX) is a fully managed, highly available, in-memory cache for DynamoDB that delivers up to a 10x performance, improvement from milliseconds to microseconds – even at millions of requests per second. You can enable DAX for a DynamoDB database with a few clicks.
