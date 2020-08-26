@@ -173,6 +173,8 @@ can backup reids and restore of redis
 
 ### summary
 - RedShift nodes run on EC2 instances, so for infrequent queries this will not minimize infrastructure costs.
+- Amazon DynamoDB is integrated with AWS Lambda so that you can create triggers—pieces of code that automatically respond to events in DynamoDB Streams.
+If you enable DynamoDB Streams on a table, you can associate the stream ARN with a Lambda function that you write.
 
 
 ### test:
