@@ -97,6 +97,8 @@ can backup reids and restore of redis
 -- mulit az:  sync - DR
 -- read replic: asyc - ready only DR -  not for ms sql
 
+- read replica -use  async replication
+
 
 ### redshilf - 3 copy - orignal, node, s3 
 - retention 1 day upto 35 days
