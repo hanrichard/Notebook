@@ -177,6 +177,9 @@ can backup reids and restore of redis
 - If you enable DynamoDB Streams on a table, you can associate the stream ARN with a Lambda function that you write.
 - For items larger than 4KB, DynamoDB consumes additional read capacity units.
 - When a request is throttled it fails with an HTTP 400 code (Bad Request) and a ProvisionedThroughputExceeded exception.
+- DynamoDB can throttle requests that exceed the provisioned throughput for a table.
+- DynamoDB can also throttle read requests for an Index to prevent your application from consuming too many capacity units.
+
 
 ### test:
 - Amazon DynamoDB Accelerator (DAX) is a fully managed, highly available, in-memory cache for DynamoDB that delivers up to a 10x performance, improvement from milliseconds to microseconds – even at millions of requests per second. You can enable DAX for a DynamoDB database with a few clicks.
