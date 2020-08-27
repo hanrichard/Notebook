@@ -7,8 +7,7 @@
 + oltp: online transition processing - one row - !!! transition
 + olap: online analysis processing - complex
 
-### redshift: data warehouse - olap - analys - only ONE zone
-
+### redshift: data warehouse - olap - analys - only ONE zone!!!!
 
 ### elastic cache - in memory cache - speed up existing !!! performance  -  good for OLAP
 - memcached - simple - scale horizontally
