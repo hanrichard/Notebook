@@ -152,7 +152,7 @@ types:
 ### ebs instance - high performance - temporary storage - eg: load balanced pool
 - instance store can not be stopped
 - instance store volume root device are created from AMI templates stored on s3
-- ebs can be stpped, detached and reattached, launched from ami that bakced by ebs snapshots
+- ebs can be stopped, detached and reattached, launched from ami that bakced by ebs snapshots
 
 ###  snap shots - migrate a system to a new az or region
 - convert a unencrypted volume to a encypted volume
@@ -169,7 +169,7 @@ types:
 - access control using IAM
 - access to files and dir with user and group level permissions
 - efs security groups act as a firewall, and the rules you add define the traffic flow
-- encryptions - kms
+- encryptions - kms !!!!
 
 ### fsx
 - fsx provides you with native compatibility of 3rd partu file system with feature of workload, as window based storage, HA, machine learning, and electronic design automation - eda
