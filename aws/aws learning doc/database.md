@@ -191,3 +191,22 @@ can backup reids and restore of redis
 
 - The requests will be throttled, and fail with an HTTP 400 code (Bad Request) and a ProvisionedThroughputExceededException
 
+- Maintenance windows are configured to allow DB instance modifications to take place such as scaling and software patching. Some operations require the DB instance to be taken offline briefly and this includes security patching
+
+- Amazon Aurora Global Database is designed for globally distributed applications, allowing a single Amazon Aurora database to span multiple AWS regions. It replicates your data with no impact on database performance, enables fast local reads with low latency in each region, and provides disaster recovery from region-wide outages.
+
+- INCORRECT: “Enable Multi-AZ for the Aurora DB” is incorrect. Enabling Multi-AZ for the Aurora DB would provide AZ-level resiliency within the region not across regions.
+
+- INCORRECT: “Asynchronous replication” is incorrect. Asynchronous replication is used by RDS for Read Replicas.
+
+- Multi-AZ RDS creates a replica in another AZ and synchronously replicates to it (DR only). Multi-AZ deployments for the MySQL, MariaDB, Oracle and PostgreSQL engines utilize synchronous physical replication. Multi-AZ deployments for the SQL Server engine use synchronous logical replication (SQL Server-native Mirroring technology).
+
+- Using Amazon Redshift Spectrum, you can efficiently query and retrieve structured and semistructured data from files in Amazon S3 without having to load the data into Amazon Redshift tables. Redshift Spectrum queries employ massive parallelism to execute very fast against large datasets.
+
+- Amazon ElastiCache with the Memcached engine is an in-memory database that can be used as a database caching layer. The memached engine supports multiple cores and threads and large nodes.
+
+- INCORRECT: “Deploy MySQL instances in each Region. Deploy an Application Load Balancer in front of MySQL to reduce the load on the primary instance” is incorrect as you can only put ALBs in front of the web tier, not the DB tier.
+
+
+
+
