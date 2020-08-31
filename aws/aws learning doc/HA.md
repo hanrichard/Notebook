@@ -47,7 +47,7 @@
 - !!! can span with in azs widthin same aws region
 - !!! elb must in the same region
 - !!! can change once it's defined - clone or create a new one  - manually update
-
+- !!! Auto Scaling is a region-specific service.
 
 ### HA
 - use multiple az's and multiple regions 
