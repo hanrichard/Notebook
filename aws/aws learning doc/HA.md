@@ -10,7 +10,6 @@
 - health checks check the instance health by talking to them
 - load balancer have their DNS name, no ip address
 
-
 - elb has public ips
 - need one public ip each az when elb defines
 
