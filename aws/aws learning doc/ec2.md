@@ -247,6 +247,8 @@ How can you control access to files and directories in Amazon EFS filesystems?
 ### tape gateway - s3 glacier, s3 glacier deep archinve - eject and stored, s3 standard - when writing to tapes
 
 
+### • Must stop the instance to create a consistent image and then create the AMI.
+
 ### ebs
 - ebs backed - root volume is ebs volume
 - instance backed - root volume is instance store
