@@ -60,7 +60,6 @@
 
 ### elastic beanstalk
 
-
 ## note:
 - target tracking policy -  maintain 70% cpu
 - simple - erratic 
