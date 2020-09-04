@@ -304,3 +304,5 @@ Troubleshooting steps for containers include:
 - To specify permissions for a specific task on Amazon ECS you should use IAM Roles for Tasks. The permissions policy can be applied to tasks when creating the task definition, or by using an IAM task role override using the AWS CLI or SDKs. The taskRoleArn parameter is used to specify the policy.
 
 -  Note you can choose min, max, or desired for a scheduled action.
+
+- INCORRECT: “EKS with Kubernetes managed infrastructure” is incorrect. The EKS service is a managed Kubernetes service that provides a fully-managed control plane so you would not have access to the EC2 instances that the platform runs on.
