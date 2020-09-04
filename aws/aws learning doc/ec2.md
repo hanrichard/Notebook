@@ -259,4 +259,48 @@ How can you control access to files and directories in Amazon EFS filesystems?
 
 - An Interface endpoint uses AWS PrivateLink and is an elastic network interface (ENI) with a private IP address that serves as an entry point for traffic destined to a supported service. Using PrivateLink you can connect your VPC to supported AWS services, services hosted by other AWS accounts (VPC endpoint services), and supported AWS Marketplace partner services.
 
+- The cooldown period is a configurable setting for your Auto Scaling group that helps to ensure that it doesn’t launch or terminate additional instances before the previous scaling activity takes effect so this would help. After the Auto Scaling group dynamically scales using a simple scaling policy, it waits for the cooldown period to complete before resuming scaling activities.
 
+- You can only apply one IAM role to a Task Definition so you must create a separate Task Definition. A Task Definition is required to run Docker containers in Amazon ECS and you can specify the IAM role (Task Role) that the task should use for permissions.
+ - EC2 launch type you can apply IAM roles at the container and task level
+ - Fargate you can only apply at the task level
+ 
+- The following are a few reasons why an instance might immediately terminate:
+ – You’ve reached your EBS volume limit.
+ – An EBS snapshot is corrupt.
+ – The root EBS volume is encrypted and you do not have permissions to access the KMS key for decryption.
+ – The instance store-backed AMI that you used to launch the instance is missing a required part (an image.part.xx file).
+ 
+- AWS Step Functions orchestrates serverless workflows including coordination, state, and function chaining as well as combining long-running executions not supported within Lambda execution limits by breaking into multiple steps or by calling workers running on Amazon Elastic Compute Cloud (Amazon EC2) instances or on-premises.
+
+- Auto Scaling Groups can be edited once created (however launch configurations cannot be edited).
+
+Troubleshooting steps for containers include:
+- Verify that the Docker daemon is running on the container instance.
+- Verify that the Docker Container daemon is running on the container instance.
+- Verify that the container agent is running on the container instance.
+- Verify that the IAM instance profile has the necessary permissions.
+
+- An Interface endpoint uses AWS PrivateLink and is an elastic network interface (ENI) with a private IP address that serves as an entry point for traffic destined to a supported service. Using PrivateLink you can connect your VPC to supported AWS services, services hosted by other AWS accounts (VPC endpoint services), and supported AWS Marketplace partner services.
+
+- INCORRECT: “Add the API gateway to the subnet the EC2 instances are located in” is incorrect. You cannot add API Gateway to the subnet the EC2 instances are in, it is a public service with a public endpoint.
+
+- Public subnets are subnets that have:
+ - “Auto-assign public IPv4 address” set to “Yes”.
+ - The subnet route table has an attached Internet Gateway.
+ 
+ - Lambda tracks the number of requests, the latency per request, and the number of requests resulting in an error.
+ 
+ - Run Command is designed to support a wide range of enterprise scenarios including installing software, running ad hoc scripts or Microsoft PowerShell commands, configuring Windows Update settings, and more.
+
+- Run Command can be used to implement configuration changes across Windows instances on a consistent yet ad hoc basis and is accessible from the AWS Management Console, the AWS Command Line Interface (CLI), the AWS Tools for Windows PowerShell, and the AWS SDKs.
+
+- AWS Batch eliminates the need to operate third-party commercial or open source batch processing solutions. There is no batch software or servers to install or manage. AWS Batch manages all the infrastructure for you, avoiding the complexities of provisioning, managing, monitoring, and scaling your batch computing jobs.
+
+- AWS Batch Multi-node parallel jobs enable you to run single jobs that span multiple Amazon EC2 instances. With AWS Batch multi-node parallel jobs, you can run large-scale, tightly coupled, high performance computing applications and distributed GPU model training without the need to launch, configure, and manage Amazon EC2 resources directly.
+
+- An AWS Batch multi-node parallel job is compatible with any framework that supports IP-based, internode communication, such as Apache MXNet, TensorFlow, Caffe2, or Message Passing Interface (MPI) !!!!.
+
+- To specify permissions for a specific task on Amazon ECS you should use IAM Roles for Tasks. The permissions policy can be applied to tasks when creating the task definition, or by using an IAM task role override using the AWS CLI or SDKs. The taskRoleArn parameter is used to specify the policy.
+
+-  Note you can choose min, max, or desired for a scheduled action.
