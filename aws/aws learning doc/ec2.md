@@ -306,3 +306,7 @@ Troubleshooting steps for containers include:
 -  Note you can choose min, max, or desired for a scheduled action.
 
 - INCORRECT: “EKS with Kubernetes managed infrastructure” is incorrect. The EKS service is a managed Kubernetes service that provides a fully-managed control plane so you would not have access to the EC2 instances that the platform runs on.
+
+- INCORRECT: “AWS Config” is incorrect. AWS Config is a service that enables you to assess, audit, and evaluate the configurations of your AWS resources. It is not used for ad-hoc script execution.
+
+- INCORRECT: “AWS OpsWorks” is incorrect. AWS OpsWorks provides instances of managed Puppet and Chef.
