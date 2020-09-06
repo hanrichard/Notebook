@@ -21,7 +21,6 @@
 !!! can not go cross regions, create one per region
 !!! EBS volumes are AZ specific but snapshots are region specific.
 
-
 - elb health check with ec2 status check
 - with elb an instance unhealth, if elb reports it as outofservice
 - a health instance enters inservice status
