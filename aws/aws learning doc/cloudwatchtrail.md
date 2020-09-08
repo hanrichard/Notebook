@@ -53,3 +53,5 @@ Amazon S3 object-level API activity (for example, GetObject, DeleteObject, and P
  - Configuring security (for example, IAM AttachRolePolicy API operations)
  - Registering devices (for example, Amazon EC2 CreateDefaultVpc API operations).
 Therefore, to log data about access to the S3 objects the solutions architect should log read and write data events.
+
+- You can enable access logs on the ALB and this will provide the information required including requester, IP, and request type. Access logs are not enabled by default. You can optionally store and retain the log files on S3.
