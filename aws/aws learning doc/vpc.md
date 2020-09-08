@@ -156,3 +156,5 @@ Can only attach 1 IGW to a VPC at a time.
 -  “Create a hub-and-spoke topology with AWS App Mesh and use AWS Resource Access Manager to share route tables” is incorrect. AWS App Mesh is used for application-level networking for microservices applications.
 
 28 37 52 53 54 73
+
+- This is the most cost-effective solution. With this option both the Direct Connect connection and IPSec VPN are active and being advertised using the Border Gateway Protocol (BGP). The Direct Connect link will always be preferred unless it is unavailable.
