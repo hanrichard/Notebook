@@ -158,3 +158,11 @@ Can only attach 1 IGW to a VPC at a time.
 28 37 52 53 54 73
 
 - This is the most cost-effective solution. With this option both the Direct Connect connection and IPSec VPN are active and being advertised using the Border Gateway Protocol (BGP). The Direct Connect link will always be preferred unless it is unavailable.
+
+- You can manage a single connection for multiple VPCs or VPNs that are in the same Region by associating a Direct Connect gateway to a transit gateway. The solution involves the following components:
+
+A transit gateway that has VPC attachments.
+A Direct Connect gateway.
+An association between the Direct Connect gateway and the transit gateway.
+A transit virtual interface that is attached to the Direct Connect gateway.
+The following diagram depicts this configuration:
