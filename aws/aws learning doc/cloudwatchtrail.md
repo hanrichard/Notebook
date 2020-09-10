@@ -55,3 +55,8 @@ Amazon S3 object-level API activity (for example, GetObject, DeleteObject, and P
 Therefore, to log data about access to the S3 objects the solutions architect should log read and write data events.
 
 - You can enable access logs on the ALB and this will provide the information required including requester, IP, and request type. Access logs are not enabled by default. You can optionally store and retain the log files on S3.
+
+- Trails can be configured to log Data events and management events:
+
+ - Data events: These events provide insight into the resource operations performed on or within a resource. These are also known as data plane operations
+ - Management events: Management events provide insight into management operations that are performed on resources in your AWS account. These are also known as control plane operations. Management events can also include non-API events that occur in your account
