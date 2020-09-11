@@ -3,7 +3,6 @@
 - 256k message, if bigger store in s3
 - standard queues -  delivery at least once - massive scalable, using HA - receive exact order but not guaranteed to sent
 - fifo queues - 300 transaction per second
-
 - sqs is pulled base, not push
 - kept from 1 min - 14 days, default day is 4 day
 - visiblity timeout period may deliver twice
