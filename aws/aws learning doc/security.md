@@ -67,3 +67,22 @@
 - With an identity pool, users can obtain temporary AWS credentials to access AWS services, such as Amazon S3 and DynamoDB.
 
 
+- AWS customers are welcome to carry out security assessments or penetration tests against their AWS infrastructure without prior approval for 8 services. Please check the AWS link below for the latest information.
+
+An IAM group is a collection of IAM users. Groups let you specify permissions for multiple users, which can make it easier to manage the permissions for those users.
+
+The following facts apply to IAM Groups:
+
+- Groups are collections of users and have policies attached to them.
+- A group is not an identity and cannot be identified as a principal in an IAM policy.
+- Use groups to assign permissions to users.
+- IAM groups cannot be used to group EC2 instances.
+- Only users and services can assume a role to take on permissions (not groups).
+
+AWS recommend that you use the AWS SDKs to make programmatic API calls to IAM. However, you can also use the IAM Query API to make direct calls to the IAM web service. An access key ID and secret access key must be used for authentication when using the Query API.
+
+CORRECT: "Query API" is a correct answer.
+CORRECT: "Access key ID and secret access key" is also a correct answer.
+INCORRECT: "OpenID Connect" is incorrect. OpenID Connect is a provider for connecting external directories.
+INCORRECT: "API Gateway" is incorrect. API gateway is a separate service for accepting and processing API calls.
+INCORRECT: "IAM role" is incorrect. An IAM role is not used for authentication to the Query API.
