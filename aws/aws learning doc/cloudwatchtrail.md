@@ -62,3 +62,11 @@ Therefore, to log data about access to the S3 objects the solutions architect sh
  - Management events: Management events provide insight into management operations that are performed on resources in your AWS account. These are also known as control plane operations. Management events can also include non-API events that occur in your account
  
  - AWS Systems Manager” is incorrect. AWS Systems Manager gives you visibility and control of your infrastructure on AWS. Systems Manager provides a unified user interface so you can view operational data from multiple AWS services and allows you to automate operational tasks across your AWS resources.
+ 
+ You need to prepare a custom metric using CloudWatch Monitoring Scripts which is written in Perl. You can also install CloudWatch Agent to collect more system-level metrics from Amazon EC2 instances. Here's the list of custom metrics that you can set up:
+
+- Memory utilization
+- Disk swap utilization
+- Disk space utilization
+- Page file utilization
+- Log collection
