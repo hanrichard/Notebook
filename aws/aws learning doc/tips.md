@@ -10,3 +10,16 @@
 - DMS is used for smaller, simpler conversions and also supports MongoDB and DynamoDB.
 - SCT is used for larger, more complex datasets like data warehouses.
 - DMS has replication functions for on-premise to AWS or to Snowball or S3.
+
+
+Canary: Traffic is shifted in two increments. You can choose from predefined canary options that specify the percentage of traffic shifted to your updated Lambda function version in the first increment and the interval, in minutes, before the remaining traffic is shifted in the second increment.
+
+Linear: Traffic is shifted in equal increments with an equal number of minutes between each increment. You can choose from predefined linear options that specify the percentage of traffic shifted in each increment and the number of minutes between each increment.
+
+All-at-once: All traffic is shifted from the original Lambda function to the updated Lambda function version at once.
+
+Blue/Green is incorrect because this is not a valid predefined deployment type configuration for an AWS Lambda Compute Platform. You can only choose between Canary, Linear, and All-at-once deployment configuration types to specify how the incoming traffic will be shifted from your original AWS Lambda function version to your new AWS Lambda function version.
+
+Linear is incorrect because this type of deployment shifts the traffic in equal increments with an equal number of minutes between each increment. You can't specify the percentage of traffic shifted to your updated Lambda function version before the remaining traffic is shifted in the second increment, unlike Canary.
+
+All-at-once is incorrect because there are no increments for this type of deployment. All traffic is shifted from the original Lambda function to the updated Lambda function version at once.
