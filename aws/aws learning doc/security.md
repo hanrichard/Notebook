@@ -86,3 +86,6 @@ CORRECT: "Access key ID and secret access key" is also a correct answer.
 INCORRECT: "OpenID Connect" is incorrect. OpenID Connect is a provider for connecting external directories.
 INCORRECT: "API Gateway" is incorrect. API gateway is a separate service for accepting and processing API calls.
 INCORRECT: "IAM role" is incorrect. An IAM role is not used for authentication to the Query API.
+
+
+- Server-side encryption protects data at rest.
