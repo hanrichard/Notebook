@@ -10,7 +10,6 @@
 - sqs guarantees will be processed at least once
 - long poll timeout - reduce cost
 - server side encryption - sse - using aws kms
-
 - scaling - create more queues
 - store within a single HA region with multi redundant azs
 
