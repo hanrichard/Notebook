@@ -70,3 +70,4 @@ With Elastic Beanstalk, you can quickly deploy and manage applications in the AW
 
 - AWS Batch is incorrect because this is primarily used to efficiently run hundreds of thousands of batch computing jobs in AWS.
 
+- AWS Step Functions provides serverless orchestration for modern applications. Orchestration centrally manages a workflow by breaking it into multiple steps, adding flow logic, and tracking the inputs and outputs between the steps. As your applications execute, Step Functions maintains application state, tracking exactly which workflow step your application is in, and stores an event log of data that is passed between application components. That means that if networks fail or components hang, your application can pick up right where it left off.
