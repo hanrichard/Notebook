@@ -62,3 +62,11 @@ With Elastic Beanstalk, you can quickly deploy and manage applications in the AW
 - AWS CloudFormation is incorrect because although this service provides deployment capabilities, you will still have to design a custom template that contains the required AWS resources for your application needs. Hence, this will require more time to complete instead of just directly using Elastic Beanstalk.
 
 - AWS CodeCommit is incorrect because although you can upload your NodeJS code in AWS CloudCommit, this service is just a fully-managed source control service that hosts secure Git-based repositiories and hence, it does not provide a way to deploy or manage your applications in AWS.
+
+
+- SWF is incorrect because this is a fully-managed state tracker and task coordinator service. It does not provide serverless orchestration to multiple AWS resources.
+
+- AWS Lambda is incorrect because although Lambda is used for serverless computing, it does not provide a direct way to coordinate multiple AWS services into serverless workflows.
+
+- AWS Batch is incorrect because this is primarily used to efficiently run hundreds of thousands of batch computing jobs in AWS.
+
