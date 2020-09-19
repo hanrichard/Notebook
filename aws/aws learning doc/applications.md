@@ -112,3 +112,5 @@ both message services in aws
 
 
 - Use the CreationPolicy attribute when you want to wait on resource configuration actions before stack creation proceeds.
+
+- You can use AWS X-Ray to trace and analyze user requests as they travel through your Amazon API Gateway APIs to the underlying services. API Gateway supports AWS X-Ray tracing for all API Gateway endpoint types: regional, edge-optimized, and private. You can use AWS X-Ray with Amazon API Gateway in all regions where X-Ray is available.
