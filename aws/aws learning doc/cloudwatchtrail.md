@@ -1,4 +1,4 @@
-- collect and track metrics
+- collect and track metrics 
 - monitor 
   - ec2 instance
   - dynamodb instance
@@ -8,7 +8,7 @@
   - it is accessed via API, CLI, AWS SDKs, console
   
  ### cloudtrail 
- - cloudtrail logs can be sent to cloudwatch logs 
+ - cloudtrail logs can be sent to cloudwatch logs - per region - apply to all regions
  - api activity
  - logs api calls via
   - console
