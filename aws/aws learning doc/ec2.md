@@ -3,6 +3,8 @@
 provisonal: 供应
 thoughtout: 思虑周到的；经过仔细考虑的
 
+reboot - data will not lost
+
 ### resered
 - no upfront, partially, all
 
