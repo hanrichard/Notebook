@@ -27,3 +27,5 @@ All-at-once is incorrect because there are no increments for this type of deploy
 - The option that says: Store the database credentials, API keys, and other secrets to Systems Manager Parameter Store each with a SecureString data type. The credentials are automatically rotated by default is incorrect because Systems Manager Parameter Store doesn't rotate its parameters by default.
 
 - API Gateway + Lambda, CloudFront + ALB + ASG, CloudFront + S3, ALB + ASG with Multi-AZ (which is always the case except for HPC when it's single AZ and Cluster placement), KMS is often the preferred encryption method, Apply the principle of least privilege access, RDS Read Replicas to offload workload to the primary DB/reduce read latency, any service fully managed by AWS is usually the one to use.
+
+- data sync - connect to NAS storage system - sync into s3, efc, fsx
