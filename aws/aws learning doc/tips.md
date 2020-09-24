@@ -1,3 +1,7 @@
+- Elastic Map Reduce for Big Data Processing OpsWorks
+- Orchestration Service that uses Chef
+- Look for the term chef, recipes, cookbook and think OpsWorks EBS Backed vs Instance Store
+
 - Amazon EMR is a web service that enables businesses, researchers, data analysts, and developers to easily and cost-effectively process vast amounts of data. 
 - EMR utilizes a hosted Hadoop framework running on Amazon EC2 and Amazon S3.
 
