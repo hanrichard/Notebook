@@ -3,6 +3,10 @@
 - cname can not be http://test.com, must be A name or alias
 - EBS: never have ipv4 address, but using dns name
 
+- In active-active failover, all the records that have the same name, the same type (such as A or AAAA), and the same routing policy (such as weighted or latency) are active unless Route 53 considers them unhealthy. Route 53 can respond to a DNS query using any healthy record.
+
+- Use an active-passive failover configuration when you want a primary resource or group of resources to be available the majority of the time and you want a secondary resource or group of resources to be on standby in case all the primary resources become unavailable.
+
 ### normally use alias record over cname
 
 - SOA
