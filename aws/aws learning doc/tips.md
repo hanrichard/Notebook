@@ -33,3 +33,7 @@ All-at-once is incorrect because there are no increments for this type of deploy
 - API Gateway + Lambda, CloudFront + ALB + ASG, CloudFront + S3, ALB + ASG with Multi-AZ (which is always the case except for HPC when it's single AZ and Cluster placement), KMS is often the preferred encryption method, Apply the principle of least privilege access, RDS Read Replicas to offload workload to the primary DB/reduce read latency, any service fully managed by AWS is usually the one to use.
 
 - data sync - connect to NAS storage system - sync into s3, efc, fsx
+
+- Run Command is designed to support a wide range of enterprise scenarios including installing software, running ad hoc scripts or Microsoft PowerShell commands, configuring Windows Update settings, and more.
+
+- Run Command can be used to implement configuration changes across Windows instances on a consistent yet ad hoc basis and is accessible from the AWS Management Console, the AWS Command Line Interface (CLI), the AWS Tools for Windows PowerShell, and the AWS SDKs.
