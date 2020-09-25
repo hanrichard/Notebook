@@ -41,3 +41,5 @@ All-at-once is incorrect because there are no increments for this type of deploy
 - Performing in-place queries on a data lake allows you to run sophisticated analytics queries directly on the data in S3 without having to load it into a data warehouse.
 
 - You can use both Athena and Redshift Spectrum against the same data assets. You would typically use Athena for ad hoc data discovery and SQL querying, and then use Redshift Spectrum for more complex queries and scenarios where a large number of data lake users want to run concurrent BI and reporting workloads.
+
+- “Amazon OpsWorks” is incorrect as this service is used for configuration management of systems using Chef or Puppet.
