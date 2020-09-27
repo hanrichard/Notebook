@@ -44,3 +44,5 @@ All-at-once is incorrect because there are no increments for this type of deploy
 
 - “Amazon OpsWorks” is incorrect as this service is used for configuration management of systems using Chef or Puppet.
 - Amazon FSx for Lustre provides a high-performance file system optimized for fast processing of workloads such as machine learning, high performance computing (HPC), video processing, financial modeling, and electronic design automation (EDA). Amazon FSx works natively with Amazon S3, letting you transparently access your S3 objects as files on Amazon FSx to run analyses for hours to months.
+
+- A Read Replica of an Amazon RDS encrypted instance is also encrypted using the same key as the master instance when both are in the same Region. When in different Regions, a different key can be used.
