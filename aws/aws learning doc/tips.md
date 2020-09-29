@@ -50,3 +50,5 @@ All-at-once is incorrect because there are no increments for this type of deploy
 - Does it have an EIP or public IP address?
 
 - Is the route table properly configured?
+
+- Elastic Fabric Adapter (EFA) are not supported on Windows instances.
