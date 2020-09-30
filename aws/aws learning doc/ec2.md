@@ -312,3 +312,5 @@ Troubleshooting steps for containers include:
 - INCORRECT: “AWS Config” is incorrect. AWS Config is a service that enables you to assess, audit, and evaluate the configurations of your AWS resources. It is not used for ad-hoc script execution.
 
 - INCORRECT: “AWS OpsWorks” is incorrect. AWS OpsWorks provides instances of managed Puppet and Chef.
+
+- File Gateway is used to store and retrieve Amazon S3 objects through NFS and SMB protocols.
