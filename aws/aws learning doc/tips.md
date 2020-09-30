@@ -52,3 +52,5 @@ All-at-once is incorrect because there are no increments for this type of deploy
 - Is the route table properly configured?
 
 - Elastic Fabric Adapter (EFA) are not supported on Windows instances.
+
+- RedShift uses EC2 instances as well, so you need to choose your instance type/size for scaling compute vertically, but you can also scale horizontally by adding more nodes to the cluster.
