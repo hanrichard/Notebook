@@ -1,5 +1,9 @@
 - managent event/data event
 - cloudwatch: agent install memory usage and disk size
+- aurora dynamdb :fully managed nosql
+- ebs root vol snapshot - stop before sanpshot - root delete when ternation
+- efs - nfs v4 protocol
+- file gateway - let s3 as local file system, nfs smb
 
 - Elastic Map Reduce for Big Data Processing OpsWorks
 - Orchestration Service that uses Chef
