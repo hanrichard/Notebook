@@ -1,3 +1,6 @@
+- managent event/data event
+- cloudwatch: agent install memory usage and disk size
+
 - Elastic Map Reduce for Big Data Processing OpsWorks
 - Orchestration Service that uses Chef
 - Look for the term chef, recipes, cookbook and think OpsWorks EBS Backed vs Instance Store
