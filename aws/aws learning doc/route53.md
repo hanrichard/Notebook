@@ -29,10 +29,8 @@ it maps resource record sets in your hosted zone to EBS, cloudfront, s3 that are
 - health check on individual record sets
 - fail will remove from route 53 list and until pass the health check
 
-
 ### latency
 - choose the latency
-
 
 ### failover
 - active 
