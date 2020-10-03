@@ -1,3 +1,4 @@
+- elb - at least 2 public !!! subnets
 - vpc endpoint interface: connect ec2 with eni + priviate ip
 - managent event/data event
 - cloudwatch: agent install memory usage and disk size
