@@ -61,3 +61,5 @@ All-at-once is incorrect because there are no increments for this type of deploy
 - Elastic Fabric Adapter (EFA) are not supported on Windows instances.
 
 - RedShift uses EC2 instances as well, so you need to choose your instance type/size for scaling compute vertically, but you can also scale horizontally by adding more nodes to the cluster.
+
+- An !!!authentication token!!!! is a unique string of characters that Amazon RDS generates on request. Authentication tokens are generated using AWS Signature Version 4. Each token has a lifetime of 15 minutes. You don't need to store user credentials in the database, because authentication is managed externally using IAM. You can also still use standard database authentication.
