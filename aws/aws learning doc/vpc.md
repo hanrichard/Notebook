@@ -1,3 +1,5 @@
+### private link
+- requires network load balancer on the service vpc - eni on customer vpc
 
 - think vpc a datacenters in aws
 - consist virtual gateway, route table, network access control list, subnets, securty group
