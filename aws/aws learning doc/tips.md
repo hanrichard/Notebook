@@ -1,4 +1,4 @@
-- vpc endpoint interface: eni + priviate ip
+- vpc endpoint interface: connect ec2 with eni + priviate ip
 - managent event/data event
 - cloudwatch: agent install memory usage and disk size
 - aurora dynamdb :fully managed nosql
