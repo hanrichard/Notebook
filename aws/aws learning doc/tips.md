@@ -1,3 +1,4 @@
+- s3 -> sns, sqs, lambda
 - hdd - infrequent vs Throughput Optimized HDD frequent
 - default nacl - allow inbound and outbound
 - custom nacl - deny inbound and outbound
