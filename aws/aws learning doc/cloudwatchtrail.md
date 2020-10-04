@@ -1,3 +1,4 @@
+- it can track changes and store a history of what happened to your resources, 
 - collect and track metrics 
 - monitor 
   - ec2 instance
