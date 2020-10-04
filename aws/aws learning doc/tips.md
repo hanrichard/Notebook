@@ -1,3 +1,4 @@
+- hdd - infrequent vs Throughput Optimized HDD frequent
 - default nacl - allow inbound and outbound
 - custom nacl - deny inbound and outbound
 - elb - at least 2 public !!! subnets
