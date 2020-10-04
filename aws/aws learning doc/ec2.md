@@ -314,3 +314,5 @@ Troubleshooting steps for containers include:
 - INCORRECT: “AWS OpsWorks” is incorrect. AWS OpsWorks provides instances of managed Puppet and Chef.
 
 - File Gateway is used to store and retrieve Amazon S3 objects through NFS and SMB protocols.
+
+- You can use Amazon Data Lifecycle Manager (Amazon DLM) to automate the creation, retention, and deletion of snapshots taken to back up your Amazon EBS volumes.
