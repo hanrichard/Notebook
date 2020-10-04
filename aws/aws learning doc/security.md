@@ -89,3 +89,4 @@ INCORRECT: "IAM role" is incorrect. An IAM role is not used for authentication t
 
 
 - Server-side encryption protects data at rest.
+- Systems Manager Parameter Store doesn't rotate its parameters by default.
