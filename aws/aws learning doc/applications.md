@@ -1,3 +1,5 @@
+### swf, sqs, decoupled
+
 ### sqs - polls - decoupled  - redshift, dynamodb, ec2, ecs, rds, s3, lambda 
 - !!!decouple!!!!! the components of an application, so they can run independantly, easing message management between components
 - 256k message, if bigger store in s3
