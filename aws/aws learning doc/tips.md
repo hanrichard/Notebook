@@ -1,4 +1,5 @@
 - load balancer  - dns not ips
+- network balancer - with static ip
 - EMR - Big data processing
 - s3 -> sns, sqs, lambda
 - hdd - infrequent vs Throughput Optimized HDD frequent
