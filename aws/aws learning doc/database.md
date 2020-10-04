@@ -217,3 +217,4 @@ can backup reids and restore of redis
 - ElastiCache improves the performance of your database through caching query results.
 
 - The standby instance will not perform any read and write operations while the primary instance is running.
+- When failing over, Amazon RDS simply flips the canonical name record (CNAME) for your DB instance to point at the standby, which is in turn promoted to become the new primary.
