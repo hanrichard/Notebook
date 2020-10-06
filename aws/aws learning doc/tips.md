@@ -15,6 +15,8 @@
 - efs - nfs v4 protocol
 - file gateway - let s3 as local file system, nfs smb
 
+- saml - single sign on
+
 - Elastic Map Reduce for Big Data Processing OpsWorks
 - Orchestration Service that uses Chef
 - Look for the term chef, recipes, cookbook and think OpsWorks EBS Backed vs Instance Store
