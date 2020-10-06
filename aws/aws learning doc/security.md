@@ -1,3 +1,9 @@
+### waf..
+cloudfront - geo match
+waf - ip blocking and filtering
+
+nacl only see cloudfront ips
+
 ### waf - sql injection - layer 7
 
 ### nacl - block ip or arrnage ips - layer 4
