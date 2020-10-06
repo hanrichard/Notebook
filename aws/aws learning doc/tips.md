@@ -1,3 +1,4 @@
+- direct connect gateway - globally
 - interface endpoint - powered by private link - eni 
 - load balancer  - dns not ips
 - network balancer - with static ip
