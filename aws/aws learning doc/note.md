@@ -50,7 +50,7 @@ Hence, the correct answer is: Amazon FSx for Windows File Server.
 
 Amazon S3 Glacier Deep Archive is incorrect because this service is primarily used as a secure, durable, and extremely low-cost cloud storage for data archiving and long-term backup.
 
-AWS DataSync is incorrect because this service simply provides a fast way to move large amounts of data online between on-premises storage and Amazon S3 or Amazon Elastic File System (Amazon EFS).
+AWS DataSync is incorrect because this service simply provides a fast way to move large amounts of data online between on-premises storage and Amazon S3 or Amazon Elastic File System (Amazon EFS!!!).
 
 Amazon FSx for Lustre is incorrect because this service doesn't support the Windows-based applications as well as Windows servers.
 
