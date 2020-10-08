@@ -1,3 +1,4 @@
+- Volume size	1 GiB - 16 TiB,	4 GiB - 16 TiB,	500 GiB - 16 TiB,	500 GiB - 16 TiB
 - SWF is incorrect because this is a fully-managed state tracker and task coordinator service. It does not provide serverless orchestration to multiple AWS resources.
 - direct connect gateway - globally
 - interface endpoint - powered by private link - eni 
