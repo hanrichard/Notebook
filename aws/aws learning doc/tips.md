@@ -7,7 +7,7 @@
 - EMR - Big data processing
 - s3 -> sns, sqs, lambda
 - hdd - infrequent vs Throughput Optimized HDD frequent
-- ssd - most work, database, big data and data warehouse, file server
+- ssd - most work, database, big data and data warehouse, file server - general - system boot volume
 - default nacl - allow inbound and outbound
 - custom nacl - deny inbound and outbound
 - elb - at least 2 public !!! subnets
