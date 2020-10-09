@@ -108,3 +108,9 @@ The option that says: Use AWS VPN CloudHub to route all access in S3 and DynamoD
 - Using CodeCommit to publish your code quickly in a private repository and pushing them to your resources for fast updates is incorrect as you mainly use CodeCommit for managing a source-control service that hosts private Git repositories. You can store anything from code to binaries and work seamlessly with your existing Git-based tools. CodeCommit integrates with CodePipeline and CodeDeploy to streamline your development and release process.
 
 - You could also use OpsWorks to deploy your code, however, creating OpsWorks recipes that will automatically launch resources containing the latest version of the code is still incorrect because you don't need to launch new resources containing your new code when you can just update the ones that are already running.
+
+- Amazon Elastic File System (EFS) is incorrect because although the EFS service can be used for HPC applications, !!!!it doesn't natively work with Amazon S3!!!!. It doesn't have the capability to easily process your S3 data with a high-performance POSIX interface, unlike Amazon FSx for Lustre.
+
+- Amazon FSx for Windows File Server is incorrect because although this service is a type of Amazon FSx, !!!!it does not work natively with Amazon S3!!!!. This service is a fully managed native Microsoft Windows file system that is primarily used for your Windows-based applications that require shared file storage to AWS.
+
+- Amazon Elastic Block Storage (EBS) is incorrect because this service is not a scalable, high-performance file system.
