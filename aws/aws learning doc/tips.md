@@ -1,3 +1,4 @@
+- To control the versions of files that are served from your distribution, you can either invalidate files or give them versioned file names.
 - Volume size	1 GiB - 16 TiB,	4 GiB - 16 TiB,	500 GiB - 16 TiB,	500 GiB - 16 TiB
 - You should be using an Alias record pointing to the DNS name of the load balancer since the IP address of the load balancer can change at any time.
 - SWF is incorrect because this is a fully-managed state tracker and task coordinator service. It does not provide serverless orchestration to multiple AWS resources.
