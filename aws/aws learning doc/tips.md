@@ -116,3 +116,25 @@ The option that says: Use AWS VPN CloudHub to route all access in S3 and DynamoD
 - Amazon FSx for Windows File Server is incorrect because although this service is a type of Amazon FSx, !!!!it does not work natively with Amazon S3!!!!. This service is a fully managed native Microsoft Windows file system that is primarily used for your Windows-based applications that require shared file storage to AWS.
 
 - Amazon Elastic Block Storage (EBS) is incorrect because this service is not a scalable, high-performance file system.
+
+Services – Sample Keywords
+S3 – Durable, Object, Multi-AZ
+EBS – Block level storage, Snapshots, SSD/HDD
+EFS – High throughput, Multi-AZ, POSIX
+RDS – Snapshot MySQL, Auto Scaling
+DYNAMODB – NoSQL, Partitions, Multi-AZ
+CLOUDTRAIL – Audits, Storing Event Logs, API Calls
+CLOUDWATCH – Logging, Alarms, CPU monitoring
+SECURITY GROUPS – Allow Outbound, Stateful, TCP/UDP
+NACL – SSH/HTTP/HTTPS, IPv4, Firewall
+EC2 – Instance Store Volumes, EBS, On-Demand/Spot/Dedicated
+API Gateway – Frontdoor, RESTful, throttling
+ELASTIC BEANSTALK – Code Deployment, Auto Scaling, Stack Management
+CLOUDFORMATION – Template, Infrastructure, Stacksets
+ELB – ALB, Network Load Balancer, Auto Scaling
+VPN/DIRECT CONNECT –  VPN-IPSec, Direct Connect – No Internet
+IAM – Users/Groups, Permissions, AWS Management Console
+ECS – Docker, ETL, Tasks
+VPC – Public/Private Subnets, IP address, Internet Gateway
+DNS – Route 53, IP addresses, Phone Book
+Lambda – Serverless, Auto-Scaling, Stateless
