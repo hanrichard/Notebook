@@ -138,3 +138,6 @@ ECS – Docker, ETL, Tasks
 VPC – Public/Private Subnets, IP address, Internet Gateway
 DNS – Route 53, IP addresses, Phone Book
 Lambda – Serverless, Auto-Scaling, Stateless
+
+ Use AWS Step Functions for orchestrating serverless workflows
+
