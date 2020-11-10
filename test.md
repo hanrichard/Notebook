@@ -1,2 +1,3 @@
-tobe primative type
-toequal object type
+- toBe for primative type
+- toEqual for object type
+- toContain for array
