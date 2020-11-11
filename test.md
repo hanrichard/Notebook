@@ -3,3 +3,4 @@
 - toContain for array
 - expect assertion(1)
 - toBeDefined()
+- expert(typeof abc).toEqual('function')
