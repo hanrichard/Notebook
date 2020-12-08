@@ -81,3 +81,16 @@ const EL = cardVariant === 'pill' ? PillField : TileField
     </TileContainer>
   );
   ```
+  
+  
+
+### dynamic import components
+```
+import * as Icons from '../icon';
+
+const Test = Icons[name];
+
+return <Test />
+
+```
+
