@@ -7,3 +7,5 @@ npx creat-react-app name --typescript
 import Dispatch from 'redux';
 
 async (dispatch: Dispatch) => {}
+
+const todo: Todo[] = []
