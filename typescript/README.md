@@ -10,4 +10,4 @@ async (dispatch: Dispatch) => {}
 
 const todo: Todo[] = []
 
-fn: () => void | string
+fn: (bod: string) => void | string
