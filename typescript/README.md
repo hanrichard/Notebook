@@ -9,3 +9,5 @@ import Dispatch from 'redux';
 async (dispatch: Dispatch) => {}
 
 const todo: Todo[] = []
+
+fn: () => void | string
