@@ -87,3 +87,7 @@ app.use((req, res, next) => {
 ```
 npm install dotenv
 ```
+
+```
+const abc = require('blabla')
+module.export.Abc = Abc
