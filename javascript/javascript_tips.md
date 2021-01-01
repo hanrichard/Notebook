@@ -106,3 +106,12 @@ console.log(num.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFrac
 
 currencyDisplay: 'code', 'symbol', 'name'
 ```
+
+
+### currency local date
+```
+const event = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
+const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+console.log(event.toLocaleDateString('de-DE', options));
+```
+
