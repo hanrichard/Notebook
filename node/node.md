@@ -93,6 +93,6 @@ const abc = require('blabla')
 module.export.Abc = Abc
 
 https://localhost.com?page=2
-const currentPage = req.query.page
+const currentPage = req.query.page || 1
 ```
 
