@@ -91,3 +91,8 @@ npm install dotenv
 ```
 const abc = require('blabla')
 module.export.Abc = Abc
+
+https://localhost.com?page=2
+const currentPage = req.query.page
+```
+
