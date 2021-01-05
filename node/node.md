@@ -99,5 +99,8 @@ module.export.Abc = Abc
 
 https://localhost.com?page=2
 const currentPage = req.query.page || 1
+
+app.delete('/todo/:item', (req, res) = >{})
+req.params.item
 ```
 
