@@ -102,5 +102,7 @@ const currentPage = req.query.page || 1
 
 app.delete('/todo/:item', (req, res) = >{})
 req.params.item
+
+console.log(__dirname)
 ```
 
