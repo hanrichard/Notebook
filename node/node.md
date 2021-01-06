@@ -95,9 +95,9 @@ npm install dotenv
 
 ```
 const abc = require('blabla')
-module.export.Abc = Abc
+module.exports.Abc = Abc
 
-module.export = {
+module.exports = {
   abc: abc,
   test: test,
 }
