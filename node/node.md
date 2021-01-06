@@ -97,6 +97,11 @@ npm install dotenv
 const abc = require('blabla')
 module.export.Abc = Abc
 
+module.export = {
+  abc: abc,
+  test: test,
+}
+
 https://localhost.com?page=2
 const currentPage = req.query.page || 1
 
@@ -104,5 +109,6 @@ app.delete('/todo/:item', (req, res) = >{})
 req.params.item
 
 console.log(__dirname)
+
 ```
 
