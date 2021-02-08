@@ -118,3 +118,8 @@ console.log(event.toLocaleDateString('de-DE', options));
 ```
 const time = new Date().toISOString();
 ```
+
+### destructure
+```
+{userInput : {email, passowrd}}
+```
