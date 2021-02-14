@@ -94,3 +94,7 @@ return <Test />
 
 ```
 
+### hooks
+```
+setValues = ({...values, [event.target.name]: event.target.value})
+```
