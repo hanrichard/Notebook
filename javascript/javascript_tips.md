@@ -123,3 +123,8 @@ const time = new Date().toISOString();
 ```
 {userInput : {email, passowrd}}
 ```
+
+### formdata
+```
+const formData = new FormData(this.form)
+```
