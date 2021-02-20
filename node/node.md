@@ -115,5 +115,9 @@ console.log(__dirname)
 
 ### dotenv
 ```
-const env = require('dotenv').config()
+const env = require('dotenv').config();
+const testlink = env.LINK
+
+.env
+const LINK = 'BLBLB'
 ```
