@@ -112,3 +112,8 @@ console.log(__dirname)
 
 ```
 
+
+### dotenv
+```
+const env = require('dotenv').config()
+```
