@@ -121,3 +121,9 @@ const testlink = env.LINK
 .env
 const LINK = 'BLBLB'
 ```
+
+
+### cross-fetch 
+```
+import 'cross-fetch/polyfill';
+```
