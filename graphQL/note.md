@@ -7,3 +7,8 @@
 
 ### examples
 - https://www.robinwieruch.de/react-infinite-scroll
+
+### libs
+```
+import { persistCache } from 'apollo-cache-persist'
+```
