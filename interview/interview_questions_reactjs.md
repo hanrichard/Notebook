@@ -207,3 +207,9 @@ The contextType property on a class can be assigned a Context object created by 
 - Render hijacking.
 - State abstraction and manipulation.
 - Props manipulation.
+
+### When to Use Refs
+There are a few good use cases for refs:
+- Managing focus, text selection, or media playback.
+- Triggering imperative animations.
+- Integrating with third-party DOM libraries.
