@@ -1,33 +1,25 @@
-## nab
-
-
-
-### Projects
-
+## Projects
+### MLC
 #### build page compnenent library
-- we are using React (html5, es6, javascript, sass, style-component, etc) to build a page components library - buttons, accordion, hero, header, footer - , (like trendy front end component framework libraries, react material-ui, react bootstrap, etc), to standardize same UI style across in different teams, and also, this is AA accessiblity tested library, as a results, we will always have consistant style page, including spacing, font, etc.
+- MLC React Design system (React UI kits) - we are using React (html5, es6, javascript, sass, style-component, etc) to build a page components library - navigation, buttons, accordion, hero, header, footer, etc..., (like the popular design system libraries, react material-ui, react bootstrap, etc...), to standardize same UI style across in different teams, and also, this is AA accessiblity tested library, as a results, we will always have consistant style page, including spacing, font, etc.
 
 - and also, as a consumer, we are using components in the page component library to build pages (react, redux, etc), ideally drag and drop, and set up logical
 
 #### build a form - page component library, set logic, by using react and redux, 
+- React MLC pages - by using MLC Design system and using react/redux for business logics, and also using html5, SCSS, CSS-IN-JS, ES6
 
 #### build a platform: allow client
 - to check account balance
 - to buy, sell, and amend shares
 - to check the statement
 ##### react, redux, APIs, aws lamda, style-componenent
-##### 3 front-dev, 2 back-dev, 1 BA
 
 e.g.: 
 - https://www.mlc.com.au/common/onlineforms/inflation-plus
 - https://www.mlc.com.au/ 
 
 
-### qbe
-FYI, please see my latest react projects intro:
-
-- MLC React Design system (React UI kits) - we built MLC theme UI library, contains different UI elements, for example: navigation, banner, header, input fields, etc...
-- React MLC pages - by using MLC Design system and using react/redux for business logics, and also using html5, SCSS, CSS-IN-JS, ES6
+### QBE
 - QBE motor insurance - react portal - https://www.qbe.com/au/portal/quote/vehicle?promotionalCode=SAVE75#/welcome
 - QBE home/landlord insurance - react portal - https://www.qbe.com/au/portal/quote/home?promotionalCode=10HOME19#/welcome
 
