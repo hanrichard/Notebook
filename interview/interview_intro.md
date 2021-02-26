@@ -23,6 +23,21 @@ e.g.:
 - https://www.mlc.com.au/ 
 
 
+### qbe
+FYI, please see my latest react projects intro:
+
+- MLC React Design system (React UI kits) - we built MLC theme UI library, contains different UI elements, for example: navigation, banner, header, input fields, etc...
+- React MLC pages - by using MLC Design system and using react/redux for business logics, and also using html5, SCSS, CSS-IN-JS, ES6
+- QBE motor insurance - react portal - https://www.qbe.com/au/portal/quote/vehicle?promotionalCode=SAVE75#/welcome
+- QBE home/landlord insurance - react portal - https://www.qbe.com/au/portal/quote/home?promotionalCode=10HOME19#/welcome
+
+Main tech: React, React router and redux, and also using html5, SCSS, CSS-IN-JS, ES6, Material UI, and style component
+Day to day work: build reusable components, build pages by using reusable components, build business logic by using react/redux, and build the app which supports whitelabeling
+
+I also passed AWS Certified Solutions Architect – Associate certificate recently
+
+My personal github: https://github.com/hanrichard 
+
 ### Code review
 - run it on local
 - test functions - performance, improvement, like, use short syntax, how to define variables, naming convenstions, code simplify
