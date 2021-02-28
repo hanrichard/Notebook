@@ -11,3 +11,20 @@ async (dispatch: Dispatch) => {}
 const todo: Todo[] = []
 
 fn: (bod: string) => void | string
+
+
+try catch
+```
+axios.get('foo.com')
+  .then(response: AxiosResponse => {
+    // Handle response
+  })
+  .catch((reason: AxiosError) => {
+    if (reason.response!.status === 400) {
+      // Handle 400
+    } else {
+      // Handle else
+    }
+    console.log(reason.message)
+  })
+```
