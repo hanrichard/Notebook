@@ -27,9 +27,9 @@ Main tech: React, React router and redux, and also using html5, SCSS, CSS-IN-JS,
 Day to day work: build reusable components, build pages by using reusable components, build business logic by using react/redux, and build the app which supports whitelabeling
 
 Team structure:
-Front end - Portal team - 2-6 
-Back end - API team - guidwire team
-Content manage - sitecore servicerless
+- Front end - Portal team - 2-6 
+- Back end - API team - guidwire team
+- Content manage - sitecore servicerless
 
 I also passed AWS Certified Solutions Architect – Associate certificate recently
 
