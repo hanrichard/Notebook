@@ -166,6 +166,8 @@ It's used for performance reasons, for example if the implementor of a component
 
 
 ### Creating Refs
+- they can be useful when you need a direct access to the DOM element or an instance of a component.
+
 ```
 lass AutoFocusTextInput extends React.Component {
   constructor(props) {
