@@ -213,3 +213,9 @@ There are a few good use cases for refs:
 - Managing focus, text selection, or media playback.
 - Triggering imperative animations.
 - Integrating with third-party DOM libraries.
+
+### Name a few techniques to optimize React app performance.
+- Using useMemo( ) - hooks
+- Using React.PureComponent 
+- Lazy Loading 
+
