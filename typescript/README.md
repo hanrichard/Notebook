@@ -28,3 +28,8 @@ axios.get('foo.com')
     console.log(reason.message)
   })
 ```
+
+```
+const handleChange = (e: React.ChangeEvent<HTMLInputElement>) =>
+  setCriteria(e.currentTarget.value);
+```
