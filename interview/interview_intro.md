@@ -23,6 +23,8 @@ e.g.:
 - QBE motor insurance - react portal - https://www.qbe.com/au/portal/quote/vehicle?promotionalCode=SAVE75#/welcome
 - QBE home/landlord insurance - react portal - https://www.qbe.com/au/portal/quote/home?promotionalCode=10HOME19#/welcome
 
+it alows user to fill in the steps and generate the quote and able to pay the quote
+
 - Main tech: React, React router and redux, and also using html5, SCSS, CSS-IN-JS, ES6, Material UI, and style component
 - Day to day work: build reusable components, build pages by using reusable components, build business logic by using react/redux, and build the app which supports whitelabeling
 
