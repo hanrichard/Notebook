@@ -23,8 +23,10 @@ e.g.:
 - QBE motor insurance - react portal - https://www.qbe.com/au/portal/quote/vehicle?promotionalCode=SAVE75#/welcome
 - QBE home/landlord insurance - react portal - https://www.qbe.com/au/portal/quote/home?promotionalCode=10HOME19#/welcome
 
-Main tech: React, React router and redux, and also using html5, SCSS, CSS-IN-JS, ES6, Material UI, and style component
-Day to day work: build reusable components, build pages by using reusable components, build business logic by using react/redux, and build the app which supports whitelabeling
+- Main tech: React, React router and redux, and also using html5, SCSS, CSS-IN-JS, ES6, Material UI, and style component
+- Day to day work: build reusable components, build pages by using reusable components, build business logic by using react/redux, and build the app which supports whitelabeling
+
+api - Campaign validator - to validate the campaign code from url
 
 Team structure:
 - Front end - Portal team - 2-6 
