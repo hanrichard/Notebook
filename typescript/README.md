@@ -33,3 +33,21 @@ axios.get('foo.com')
 const handleChange = (e: React.ChangeEvent<HTMLInputElement>) =>
   setCriteria(e.currentTarget.value);
 ```
+
+```
+type Props = {
+  onSearch?: (criteria: string) => void;
+};
+const Searchbox = ({ onSearch }: Props) => {
+  const [criteria, setCriteria] = React.useState("");
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setCriteria(e.currentTarget.value);
+    if (onSearch) {
+      onSearch(e.currentTarget.value);
+    }
+  };
+
+  return <input type="text" value={criteria} onChange={handleChange} />;
+};
+```
