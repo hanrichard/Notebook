@@ -51,3 +51,9 @@ const Searchbox = ({ onSearch }: Props) => {
   return <input type="text" value={criteria} onChange={handleChange} />;
 };
 ```
+interface GloabalState {
+  readonly filter: []
+}
+```
+
+```
