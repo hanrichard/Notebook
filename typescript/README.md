@@ -57,3 +57,17 @@ interface GloabalState {
 ```
 
 ```
+export interface AppConfig {
+  apiUrl: string;
+  apiVersion: string;
+  linkUrl: string;
+  version: string;
+}
+
+interface AppState {
+  readonly default: any;
+  readonly loading: boolean;
+  readonly initialized: boolean;
+  readonly config: AppConfig;
+}
+```
