@@ -14,6 +14,7 @@ fn: (bod: string) => void | string
 
 
 try catch
+
 ```
 axios.get('foo.com')
   .then(response: AxiosResponse => {
@@ -34,6 +35,7 @@ const handleChange = (e: React.ChangeEvent<HTMLInputElement>) =>
   setCriteria(e.currentTarget.value);
 ```
 
+
 ```
 type Props = {
   onSearch?: (criteria: string) => void;
@@ -50,6 +52,8 @@ const Searchbox = ({ onSearch }: Props) => {
 
   return <input type="text" value={criteria} onChange={handleChange} />;
 };
+```
+
 ```
 interface GloabalState {
   readonly filter: []
