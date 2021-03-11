@@ -106,3 +106,14 @@ function BrowsePage({ match }: BrowsePagePropTypes) {
   const { data, loaded, orders, filters } = useSelector(stateSelector);
   
 ```
+
+```
+import { useSelector, useDispatch } from 'react-redux';
+import { createStructuredSelector } from 'reselect';
+
+import {
+  useInjectReducer,
+  useInjectSaga,
+  SagaInjectionModes,
+} from 'redux-injectors';
+```
