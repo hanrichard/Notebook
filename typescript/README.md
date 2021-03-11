@@ -75,3 +75,34 @@ interface AppState {
   readonly config: AppConfig;
 }
 ```
+
+### react saga
+```
+const stateSelector = createStructuredSelector({
+  loaded: makeSelectLoaded(),
+  data: makeSelectBrowseData(),
+  activeFilters: makeSelectActiveFilters(),
+  join: makeSelectJoin(),
+  orders: makeSelectOrders(),
+  filters: makeSelectCollectionsFilter(),
+});
+
+interface MatchParams {
+  contractId: string;
+}
+
+interface BrowsePagePropTypes extends RouteComponentProps<MatchParams> {}
+
+function BrowsePage({ match }: BrowsePagePropTypes) {
+
+  useInjectReducer({ key: 'browsePage', reducer: reducer });
+  useInjectSaga({
+    key: 'browsePage',
+    saga: saga,
+    mode: SagaInjectionModes.RESTART_ON_REMOUNT,
+  });
+  const { contractId } = match.params;
+  const dispatch = useDispatch();
+  const { data, loaded, orders, filters } = useSelector(stateSelector);
+  
+```
