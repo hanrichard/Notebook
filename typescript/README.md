@@ -121,3 +121,10 @@ import {
 ```
 const numbers: Array<any> = [];
 ```
+
+```
+interface ButtonProps {
+  text: string;
+  onClick: () => void;
+}
+```
