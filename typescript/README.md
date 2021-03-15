@@ -117,3 +117,7 @@ import {
   SagaInjectionModes,
 } from 'redux-injectors';
 ```
+
+```
+const numbers: Array<any> = [];
+```
