@@ -128,3 +128,11 @@ const time = new Date().toISOString();
 ```
 const formData = new FormData(this.form)
 ```
+
+### query
+```
+  const params = new URLSearchParams(location.search);
+  const [urlParams, setUrlParams] = useState(params.toString() || '');
+  const [contractId, setContractId] = useState(params.get(key) || '');
+
+```
