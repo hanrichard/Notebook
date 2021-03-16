@@ -150,3 +150,15 @@ interface ButtonProps {
   onClick: () => void;
 }
 ```
+
+```
+function getAge(id: number): any {
+  return 42;
+}
+
+function calcDiscount(age: number) {
+  return age / 100;
+}
+
+const discount3 = calcDiscount(getAge(1) as number);
+```
