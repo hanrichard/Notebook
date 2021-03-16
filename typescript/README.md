@@ -162,3 +162,7 @@ function calcDiscount(age: number) {
 
 const discount3 = calcDiscount(getAge(1) as number);
 ```
+
+```
+const numbers: Array<number> = [];
+```
