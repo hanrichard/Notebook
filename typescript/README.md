@@ -165,4 +165,7 @@ const discount3 = calcDiscount(getAge(1) as number);
 
 ```
 const numbers: Array<number> = [];
+(string | number)[]
+const benScores: [string, ...number[]] = ["Ben", 50, 75, 85]
+
 ```
