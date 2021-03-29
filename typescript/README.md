@@ -177,3 +177,12 @@ const component1: MyComponent<Props1> = {
 let usingArraySyntax: Array<number> = [1, 2, 3];
 let usingArraySyntax: number[] = [1, 2, 3]
 ```
+```
+// Is the same as:
+let myArray2: Array<number> = [];
+printArray(myArray2);
+
+// Is the same as:
+let myArray3: number[] = [];
+printArray(myArray3);
+```
