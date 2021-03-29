@@ -173,3 +173,6 @@ const benScores: [string, ...number[]] = ["Ben", 50, 75, 85]
 ```
 const component1: MyComponent<Props1> = {
 ```
+```
+let usingArraySyntax: Array<number> = [1, 2, 3];
+```
