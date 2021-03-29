@@ -169,3 +169,7 @@ const numbers: Array<number> = [];
 const benScores: [string, ...number[]] = ["Ben", 50, 75, 85]
 
 ```
+
+```
+const component1: MyComponent<Props1> = {
+```
