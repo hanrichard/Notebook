@@ -186,3 +186,11 @@ printArray(myArray2);
 let myArray3: number[] = [];
 printArray(myArray3);
 ```
+
+```
+type Props: {
+    item: CartItem,
+    handleFunc: (clickedItem: CartItem) => void
+}
+const item: React.FC<Props> => ({item, handleFunc}) => ()
+```
