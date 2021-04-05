@@ -193,4 +193,6 @@ type Props: {
     handleFunc: (clickedItem: CartItem) => void
 }
 const item: React.FC<Props> => ({item, handleFunc}) => ()
+
+useState([] as CartItem[] )
 ```
