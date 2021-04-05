@@ -18,8 +18,8 @@ e.g.:
 - https://www.mlc.com.au/common/onlineforms/inflation-plus
 - https://www.mlc.com.au/ 
 
-
-### QBE
+  
+### QBE -  1 year
 - QBE motor insurance - react portal - https://www.qbe.com/au/portal/quote/vehicle?promotionalCode=SAVE75#/welcome
 - QBE home/landlord insurance - react portal - https://www.qbe.com/au/portal/quote/home?promotionalCode=10HOME19#/welcome
 
@@ -34,6 +34,18 @@ Team structure:
 - Front end - Portal team - 2-6 
 - Back end - API team - guidwire team
 - Content manage - sitecore servicerless
+
+### Immutable X
+https://market.x.immutable.com/
+digital asset trading platform, game card
+
+- Main tech: React, Typescript, React router and redux,saga, and also using html5, SCSS, CSS-IN-JS, ES6, Material UI, and style component
+- heavily interact with APIs
+
+6 front dev
+5 back end dev
+
+working on features
 
 I also passed AWS Certified Solutions Architect – Associate certificate recently
 
