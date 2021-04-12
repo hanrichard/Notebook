@@ -37,7 +37,7 @@ Team structure:
 
 ### Immutable X
 https://market.x.immutable.com/
-digital asset trading platform, game card
+digital asset trading platform, visual game card
 
 - Main tech: React, Typescript, React router and redux,saga, and also using html5, SCSS, CSS-IN-JS, ES6, Material UI, and style component
 - heavily interact with APIs
@@ -45,8 +45,11 @@ digital asset trading platform, game card
 6 front dev
 5 back end dev
 
-working on features
+working on creating app features, e.g.: fitlers, show balance, etc...
 
+
+
+### Cert
 I also passed AWS Certified Solutions Architect – Associate certificate recently
 
 My personal github: https://github.com/hanrichard 
