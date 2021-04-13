@@ -1,3 +1,8 @@
+### disadvantages 
+- React provides only the View part of the MVC model. Because of that, you will have to rely on other technologies, too.
+- Development Pace
+- Documentaion
+
 ### component will not re-render
 ```
 shouldComponentUpdate
