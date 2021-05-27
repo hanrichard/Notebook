@@ -1,7 +1,6 @@
-asyncStorage
+React Native
 
-react swiper
-
-react image header scroll
-
-statusbar
+- asyncStorage
+- react swiper
+- react image header scroll
+- statusbar
