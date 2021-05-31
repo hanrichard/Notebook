@@ -5,3 +5,4 @@ React Native
 - react image header scroll
 - statusbar
 - react native svg
+- get statusbar height react native 
