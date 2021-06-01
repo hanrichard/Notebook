@@ -6,3 +6,4 @@ React Native
 - statusbar
 - react native svg
 - get statusbar height react native 
+- react native stack
