@@ -48,6 +48,8 @@ digital asset trading platform, visual game card
 working on creating app features, e.g.: fitlers, show balance, etc...
 
 
+### NAB nabtrade mobile 
+
 
 ### Cert
 I also passed AWS Certified Solutions Architect – Associate certificate recently
