@@ -1,5 +1,5 @@
 ## Projects
-### MLC - almost 2 years
+### MLC 
 #### build MLC design system 
 - MLC React Design system (React UI kits) - we are using React (html5, es6, javascript, sass, style-component, etc) to build a page components library - navigation, buttons, accordion, hero, header, footer, etc..., (like the popular design system libraries, react material-ui, react bootstrap, etc...), to standardize same UI style across in different teams, and also, this is AA accessiblity tested library, as a results, we will always have consistant style page, including spacing, font, etc.
 
@@ -19,7 +19,7 @@ e.g.:
 - https://www.mlc.com.au/ 
 
   
-### QBE -  1 year
+### QBE 
 - QBE motor insurance - react portal - https://www.qbe.com/au/portal/quote/vehicle?promotionalCode=SAVE75#/welcome
 - QBE home/landlord insurance - react portal - https://www.qbe.com/au/portal/quote/home?promotionalCode=10HOME19#/welcome
 
@@ -51,7 +51,7 @@ working on creating app features, e.g.: fitlers, show balance, etc...
 ### NAB nabtrade mobile 
 
 
-### Cert
+### AWS Cert
 I also passed AWS Certified Solutions Architect – Associate certificate recently
 
 My personal github: https://github.com/hanrichard 
