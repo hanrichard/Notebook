@@ -7,4 +7,5 @@ React Native
 - react native svg
 - get statusbar height react native 
 - react native stack
+- react native splash screen
 - https://docs.expo.io/guides/authentication/
