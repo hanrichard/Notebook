@@ -9,3 +9,6 @@ React Native
 - react native stack
 - react native splash screen
 - react native Authentication
+
+- safeareacontext
+- expo local Authentication
