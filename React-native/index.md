@@ -15,3 +15,8 @@ listeners = {{
 
 ```
 <Text numberoflines= '3'>123</Text>
+```
+
+```
+default navigationOptions
+```
