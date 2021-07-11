@@ -15,3 +15,4 @@ React Native
 - react native top tab
 - react native webview
 - react native progress bar
+- react native camera
