@@ -19,4 +19,5 @@ listeners = {{
 
 ```
 default navigationOptions
+screenProps
 ```
