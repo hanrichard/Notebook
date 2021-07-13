@@ -14,7 +14,7 @@ listeners = {{
 ```
 
 ```
-<Text numberoflines= '3'>123</Text>
+<Text numberoflines='3'>123</Text>
 ```
 
 ```
