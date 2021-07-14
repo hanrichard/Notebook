@@ -21,3 +21,8 @@ listeners = {{
 default navigationOptions
 screenProps
 ```
+
+```
+useRoute
+useNavigation
+```
