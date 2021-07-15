@@ -26,3 +26,7 @@ screenProps
 useRoute
 useNavigation
 ```
+
+```
+import { BackHandler } from 'react-native';
+```
