@@ -42,3 +42,11 @@ useEffect(() => {
   };
 }, []);
 ```
+
+```
+<TouchableWithoutFeedback
+  onPress={()=>{
+  keyboard.dismiss()}
+></TouchableWithoutFeedback>
+
+```
