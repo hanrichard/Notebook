@@ -50,3 +50,7 @@ useEffect(() => {
 ></TouchableWithoutFeedback>
 
 ```
+
+```
+LayoutAnimation.configureNext(LayoutAnimation.Presets.spring);
+```
