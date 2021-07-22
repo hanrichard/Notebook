@@ -54,3 +54,14 @@ useEffect(() => {
 ```
 LayoutAnimation.configureNext(LayoutAnimation.Presets.spring);
 ```
+
+```
+import  {
+   UIManager,
+   LayoutAnimation
+ } from 'react-native';
+
+ //..
+
+ UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true);
+ ```
