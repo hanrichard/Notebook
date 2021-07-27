@@ -65,3 +65,7 @@ import  {
 
  UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true);
  ```
+
+```
+https://github.com/react-native-webview/react-native-webview
+```
