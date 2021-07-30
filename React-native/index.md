@@ -53,18 +53,18 @@ useEffect(() => {
 
 ```
 LayoutAnimation.configureNext(LayoutAnimation.Presets.spring);
-```
 
-```
 import  {
    UIManager,
    LayoutAnimation
  } from 'react-native';
 
- //..
+ ...
 
  UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true);
- ```
+ 
+```
+
 
 ```
 https://github.com/react-native-webview/react-native-webview
