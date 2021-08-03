@@ -69,3 +69,7 @@ import  {
 ```
 https://github.com/react-native-webview/react-native-webview
 ```
+
+```
+interpolate
+```
