@@ -107,4 +107,4 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 ```
 
-### useLocation, useHistroy
+### useLocation, useHistroy, useContext
