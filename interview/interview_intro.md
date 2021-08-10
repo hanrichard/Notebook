@@ -48,11 +48,12 @@ digital asset trading platform, visual game card
 working on creating app features, e.g.: fitlers, show balance, etc...
 
 
-### NAB nabtrade mobile 
+### NAB nabtrade react native mobile app 
 - react native
 - context
 - typescript
-- jest
+- jest enzyme
+- automation/end to end test
 - https://www.nabtrade.com.au/investor/campaigns/landing-pages/mobile-app
 
 ### AWS Cert
