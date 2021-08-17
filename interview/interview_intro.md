@@ -49,7 +49,7 @@ working on creating app features, e.g.: fitlers, show balance, etc...
 
 
 ### NAB nabtrade react native mobile app 
-- react native
+- react/react native/hooks
 - context
 - typescript
 - jest enzyme
