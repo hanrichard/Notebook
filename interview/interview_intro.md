@@ -8,11 +8,7 @@
 #### build a form - page component library, set logic, by using react and redux, 
 - React MLC pages - by using MLC Design system and using react/redux for business logics, and also using html5, SCSS, CSS-IN-JS, ES6
 
-#### build a platform: allow client
-- to check account balance
-- to buy, sell, and amend shares
-- to check the statement
-##### react, redux, APIs, aws lamda, style-componenent
+##### react, redux, style-componenent
 
 e.g.: 
 - https://www.mlc.com.au/common/onlineforms/inflation-plus
