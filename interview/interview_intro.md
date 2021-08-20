@@ -21,10 +21,9 @@ e.g.:
 
 it alows user to fill in the steps and generate the quote and able to pay the quote
 
-- Main tech: React, React router and redux, and also using html5, SCSS, CSS-IN-JS, ES6, Material UI, and style component
+- Main tech: React, React router and redux, and also using html5, SCSS, CSS-IN-JS, ES6, Material UI, and style component, restful apis
 - Day to day work: build reusable components, build pages by using reusable components, build business logic by using react/redux, and build the app which supports whitelabeling
 
-api - Campaign validator - to validate the campaign code from url
 
 Team structure:
 - Front end - Portal team - 2-6 
