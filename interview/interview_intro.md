@@ -29,11 +29,14 @@ it alows user to fill in the steps and generate the quote and able to pay the qu
   - build business logic by using react/redux, 
   - and build the app which supports whitelabeling
 
-
 Team structure:
 - Front end - Portal team - 2-6 - core team member
 - Back end - API team - guidwire team
 - Content manage - sitecore servicerless
+
+Outcomes:
+- successfully launch the project on time
+- it is a successful project, double the profits
 
 ### Immutable X
 https://market.x.immutable.com/
