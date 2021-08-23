@@ -56,6 +56,11 @@ I also passed AWS Certified Solutions Architect – Associate certificate recent
 
 My personal github: https://github.com/hanrichard 
 
+### questions
+- roadmap: how long is the project last? what's next?
+- team size
+- day to day work
+
 ### Code review
 - run it on local
 - test functions - performance, improvement, like, use short syntax, how to define variables, naming convenstions, code simplify
