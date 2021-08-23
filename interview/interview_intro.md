@@ -1,7 +1,7 @@
 ## Projects
 ### MLC 
 #### build MLC design system 
-- MLC React Design system (React UI kits) - we are using React (html5, es6, javascript, sass, style-component, etc) to build a page components library: navigation, buttons, accordion, hero, header, footer, etc..., (like the popular design system libraries, react material-ui, react bootstrap, etc...), to standardize same UI style across in different teams, and also, this is AA accessiblity tested library, as a results, we will always have consistant style page, including spacing, font, etc.
+- MLC React Design system (React UI kits) - we are using React (html5, es6, javascript, sass, style-component, etc) to build a page components library: navigation, buttons, accordion, hero, header, footer, etc..., (like the popular design system libraries, react material-ui, react bootstrap, etc...), to standardize same UI style across in different teams, and also, this follows AA accessiblity complaince, as a results, we will always have consistant style page, including spacing, font, etc.
 
 - and also, as a consumer, we are using components in the page component library to build pages (react, redux, etc), ideally drag and drop, and set up logical
 
