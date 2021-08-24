@@ -29,9 +29,7 @@ Essentially, this package makes it easy to grab a snapshot of the platform view 
 - There are some problems with larger snapshots
 
 ### What is the difference between Element and Component?
-An Element is a plain object describing what you want to appear on the screen in terms of the DOM nodes or other components. Elements can contain other Elements in their props. Creating a React element is cheap. Once an element is created, it is never mutated.
-
-Elements are the fundamental building blocks of React, and describe what you want to see on the screen. They are just simple JS objects with props, key, ref, and type properties, whereas Components have a render method and optionally accept inputs.
+An Element is a plain object describing what you want to appear on the screen in terms of the DOM nodes or other components. Elements can contain other Elements in their props. Creating a React element is cheap. Once an element is created, it is never mutated. They are just simple JS objects with props, key, ref, and type properties, whereas Components have a render method and optionally accept inputs.
 
 The object representation of React Element would be as follows:
 ```
