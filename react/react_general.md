@@ -103,3 +103,12 @@ return <Test />
 ```
 setValues = ({...values, [event.target.name]: event.target.value})
 ```
+
+### class component vs hooks
+- You don’t have to refactor a functional component into a class component when it grows
+- You don’t have to worry about “this” anymore
+- No more method bindings
+- Easier to decouple logic from UI, making both more reusable
+- Keep related logic in the same place
+- Sharing stateful logic between components
+
