@@ -21,7 +21,7 @@ e.g.:
 
 it alows user to fill in the steps and generate the quote and able to pay the quote
 
-- Main tech: React, React router and redux, and also using html5, SCSS, CSS-IN-JS, ES6, Material UI, and style component, restful apis
+- Main tech: React, React router and redux, and also using html5, SCSS, CSS-IN-JS, ES6, Material UI, and style component, restful apis, cypress
 - Day to day work: 
   - setup buisness logic 
   - build reusable components, 
