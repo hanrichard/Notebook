@@ -110,3 +110,6 @@ ReactDOM.render(<App />, rootElement);
 ### useLocation, useHistroy, useContext
 
 ### useDispatch, useSelector, useReducer
+
+### useQuery
+https://react-query.tanstack.com/examples/basic
