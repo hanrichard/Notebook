@@ -238,7 +238,7 @@ benefits
 - Context will cause reloading of the pages, this will be identified if we look into the profiler provided by react dev tools, where as redux won't do that
 
 redcuer
-If you need to use middleware for various purposes. For example logging actions, error reporting, dispatching other requests depending on the server’s response, etc.
-When data coming from multiple endpoints influence single component/view.
-When you want to have greater control over actions in your applications. Redux enables tracking actions and data change, it greatly simplifies debugging.
-If you don’t want server response to directly change the state of your application. Redux adds a layer, where you can decide how, when and if this data should be applied. The observer pattern. Instead of creating multiple publishers and subscribers across the whole app, you just connect components to Redux store.
+- If you need to use middleware for various purposes. For example logging actions, error reporting, dispatching other requests depending on the server’s response, etc.
+- When data coming from multiple endpoints influence single component/view.
+- When you want to have greater control over actions in your applications. Redux enables tracking actions and data change, it greatly simplifies debugging.
+- If you don’t want server response to directly change the state of your application. Redux adds a layer, where you can decide how, when and if this data should be applied. The observer pattern. Instead of creating multiple publishers and subscribers across the whole app, you just connect components to Redux store.
