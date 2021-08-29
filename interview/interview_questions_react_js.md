@@ -219,3 +219,9 @@ There are a few good use cases for refs:
 - Using React.PureComponent 
 - Lazy Loading 
 
+
+### class component vs hooks
+The idea behind introducing Hooks and other features like React.memo and React.lazy is to help reduce the code that one has to write 
+- It’s hard to reuse stateful logic between components 
+- Complex components become hard to understand
+- Classes confuse both people and machines
