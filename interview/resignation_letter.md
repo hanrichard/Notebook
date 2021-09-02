@@ -16,7 +16,7 @@ Richard
 
 Hi Jason,
 
-Please accept this letter as the formal notification of my resignation from NAB. My last day with the company will be 10/09/2021. (My contract finishes up at the end of this month, and I will leave few weeks earlier, I am hoping you could understand it, in the meanwhile, I want to make notice as early as possible - 1 week, instead of 2 days listed in the contract)
+Please accept this letter as the formal notification of my resignation from NAB. My last day with the company will be 10/09/2021. (My contract finishes up at the end of this month, fortunately I received an offer before that date, so I need leave few weeks slightly earlier, I am hoping you could understand, in the meanwhile, I want notify you as early as possible - 1 week, instead of 2 days listed in the contract)
 
 Before I leave, I will ensure that all my tasks are completed as far as possible, and I am more than happy to assist in any way to ensure a smooth handover to my replacement.
 
