@@ -60,6 +60,9 @@ working on creating app features, e.g.: fitlers, show balance, etc...
 - https://www.nabtrade.com.au/investor/campaigns/landing-pages/mobile-app
 
 ### Revenue nsw
+- react 
+- andt design library
+- storybook
 
 ### AWS Cert
 I also passed AWS Certified Solutions Architect – Associate certificate recently
