@@ -113,3 +113,21 @@ ReactDOM.render(<App />, rootElement);
 
 ### useQuery
 https://react-query.tanstack.com/examples/basic
+
+
+### useRef
+```
+function TextInputWithFocusButton() {
+  const inputEl = useRef(null);
+  const onButtonClick = () => {
+    // `current` points to the mounted text input element
+    inputEl.current.focus();
+  };
+  return (
+    <>
+      <input ref={inputEl} type="text" />
+      <button onClick={onButtonClick}>Focus the input</button>
+    </>
+  );
+}
+```
