@@ -196,3 +196,13 @@ const item: React.FC<Props> => ({item, handleFunc}) => ()
 
 useState([] as CartItem[] )
 ```
+
+
+```
+impport * as t from 'io-ts'
+
+function tOptinal<T extends t.Mixed>(someType:T) {
+    return t.union([t.null, t.undefjined, someType])
+}
+tOptional(t.string)
+```
