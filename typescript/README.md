@@ -1,3 +1,8 @@
+### benefits
+- catching errors in early development - type defination
+- serves as documentation
+
+
 ### Interfaces vs type aliases 
 Interfaces create types like type aliases do, but interfaces seem more powerful. If this is the case, should we always use interfaces and forget about type aliases?
 
