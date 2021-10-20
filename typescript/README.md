@@ -10,6 +10,8 @@ Historically, the capabilities of type aliases and interfaces were different, bu
 
 So, it is generally personal preference as to which approach to use when creating types. Just be consistent with which method you use so that the code isn’t confusing.
 
+objects, classes -> interfaces
+
 ```
 interface Name {
     firstName: string;
