@@ -140,3 +140,15 @@ const formData = new FormData(this.form)
 
 ### tostring
 `${tostring}`
+
+
+### switch
+switch(modalType) {
+  case post:
+    type = 'blabal'
+    break
+    
+  default: 
+    type = 'blba'
+
+}
