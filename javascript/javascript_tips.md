@@ -152,3 +152,8 @@ switch(modalType) {
     type = 'blba'
 
 }
+
+### windows.print()
+
+### string -> number
++string
