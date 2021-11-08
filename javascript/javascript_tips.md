@@ -153,7 +153,8 @@ switch(modalType) {
 
 }
 
-### windows.print()
+### print
+windows.print()
 
 ### string -> number
 +string
