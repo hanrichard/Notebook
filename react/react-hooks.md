@@ -131,3 +131,9 @@ function TextInputWithFocusButton() {
   );
 }
 ```
+
+
+### useHooks
+export const useHooks = (a) => {
+  return a
+}
