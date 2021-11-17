@@ -84,3 +84,6 @@ window.location.href
 window.location.hash
 ```
 
+### string.includes
+
+### [].toString()
