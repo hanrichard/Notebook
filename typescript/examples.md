@@ -5,3 +5,8 @@ const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     [e.target.name]: e.target.value
   })
 ```
+
+
+```
+action: ReactNode
+```
