@@ -140,3 +140,7 @@ export const useHooks = (a) => {
 
 ### useCallback
 
+### hooks return
+const useHooks = () => {
+  return {set, isLoading}
+}
