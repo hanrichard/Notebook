@@ -158,3 +158,5 @@ windows.print()
 
 ### string -> number
 +string
+
+### window.open()
