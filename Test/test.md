@@ -173,3 +173,7 @@ const taxableCategoriesPopupFieldsCheck = async () => {
   expect(await screen.findByText('End Date')).toBeInTheDocument();
 };
 ```
+
+```
+await screen.findByTestId('table')
+```
