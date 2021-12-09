@@ -166,7 +166,6 @@ windows.print()
 In simple terms, according to the below article, and research, it seems that the main differences are:
 
 #### For Loop
-
 - It's one of the original ways of iterating over arrays
 - It's faster
 - You could break out of it using this keyword
@@ -174,7 +173,6 @@ In simple terms, according to the below article, and research, it seems that the
 - The parameters are (iterator, counter, incrementor)
 
 #### ForEach Loop
-
 - It's a newer way with less code to iterate over arrays
 - Easier to read
 - Lets you keep variable within the scope
