@@ -160,3 +160,23 @@ windows.print()
 +string
 
 ### window.open()
+
+### foreach vs for
+
+In simple terms, according to the below article, and research, it seems that the main differences are:
+
+#### For Loop
+
+-It's one of the original ways of iterating over arrays
+-It's faster
+-You could break out of it using this keyword
+-In my opinion its mainly used for calculations with integers (numbers)
+-The parameters are (iterator, counter, incrementor)
+
+#### ForEach Loop
+
+-It's a newer way with less code to iterate over arrays
+-Easier to read
+-Lets you keep variable within the scope
+-Lower chance of accidental errors with the i <= >= etc.....
+-The parameters are (iterator, Index of item, entire array)
