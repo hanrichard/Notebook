@@ -10,3 +10,17 @@ const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
 ```
 action: ReactNode
 ```
+
+
+```
+interface ClientSearch {
+setResult: () => void
+}
+
+const clientContext = React.createContext<ClientSearch>({
+  setResult: () => void {}
+})
+
+const { setResult } = useContext(clientContext)
+
+```
