@@ -29,6 +29,10 @@ const { setResult } = useContext(clientContext)
 enum type = {book, person}
 
 interface Resouce {
+  name: type
+}
+
+const res: Rescouce = {
   name: type.book
 }
 ```
