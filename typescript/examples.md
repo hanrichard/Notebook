@@ -24,3 +24,11 @@ const clientContext = React.createContext<ClientSearch>({
 const { setResult } = useContext(clientContext)
 
 ```
+
+```
+enum type = {book, person}
+
+interface Resouce {
+  name: type.book
+}
+```
