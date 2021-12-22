@@ -16,3 +16,7 @@ function Admin(...args){
 
 Admin.prototype = Object.create(User.prototype)
 ```
+
+```
+proto inheritate 
+```
