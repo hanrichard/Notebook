@@ -94,4 +94,6 @@ export default compose(
 )(CampaignBanner);
 ```
 
-
+```
+useRequestsParams()
+```
