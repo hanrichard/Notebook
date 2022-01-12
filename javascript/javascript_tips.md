@@ -181,3 +181,9 @@ In simple terms, according to the below article, and research, it seems that the
 
 
 ### use strict
+
+### member acess -> .
+### computed member access -> obj['name']
+
+
+
