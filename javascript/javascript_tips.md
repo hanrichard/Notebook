@@ -178,3 +178,6 @@ In simple terms, according to the below article, and research, it seems that the
 - Lets you keep variable within the scope
 - Lower chance of accidental errors with the i <= >= etc.....
 - The parameters are (iterator, Index of item, entire array)
+
+
+### use strict
