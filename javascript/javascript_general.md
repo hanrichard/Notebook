@@ -87,3 +87,5 @@ window.location.hash
 ### string.includes
 
 ### [].toString()
+
+### process.env.production
