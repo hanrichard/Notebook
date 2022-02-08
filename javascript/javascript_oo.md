@@ -38,8 +38,16 @@ let Book = {
 ```
 
 ### 3, function
+```
+function Book(title){
+  this.title = title
+}
 
-### 4
+Book.prototype.method() { }
+let book = new Book('name')
+```
+
+### 4, singleton
 ```
 let Book = new function() {
   this.property = 'value';
