@@ -474,5 +474,10 @@ var foo = function() {
 
 ```
 Number(undefined) -> NaN
+Number(null) -> 0
+Number(false) -> 0
+Number(true) -> 1
+        
+        
 
 ```
