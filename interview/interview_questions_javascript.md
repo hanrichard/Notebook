@@ -470,5 +470,5 @@ var foo = function() {
   console.log("FOOOOO");
 };
 ```
-
+### javascript types
 
