@@ -472,3 +472,7 @@ var foo = function() {
 ```
 ### javascript types
 
+```
+Number(undefined) -> NaN
+
+```
