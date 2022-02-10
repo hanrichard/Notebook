@@ -477,7 +477,8 @@ Number(undefined) -> NaN
 Number(null) -> 0
 Number(false) -> 0
 Number(true) -> 1
-        
-        
+   
+a = undefined, null, ''        
+if(a) {} -> will false   
 
 ```
