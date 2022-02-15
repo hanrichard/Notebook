@@ -185,5 +185,12 @@ In simple terms, according to the below article, and research, it seems that the
 ### member acess -> .
 ### computed member access -> obj['name']
 
-
+### Get current date in DD-Mon-YYY format in JavaScript
+```
+const date = new Date();
+const formattedDate = date.toLocaleDateString('en-GB', {
+  day: 'numeric', month: 'short', year: 'numeric'
+}).replace(/ /g, '-');
+console.log(formattedDate);
+```
 
