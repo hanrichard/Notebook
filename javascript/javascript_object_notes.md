@@ -41,3 +41,5 @@ obj.hasOwnProperty("key") // true
 ```
 "key" in obj
 ```
+
+### everything is object - array
