@@ -417,6 +417,15 @@ inviteEmployee1('Hello', 'How are you?'); // Hello John Rodson, How are you?
 inviteEmployee2('Hello', 'How are you?'); // Hello Jimmy Baily, How are you?
 ```
 Call and apply are pretty interchangeable. Both execute the current function immediately. You need to decide whether it’s easier to send in an array or a comma separated list of arguments. You can remember by treating Call is for comma (separated list) and Apply is for Array. Whereas Bind creates a new function that will have this set to the first parameter passed to bind().
+        
+#### examples
+var obj = {num: 2}
+var functionname = function(arg1, arg2, arg3)
+        
+functionname.call(obj, arg1, arg2, arg3)
+functionname.call(obj, [arg1, arg2, arg3])
+var func = functionname.bind(obj)
+bound(arg1, arg2, arg3)
 
 #### let vs var
 ```
