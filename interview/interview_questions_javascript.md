@@ -402,7 +402,7 @@ invite.apply(employee1, ['Hello', 'How are you?']); // Hello John Rodson, How ar
 invite.apply(employee2, ['Hello', 'How are you?']); // Hello Jimmy Baily, How are you?
 ```
 
-bind: returns a new function, allowing you to pass in an array and any number of arguments
+bind: returns a new function, allowing you to pass in an array and any number of arguments (copy the function)
 ```
 var employee1 = {firstName: 'John', lastName: 'Rodson'};
 var employee2 = {firstName: 'Jimmy', lastName: 'Baily'};
