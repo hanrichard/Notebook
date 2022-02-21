@@ -428,6 +428,9 @@ var func = functionname.bind(obj)
 bound(arg1, arg2, arg3)
 
 #### let vs var
+        
+var -> function scope -> wider scope
+let ->. block scope
 ```
 function userDetails(username) {
    if(username) {
