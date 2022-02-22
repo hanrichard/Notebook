@@ -15,6 +15,7 @@ https://www.edureka.co/blog/interview-questions/javascript-interview-questions/
 ### hoist
 Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution. Remember that JavaScript only hoists declarations, not initialisation. Let's take a simple example of variable hoisting,
 
+var is hoisting, when define 
 const and let are not hoisting
 
 #### Prototype chaining 
