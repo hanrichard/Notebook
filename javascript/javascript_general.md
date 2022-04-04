@@ -89,3 +89,26 @@ window.location.hash
 ### [].toString()
 
 ### process.env.production
+
+
+### delcaration
+```
+const loaves = makeBread(7)
+
+function makeBread(){}.  -> hoisted
+```
+
+### function expression
+```
+const loaves = makeBread(7)
+
+const makeBread= function (){} 
+```
+
+
+
+
+
+
+
+
