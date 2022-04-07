@@ -495,3 +495,9 @@ a = undefined, null, ''
 if(a) {} -> will false   
 
 ```
+### 58. What is a window.onload and onDocumentReady?
+
+The onload function is not run until all the information on the page is loaded. This leads to a substantial delay before any code is executed.
+
+onDocumentReady loads the code just after the DOM is loaded. This allows early manipulation of the code.
+        
