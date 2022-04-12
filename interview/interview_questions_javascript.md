@@ -15,8 +15,8 @@ https://www.edureka.co/blog/interview-questions/javascript-interview-questions/
 ### hoist
 Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution. Remember that JavaScript only hoists declarations, not initialisation. Let's take a simple example of variable hoisting,
 
-var is hoisting, when define 
-const and let are not hoisting
+var is hoisting, when define -> function scope
+const and let are not hoisting -> block scope 
 
 #### Prototype chaining 
 it is used to build new types of objects based on existing ones. It is similar to inheritance in a class based language. The prototype on object instance is available through Object.getPrototypeOf(object) or proto property whereas prototype on constructors function is available through object.prototype.
