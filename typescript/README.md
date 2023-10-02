@@ -213,3 +213,4 @@ function tOptinal<T extends t.Mixed>(someType:T) {
 }
 tOptional(t.string)
 ```
+### namespace
