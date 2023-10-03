@@ -1,4 +1,13 @@
 ## Projects
+
+
+### revenue nsw
+#### mars trasformation
+landtax applicaton, old system has been using for 15+ years, so, due to securty reason, out of support
+build the system from sctrach by using cutting edge technologies, react, vite, moicro frontend, moicro services, aws, etc...
+
+
+
 ### MLC 
 #### build MLC design system 
 - MLC React Design system (React UI kits) - we are using React (html5, es6, javascript, sass, style-component, etc) to build a page components library: navigation, buttons, accordion, hero, header, footer, etc..., (like the popular design system libraries, react material-ui, react bootstrap, etc...), to standardize same UI style across in different teams, and also, this follows AA accessiblity complaince, as a results, we will always have consistant style page, including spacing, font, etc.
