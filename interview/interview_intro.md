@@ -9,6 +9,9 @@ landtax applicaton, old system has been using for 15+ years, so, due to some fat
 to build the system from sctrach by using cutting edge technologies, react, vite, moicro frontend, moicro services, aws, etc...
 
 
+#### aws - cloudwatch and x-ray
+#### dynatrace
+
 
 ### MLC 
 #### build MLC design system 
