@@ -12,6 +12,8 @@ to build the system from sctrach by using cutting edge technologies, react, vite
 #### aws - cloudwatch and x-ray
 #### dynatrace
 
+- micro frontend - module feradtion
+- based on config -> to generate mulit apps
 
 ### MLC 
 #### build MLC design system 
