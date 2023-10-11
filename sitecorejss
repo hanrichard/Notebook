@@ -1,0 +1,16 @@
+Sitecore
+
+
+En.yml
+Add placeholder for page
+- Name:  jss-main
+- Name:  jus-tabs
+
+
+Sitecore Definition 
+Components 
+- to add component.sitecore.js 
+Templates
+- Service.stiecore.js
+
+Scaffold
