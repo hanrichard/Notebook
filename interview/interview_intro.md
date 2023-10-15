@@ -13,7 +13,7 @@ to build the system from sctrach by using cutting edge technologies, react, vite
 #### dynatrace
 
 - micro frontend - module feradtion
-- based on config -> to generate mulit apps
+- based on config -> to generate mulit apps based on configs
 
 ### MLC 
 #### build MLC design system 
