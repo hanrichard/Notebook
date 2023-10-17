@@ -44,4 +44,10 @@ const Page = {
 
 export default Page;
 
+toBe for primative type
+toEqual for object type
+toContain for array
+expect assertion(1)
+toBeDefined()
+expert(typeof abc).toEqual('function')
 ```
