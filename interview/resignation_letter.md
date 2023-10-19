@@ -47,4 +47,21 @@ Kind regards,
 Richard
 
 
+-- 
 
+Hi All,
+
+As you all know, today is my last day at Revenue NSW. Before I go, I would like to express my appreciation, it has been a pleasure to work with the R3S team, and I so am proud of the achievements that we have made together.
+
+Big thanks to 
+- Rashko for providing me opportunities to work on the landtax, common-ui and UMC projects.
+- Anthony for bringing me to the r3s team
+- the whole team for the support and work
+
+IT is a small world, surely we will work together again.
+
+Kind regards, 
+Richard
+
+Mobile: 0433518825
+LinkedIn: https://www.linkedin.com/in/richard-han-39541a52/
