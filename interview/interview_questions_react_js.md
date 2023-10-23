@@ -242,3 +242,15 @@ redcuer
 - When data coming from multiple endpoints influence single component/view.
 - When you want to have greater control over actions in your applications. Redux enables tracking actions and data change, it greatly simplifies debugging.
 - If you don’t want server response to directly change the state of your application. Redux adds a layer, where you can decide how, when and if this data should be applied. The observer pattern. Instead of creating multiple publishers and subscribers across the whole app, you just connect components to Redux store.
+
+### 60. How do you handle optimization in a large React application?
+
+There are several techniques that can be used to optimize a large React application:
+
+- Use the React Developer Tools to identify and fix performance bottlenecks. The React Developer Tools allow you to track the performance of individual components and identify which components are causing the most re-renders.
+- Use PureComponent and memo instead of Components. These are more efficient alternatives to React.Component that only re-render when props or state have changed.
+- Use the useEffect hook to handle side effects. This hook allows you to run side effects, such as network requests, after a component has rendered.
+- Use the useMemo hook to memoize expensive calculations. This hook allows you to cache the results of expensive calculations and only recalculate them when the inputs have changed.
+- Lazy loading: Lazy loading is a technique where you only load the components that are needed for the current view. This can greatly improve the performance of your application.
+- Code splitting: Code splitting is a technique where you split your application into smaller chunks of code that are loaded on demand. This can greatly improve the performance of your application.
+- Optimize the loading time of your application by using techniques like code minification, compression, and caching.
