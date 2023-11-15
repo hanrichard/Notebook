@@ -254,3 +254,10 @@ There are several techniques that can be used to optimize a large React applicat
 - Lazy loading: Lazy loading is a technique where you only load the components that are needed for the current view. This can greatly improve the performance of your application.
 - Code splitting: Code splitting is a technique where you split your application into smaller chunks of code that are loaded on demand. This can greatly improve the performance of your application.
 - Optimize the loading time of your application by using techniques like code minification, compression, and caching.
+
+
+### 
+- useMemo is to memoize a calculation result between a function's calls and between renders
+- useCallback is to memoize a callback itself (referential equality) between renders
+- useRef is to keep data between renders (updating does not fire re-rendering)
+- useState is to keep data between renders (updating will fire re-rendering)
