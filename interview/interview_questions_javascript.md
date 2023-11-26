@@ -504,3 +504,16 @@ onDocumentReady loads the code just after the DOM is loaded. This allows early m
 ### 64. What is event bubbling?
 
 JavaScript allows DOM elements to be nested inside each other. In such a case, if the handler of the child is clicked, the handler of the parent will also work as if it were clicked too.
+
+### 118
+
+A few useful facts might help clarify what's happening:
+
+JavaScript is single-threaded. Asynchronous callbacks are assigned to a message placed in a message queue.
+When no code is currently executing, the event loop polls the message queue, requesting the next message in line to be processed (executed).
+setTimeout adds a message (with the callback provided) to the end of this queue after the specified delay has elapsed.
+(Note: this means the delay in a setTimeout call is not a sure thing; it is the minimum delay before the callback is executed. The actual time taken depends on how long it takes to process any messages ahead of it in the queue.)
+
+So what happens if the delay is set to 0? A new message is added to the queue immediately, and will be processed when the currently executing code is finished and any previously-added messages have been processed.
+
+
