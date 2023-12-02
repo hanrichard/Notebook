@@ -3,10 +3,10 @@
 
 ### Revenue nsw
 #### MARS trasformation
-landtax applicaton, old system has been using for 15+ years, so, due to some fatal reasons,
+Landtax applicaton, old system has been using for 15+ years, so, due to some fatal reasons,
 - securty reason
 - out of support
-to build the system from sctrach by using cutting edge technologies, react, vite, moicro frontend, moicro services, aws, design system, and storybook etc...
+To build the system from sctrach by using cutting edge technologies, react, vite, moicro frontend, moicro services, aws, design system, and storybook etc...
 
 
 #### aws - cloudwatch and x-ray
