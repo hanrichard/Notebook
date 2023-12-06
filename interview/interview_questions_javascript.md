@@ -516,4 +516,34 @@ setTimeout adds a message (with the callback provided) to the end of this queue 
 
 So what happens if the delay is set to 0? A new message is added to the queue immediately, and will be processed when the currently executing code is finished and any previously-added messages have been processed.
 
+### put vs post
+POST:
 
+Used to modify and update a resource
+
+POST /questions/<existing_question> HTTP/1.1
+Host: www.example.com/
+Note that the following is an error:
+
+POST /questions/<new_question> HTTP/1.1
+Host: www.example.com/
+If the URL is not yet created, you should not be using POST to create it while specifying the name. This should result in a 'resource not found' error because <new_question> does not exist yet. You should PUT the <new_question> resource on the server first.
+
+You could though do something like this to create a resources using POST:
+
+POST /questions HTTP/1.1
+Host: www.example.com/
+Note that in this case the resource name is not specified, the new objects URL path would be returned to you.
+
+PUT:
+
+Used to create a resource, or overwrite it. While you specify the resources new URL.
+
+For a new resource:
+
+PUT /questions/<new_question> HTTP/1.1
+Host: www.example.com/
+To overwrite an existing resource:
+
+PUT /questions/<existing_question> HTTP/1.1
+Host: www.example.com/
