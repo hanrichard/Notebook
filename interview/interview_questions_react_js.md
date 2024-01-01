@@ -271,3 +271,4 @@ When choosing between React Context API and Redux, it’s important to consider 
 ### performance
 - usecallback
 - usememo
+- suspence and lazyload
