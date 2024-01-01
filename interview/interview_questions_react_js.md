@@ -266,3 +266,8 @@ There are several techniques that can be used to optimize a large React applicat
 React Context API is a simpler solution that is suitable for small to medium-sized applications with simple state management requirements, while Redux is a more powerful and predictable solution that is suitable for large and complex applications with complex state management requirements.
 
 When choosing between React Context API and Redux, it’s important to consider the specific needs and constraints of your project. React Context API is more suitable for scenarios where state updates are infrequent or simple, and centralized state management is not critical. On the other hand, Redux is more suitable for scenarios where state updates are frequent or complex, and centralized state management is critical.
+
+
+### performance
+- usecallback
+- usememo
