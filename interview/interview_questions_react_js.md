@@ -272,3 +272,6 @@ When choosing between React Context API and Redux, it’s important to consider 
 - usecallback
 - usememo
 - suspence and lazyload
+- depandancy load bundle size - lodash
+- avoid unnessary re-render
+- use cdn
