@@ -102,3 +102,7 @@ To handle real-time updates in a Next.js application, you can use server-sent ev
 
 10- How do you implement testing and continuous integration in a Next.js application?
 To implement testing and continuous integration in a Next.js application, you can use testing frameworks like Jest or Cypress to write and run tests. You can also use continuous integration services like CircleCI or Travis CI to automate the testing and deployment process. Additionally, you can use code quality tools like ESLint or Prettier to ensure code consistency and maintainability.
+
+
+###
+revlidatepath, relidatetag
