@@ -1,4 +1,16 @@
 ```
+jest.spyOn(axios, "get").mockReturnValueOnce({
+  data: {
+    id: 1,
+    todo: 123
+  }
+})
+
+```
+
+
+
+```
 export const setDatePickerValue = (label: string, value: string, index: number) => {
   // If there is only date, index will be 0
   // If there will be 2 dates, start date and end date, it will be 0, 1
