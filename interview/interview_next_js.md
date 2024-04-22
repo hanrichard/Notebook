@@ -103,6 +103,9 @@ To handle real-time updates in a Next.js application, you can use server-sent ev
 ### 10- How do you implement testing and continuous integration in a Next.js application?
 To implement testing and continuous integration in a Next.js application, you can use testing frameworks like Jest or Cypress to write and run tests. You can also use continuous integration services like CircleCI or Travis CI to automate the testing and deployment process. Additionally, you can use code quality tools like ESLint or Prettier to ensure code consistency and maintainability.
 
+### 54. What is the use of CSS modules in JavaScript and CSS?
+
+The use of CSS modules in JavaScript and CSS is essential for creating visually appealing and functional applications; it allows developers to define styles locally, reducing the amount of code required and improving the application’s performance; CSS modules also make it easier to maintain and update the styles used in the application.
 
 ###
 revlidatepath, relidatetag
