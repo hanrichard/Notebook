@@ -9,3 +9,5 @@ express-validator
 
 express-session
 
+passport
+
