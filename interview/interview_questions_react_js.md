@@ -275,3 +275,10 @@ When choosing between React Context API and Redux, it’s important to consider 
 - depandancy load bundle size - lodash
 - avoid unnessary re-render
 - use cdn
+- 
+
+### useLayoutEffect
+It fires synchronously after all DOM mutations but before Paint phase. Use this to read layout(styles or layout information) from the DOM and then perform blocking custom DOM mutations based on layout.
+
+### useEffect
+It runs after the render is committed to the screen i.e. after Layout and Paint phase. Use this whenever possible to avoid blocking visual updates.
