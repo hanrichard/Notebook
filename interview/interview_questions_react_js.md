@@ -282,3 +282,9 @@ It fires synchronously after all DOM mutations but before Paint phase. Use this 
 
 ### useEffect
 It runs after the render is committed to the screen i.e. after Layout and Paint phase. Use this whenever possible to avoid blocking visual updates.
+
+
+### Why choose useEffect hook?
+useEffect hook is used to handle side effects in functional components, such as fetching data, updating the DOM, and setting up subscriptions or timers. It is used to mimic the lifecycle methods of class-based components. The motivation behind the introduction of useEffect Hook is to eliminate the side effects of using class-based components. For example, tasks like updating the DOM, fetching data from API end-points, setting up subscriptions or timers, etc can lead to unwarranted side effects. Since the render method is too quick to produce a side-effect, one needs to use life cycle methods to observe the side effects. 
+
+
