@@ -332,6 +332,7 @@ Components come in two types, Class components and Function components, in this 
 
 A Function component also returns HTML, and behaves much the same way as a Class component, but Function components can be written using much less code, are easier to understand, and will be preferred in this tutorial.
 
+Components are the building blocks of a React application’s UI. These components split up the entire UI into small independent and reusable pieces. Then it renders each of these components independent of each other without affecting the rest of the UI.
 
 ### reason to useeffect
 The motivation behind the introduction of useEffect Hook is to eliminate the side effects of using class-based components. 
