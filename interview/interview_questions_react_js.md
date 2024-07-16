@@ -400,7 +400,10 @@ The box model in CSS is a container that contains various properties, including 
 
 ARIA roles provide semantic meaning to content, allowing screen readers and other tools to present and support interaction with an object in a way that is consistent with user expectations of that type of object. ARIA roles can be used to describe elements that don't natively exist in HTML or exist but don't yet have full browser support.
 
+### typescript
+TypeScript is a superset of the JavaScript language that has a single open-source compiler and is developed mainly by a single vendor: Microsoft. The goal of TypeScript is to help catch mistakes early through a type system and to make JavaScript development more efficient.
 
+TypeScript serves as a superset of JavaScript, offering optional static type-checking along with the latest ECMAScript features. By incorporating types into your JavaScript code, TypeScript allows you to catch errors more effectively and write more maintainable and robust code, perfect for large-scale projects.
 
 ### Webpack
 At its core, webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph from one or more entry points and then combines every module your project needs into one or more bundles, which are static assets to serve your content from.
