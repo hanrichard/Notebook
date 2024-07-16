@@ -318,7 +318,7 @@ React update the state changes in Virtual DOM first and then it syncs with Real 
 - React’s reconciliation process optimizes updates by reusing existing DOM elements when possible.
 
 ### What is JSX?
-JSX stands for JavaScript XML. It allows us to write HTML inside JavaScript and place them in the DOM without using functions like appendChild( ) or createElement( ).
+JSX stands for JavaScript XML. It allows us to write HTML inside JavaScript and place them in the DOM without using functions like appendChild( ) or createElement( ). for writing React Code in a simple way. Using JSX it is easier to create reusable UI components 
 
 As stated in the official docs of React, JSX provides syntactic sugar for React.createElement( ) function.
 
