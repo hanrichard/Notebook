@@ -375,7 +375,7 @@ Classes
 Modules
 
 ### Css box modal
-
+The box model in CSS is a container that contains various properties, including borders, margins, padding, and the content itself. These properties collectively determine the dimensions and spacing of an element.
 
 ### Accessibility ->  chrome Vox 
 - semantic 
@@ -388,7 +388,10 @@ Modules
 
 ### Webpack
 At its core, webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph from one or more entry points and then combines every module your project needs into one or more bundles, which are static assets to serve your content from.
-
+- Content: The actual data in text, images, or other media forms can be sized using the width and height property.
+- Padding: Padding is used to create space around the element, inside any defined border.
+- Border: The border is used to cover the content & any padding, & also allows setting the style, color, and width of the border.
+- Margin: Margin is used to create space around the element ie., around the border area.
 
 ### Testing
 
@@ -397,3 +400,5 @@ Functional Testing: It is a process of testing where each and every component of
 Integration Testing: Process where the dataflow among modules are checked.
 
 End-to-end testing is a methodology used to test whether the flow of an application is performing as designed from start to finish. 
+
+
