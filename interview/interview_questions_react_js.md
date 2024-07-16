@@ -324,6 +324,7 @@ As stated in the official docs of React, JSX provides syntactic sugar for React.
 
 
 ### component
+A component is essentially a piece of the user interface. It splits the user interface into independent, reusable parts that can be processed separately.
 
 Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML.
 
