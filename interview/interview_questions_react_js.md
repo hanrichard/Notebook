@@ -386,6 +386,22 @@ The box model in CSS is a container that contains various properties, including 
 - Navigate skip
 - Aria-role
 
+
+<div
+  role="dialog"
+  aria-labelledby="dialog1Title"
+  aria-describedby="dialog1Desc">
+  <h2 id="dialog1Title">Your personal details were successfully updated</h2>
+  <p id="dialog1Desc">
+    You can change your details at any time in the user account section.
+  </p>
+  <button>Close</button>
+</div>
+
+ARIA roles provide semantic meaning to content, allowing screen readers and other tools to present and support interaction with an object in a way that is consistent with user expectations of that type of object. ARIA roles can be used to describe elements that don't natively exist in HTML or exist but don't yet have full browser support.
+
+
+
 ### Webpack
 At its core, webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph from one or more entry points and then combines every module your project needs into one or more bundles, which are static assets to serve your content from.
 - Content: The actual data in text, images, or other media forms can be sized using the width and height property.
