@@ -288,3 +288,112 @@ It runs after the render is committed to the screen i.e. after Layout and Paint 
 useEffect hook is used to handle side effects in functional components, such as fetching data, updating the DOM, and setting up subscriptions or timers. It is used to mimic the lifecycle methods of class-based components. The motivation behind the introduction of useEffect Hook is to eliminate the side effects of using class-based components. For example, tasks like updating the DOM, fetching data from API end-points, setting up subscriptions or timers, etc can lead to unwarranted side effects. Since the render method is too quick to produce a side-effect, one needs to use life cycle methods to observe the side effects. 
 
 
+### What is React?
+React is a front-end and open-source JavaScript library which is useful in developing user interfaces specifically for applications with a single page. It is helpful in building complex and reusable user interface(UI) components of mobile and web applications as it follows the component-based approach.
+
+The important features of React are:
+
+- It supports server-side rendering.
+- It will make use of the virtual DOM rather than real DOM (Data Object Model) as RealDOM manipulations are expensive.
+- It follows unidirectional data binding or data flow.
+- It uses reusable or composable UI components for developing the view.
+
+### What is virtual DOM?
+Virtual DOM provides an abstraction of the actual HTML DOM. It is a lightweight copy or representation of the real DOM, maintained by React, which allows for efficient updates and rendering of components.
+
+### How the Virtual DOM works in React:
+React update the state changes in Virtual DOM first and then it syncs with Real DOM. Virtual DOM is just like a blueprint of a machine, can do changes in the blueprint but those changes will not directly apply to the machine.
+
+- React creates a lightweight copy of the actual HTML DOM called the Virtual DOM.
+- When a component is rendered, React creates a corresponding Virtual DOM representation in memory.
+- When state or props change, React creates a new Virtual DOM representation.
+- React compares the new Virtual DOM with the previous one to determine the differences or updates that need to be made.
+- By identifying the minimal set of changes, React optimizes performance by minimizing unnecessary updates to the actual DOM.
+- React updates the real DOM with the minimal modifications required to reflect the new Virtual DOM.
+
+### How VDOM improves performance compared to directly manipulating the real DOM?
+- React batches multiple updates together before applying them to the real DOM, reducing unnecessary re-renders.
+- It only updates the specific components or elements that have changed, minimizing DOM manipulations.
+- React’s efficient diffing algorithm identifies the minimal set of changes needed between the previous and new Virtual DOM representations.
+- React’s reconciliation process optimizes updates by reusing existing DOM elements when possible.
+
+### What is JSX?
+JSX stands for JavaScript XML. It allows us to write HTML inside JavaScript and place them in the DOM without using functions like appendChild( ) or createElement( ).
+
+As stated in the official docs of React, JSX provides syntactic sugar for React.createElement( ) function.
+
+
+### component
+
+Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML.
+
+Components come in two types, Class components and Function components, in this tutorial we will concentrate on Function components.
+
+A Function component also returns HTML, and behaves much the same way as a Class component, but Function components can be written using much less code, are easier to understand, and will be preferred in this tutorial.
+
+
+### reason to useeffect
+The motivation behind the introduction of useEffect Hook is to eliminate the side effects of using class-based components. 
+
+### useEffect
+The useEffect Hook allows you to perform side effects in your components.
+
+### how it works
+- You call useEffect with a callback function that contains the side effect logic.
+- By default, this function runs after every render of the component.
+- You can optionally provide a dependency array as the second argument.
+- The effect will only run again if any of the values in the dependency array change.
+
+
+### What is the significance of keys in React?
+Keys are used for identifying unique Virtual DOM Elements with their corresponding data driving the UI. They help React to optimize the rendering by recycling all the existing elements in the DOM. These keys must be a unique number or string, using which React just reorders the elements instead of re-rendering them. This leads to increase in application’s performance.
+
+### event bubbling
+Event Bubbling is a concept in the DOM (Document Object Model). It happens when an element receives an event, and that event bubbles up (or you can say is transmitted or propagated) to its parent and ancestor elements in the DOM tree until it gets to the root element.
+
+stopPropagation and preventDefault
+
+### falsy values
+- false: The boolean value false.
+- 0: The number zero.
+- "" or '' or ``: An empty string.
+- null: The null keyword, representing the absence of any object value.
+- undefined: The undefined keyword, representing an uninitialized value.
+- NaN: Stands for "Not a Number". It represents a special value returned from an operation that should return a numeric value but doesn't.
+
+
+### Es6 features
+let and const Keywords
+Arrow Functions
+Multi-line Strings
+Default Parameters
+Template Literals
+Destructuring Assignment
+Enhanced Object Literals
+Promises
+Classes
+Modules
+
+### Css box modal
+
+
+### Accessibility ->  chrome Vox 
+- semantic 
+- Color contract
+- Radio 
+- Audio
+- Alt tag
+- Navigate skip
+- Aria-role
+
+### Webpack
+At its core, webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph from one or more entry points and then combines every module your project needs into one or more bundles, which are static assets to serve your content from.
+
+
+### Testing
+
+Functional Testing: It is a process of testing where each and every component of the module is tested. Eg: If a web page contains text field, radio botton, Buttons and Drop down etc components needed to be checked.
+
+Integration Testing: Process where the dataflow among modules are checked.
+
+End-to-end testing is a methodology used to test whether the flow of an application is performing as designed from start to finish. 
