@@ -386,7 +386,7 @@ The box model in CSS is a container that contains various properties, including 
 - Navigate skip
 - Aria-role
 
-
+```
 <div
   role="dialog"
   aria-labelledby="dialog1Title"
@@ -397,7 +397,7 @@ The box model in CSS is a container that contains various properties, including 
   </p>
   <button>Close</button>
 </div>
-
+```
 ARIA roles provide semantic meaning to content, allowing screen readers and other tools to present and support interaction with an object in a way that is consistent with user expectations of that type of object. ARIA roles can be used to describe elements that don't natively exist in HTML or exist but don't yet have full browser support.
 
 ### typescript
