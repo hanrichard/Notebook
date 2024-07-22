@@ -6,7 +6,8 @@ View, measure, and manage your projects and locations on the cloud. MapBrowser w
 #### ai-portal 
 - next js, graphql 
 #### ecommerce
-
+- react js, storybook, html, redux
+  
 #### day to day work
 - build features
 - help junior dev
