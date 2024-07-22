@@ -1,7 +1,16 @@
 ## Projects
 
 ### nearmap
+View, measure, and manage your projects and locations on the cloud. MapBrowser web-based mapping software gives you control and insight, whenever you need it.
 
+#### ai-portal 
+- next js, graphql 
+#### ecommerce
+
+#### day to day work
+- build features
+- help junior dev
+  
 ### Revenue nsw
 #### MARS trasformation
 Landtax applicaton, old system has been using for 15+ years, so, due to some fatal reasons,
