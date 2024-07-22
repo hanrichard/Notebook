@@ -117,3 +117,56 @@ My personal github: https://github.com/hanrichard
 - Can the code be easily tested (don't forget about React components)?
 - Are functions/classes/components reasonably small (not too big)?
 - Naming conventions followed for variables, file names, translations.
+
+
+### preparation
+
+#### I would always like to get as prepared as possible: 
+- What do you know about the company? (Mission, Values, latest news, hiring process, product offerings / services, competition) 
+- What is/are your reasons for leaving your current / Last role? (I.e. looking for a new challenge – Advancement, industry, environment, leadership, family, relocation, project finishing, better career growth/more responsibility) 
+- What do you least like about your current / last role? I.e. hitting ceiling / career growth, desire to keep learning and growing, the work wasn’t challenging enough, or everything became repetitive. 
+- What does/did an average day look like at your current job / previous job? 
+- What are you medium and long term goals? 
+- What would say your weaknesses are? I.e. Hesitate about delegating tasks, confidence with public speaking, being too hard on myself, getting caught up in the small details, but talk about how you are overcoming these! 
+- Where do your strengths lie? Being creative, self discipline, analytical / solution thinking, enthusiasm to technology and people, attention to detail, documentation. 
+- What personal qualities do you feel you can offer an employer? I.e Accountable, honest, ethical/loyal, organised, team player, working autonomously 
+- What interested you in this position? Having clear skills and experience for the role, as well as room for growth, specific points in the JD vs last role took you away from this. 
+- How do you cope under pressure? I.e. Pressure is important for me, for example having multiple elements or projects to handle or a strict deadline keeps me focussed because…. 
+- How do you work as part of a team? I.e. Having a lot to offer a team, love helping resolve group issues through research and communication, you prefer team work, and a team goal. 
+- How do you work autonomously? Keeps you more productive, and creative, allows you to self prioritise on certain tasks, knowing the end goal. 
+- Why should we hire you? I.e. You have x months / years experience using the most complex tech you have asked for. OR because in your last project, you saved X $ or X time etc. 
+### Have some questions to ask: (Examples below)
+- What would you say is the most challenging part of this role from your view point? 
+- Is there anything in particular you are looking for in this hire, around personality / tech background? 
+- Who would I be reporting to? 
+- How do you feel this role will develop? 
+- How is this role split, what will I be doing the highest % of the time? 
+- How would you personally describe the culture? 
+- What's the working environment like? 
+- What type of person do you feel will fit in the existing team? 
+- Have I given you enough of what you are looking for? 
+- What's the most rewarding part of this role? 
+- What are the busiest / quietest parts of the day? 
+- How challenging is the environment? 
+- How much autonomy will I have to make changes? 
+- What projects would I be working on if I was to start? 
+- What is the best part of working for X? Is there any bad things? 
+- Is there a possibility of extension or moving to another project, as I really like the vibes / feel of X. 
+- What progression is there in the role / How would I get promoted? 
+- Some pointers I have found that will be helpful: 
+- Brush up on industry trends and current technologies 
+- If the interview is face to face – Firm handshake, eye contact and smile on introduction with the interviewer(s) – This will appear confident, eager, and friendly! 
+- Be concise with your answers, and to the point, try not to give irrelevant information 
+- Always be positive about yourself and your abilities, concentrate on what you can do, and have done, and what you enjoy doing 
+- Negative responses are never received well. Whether this is about yourself or others. 
+### REMEMBER – it’s a 2 way street, you are both interviewing each other. 
+Remember the following:
+- Body Language = 58%: How you sit, what you wear, hand gestures, eye contact, smile, enthusiasm, confidence, facial gestures, and hand shake
+- Voice Tone = 34%: Clear, Polite, Well spoken, not loud, not quiet, and be enthusiastic. Have confidence in your ability but most importantly is how to sell yourself!
+- Words = 8%: This is a bit like a shopping list. You definitely wont remember it all, just bits of it. Therefore the interviewers wont remember your words but they will remember how you came across, what you wore and if you were confident, and enthusiastic with the ability to demonstrate you could do the job!
+ 
+To Recap:
+- Be as clear yet articulate with your answers
+- Think about examples of work / projects you have done similar to the brief, or questions they ask.
+- Sell yourself, be passionate, interviewers will be looking to add to the culture. Eye contact, be engaged, take an interest in them.
+- Ask if they meet outside of work? Or what they enjoy doing outside of work (Rapport!)
