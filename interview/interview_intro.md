@@ -170,3 +170,7 @@ To Recap:
 - Think about examples of work / projects you have done similar to the brief, or questions they ask.
 - Sell yourself, be passionate, interviewers will be looking to add to the culture. Eye contact, be engaged, take an interest in them.
 - Ask if they meet outside of work? Or what they enjoy doing outside of work (Rapport!)
+
+### po
+- user experience
+- impact
